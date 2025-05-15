@@ -1,0 +1,7 @@
+{
+"label":"KO Reader",
+"icon":"icon.png",
+"iconsel":"icon.png",
+"launch":"koreader.sh",
+"description":"epud reader"
+}
