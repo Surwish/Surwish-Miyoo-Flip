@@ -1,0 +1,6 @@
+{
+"label":"FTP",
+"icon":"ftp.png",
+"launch":"launch.sh",
+"description":"FTP server（anonymous login, IP:21）"
+}
