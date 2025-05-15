@@ -1,0 +1,1 @@
+/mnt/SDCARD/System/bin/busybox pkill "$@"
