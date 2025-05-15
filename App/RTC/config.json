@@ -1,0 +1,6 @@
+{
+ "label": "RTC setup",
+ "icon": "rtc.png",
+ "launch": "launch.sh",
+ "description": "Setting the RTC time v1.1"
+}
