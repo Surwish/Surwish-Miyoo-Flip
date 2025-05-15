@@ -1,0 +1,6 @@
+{
+"label":"FileBrowser",
+"icon":"filebrowser.png",
+"launch":"launch.sh",
+"description":"File web browser（http://IP admin/admin）"
+}
