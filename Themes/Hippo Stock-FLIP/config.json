@@ -1,0 +1,52 @@
+{
+    "name":"Hippo Stock - FLIP",
+    "author": "Hippo",
+    "description": "[Hippo Stock theme]",
+    "batteryPercentage": {
+        "visible": true,
+        "color": "#FFFFFF",
+        "size": 20,
+        "offsetx": 25,
+        "onleft": true
+    },
+    "title":{
+        "font":"HYZhengYuan-45W.ttc",
+        "size":34,
+        "color":"#FFFFFF"
+    },
+    "path":{
+        "font":"HYZhengYuan-45W.ttc",
+        "size":24,
+        "color":"#FFFFFF"
+    },
+    "hint":{
+        "font":"HYZhengYuan-45W.ttc",
+        "size":30,
+        "color":"#ABABAB"
+    },
+    "currentpage":{
+        "font":"HENB.TTF",
+        "size":24,
+        "color":"#ABABAB"
+    },
+    "total":{
+        "font":"HENB.TTF",
+        "size":24,
+        "color":"#FFFFFF"
+    },
+    "grid":{
+        "font":"HYZhengYuan-45W.ttc",
+        "fontascii":"DIN Condensed Bold.TTF",
+        "grid1x4":24,
+        "grid3x4":18,
+        "color":"#8F8F8F",
+        "selectedcolor":"#FFFFFF"       
+    },
+    "list":{
+        "font":"HYZhengYuan-45W.ttc",
+        "fontascii":"DIN Condensed Bold.TTF",
+        "size":24,
+        "color":"#FFFFFF",
+        "selectedcolor":"#FFFFFF"       
+    }    
+}   

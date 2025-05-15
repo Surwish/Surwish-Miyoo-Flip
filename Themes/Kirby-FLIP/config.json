@@ -1,0 +1,52 @@
+{
+    "name": "Kirby-FLIP",
+    "hideIconTitle": false,
+    "batteryPercentage": {
+        "visible": false,
+        "font": "nunwen.ttf",
+        "size": 10,
+        "color": "#FFFFFF",
+        "textAlign": "center",
+        "fixed": true,
+        "offsetX": 0,
+        "offsetY": 0
+    },
+    "author": "KyleBing",
+    "description": "Cosy",
+    "hideLabels": {
+        "icons": false,
+        "hints": false
+    },
+    "frame": {
+        "border-left": 0,
+        "border-right": 0
+    },
+    "title": {
+        "font": "nunwen.ttf",
+        "size": 30,
+        "color": "#FFFFFF"
+    },
+    "hint": {
+        "font": "nunwen.ttf",
+        "size": 24,
+        "color": "#999999"
+    },
+    "currentpage": {
+        "color": "#FFFFFF"
+    },
+    "total": {
+        "color": "#FFA800"
+    },
+    "grid": {
+        "font": "nunwen.ttf",
+        "grid1x4": 25,
+        "grid3x4": 18,
+        "color": "#AAAAAA",
+        "selectedcolor": "#FFFFFF"
+    },
+    "list": {
+        "font": "nunwen.ttf",
+        "size": 26,
+        "color": "#FFFFFF"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "name":"Foundation - FLIP",
+    "title":{
+        "font":"wqy-microhei.ttc",
+        "size":24,
+        "color":"#FFFFFF"
+    },
+    "path":{
+        "font":"wqy-microhei.ttc",
+        "size":24,
+        "color":"#FFFFFF"
+    },
+    "hint":{
+        "font":"wqy-microhei.ttc",
+        "size":18,
+        "color":"#ABABAB"
+    },
+    "currentpage":{
+        "font":"HENB.TTF",
+        "size":20,
+        "color":"#ABABAB"
+    },
+    "total":{
+        "font":"HENB.TTF",
+        "size":20,
+        "color":"#FFFFFF"
+    },
+    "grid":{
+        "font":"wqy-microhei.ttc",
+        "fontascii":"DIN Condensed Bold.TTF",
+        "grid1x4":22,
+        "grid3x4":22,
+        "color":"#8F8F8F",
+        "selectedcolor":"#FFFFFF"       
+    },
+    "list":{
+        "font":"wqy-microhei.ttc",
+        "fontascii":"DIN Condensed Bold.TTF",
+        "size":22,
+        "color":"#FFFFFF",
+        "selectedcolor":"#FFFFFF"       
+    }    
+}   
