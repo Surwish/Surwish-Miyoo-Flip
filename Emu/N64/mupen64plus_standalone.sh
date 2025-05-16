@@ -1,6 +1,6 @@
 #!/bin/sh
 source /mnt/SDCARD/System/usr/miyoo/scripts/common_launcher.sh
-cpufreq.sh ondemand 4 7
+cpufreq.sh performance 4 7
 
 # PWD is EMU_DIR
 export XDG_CONFIG_HOME="$PWD"

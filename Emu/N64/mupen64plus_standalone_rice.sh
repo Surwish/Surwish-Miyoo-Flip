@@ -1,6 +1,6 @@
 #!/bin/sh
 source /mnt/SDCARD/System/usr/miyoo/scripts/common_launcher.sh
-cpufreq.sh ondemand 4 7
+cpufreq.sh performance 4 7
 
 # PWD is EMU_DIR
 export XDG_CONFIG_HOME="$PWD"
@@ -32,7 +32,7 @@ case "$*" in
 esac
 
 $PM_DIR/gptokeyb2 -c "./defkeys.gptk" &
-sleep 0.3
+# sleep 0.3
 
 HOME=$EMU_DIR ./mupen64plus "$ROM_PATH"
 

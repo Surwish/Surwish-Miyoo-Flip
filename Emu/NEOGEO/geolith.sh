@@ -1,6 +1,6 @@
 #!/bin/sh
 if [ ! "${1##*.}" = neo ]; then
-  /mnt/SDCARD/System/usr/trimui/scripts/infoscreen.sh -m "Geolith is only able to start roms with .neo extension." -fs 22 -k "A B START SELECT"
+  /mnt/SDCARD/System/usr/miyoo/scripts/infoscreen.sh -m "Geolith is only able to start roms with .neo extension." -fs 22 -k "A B START SELECT"
   exit 1
 fi
 

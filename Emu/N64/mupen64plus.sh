@@ -1,6 +1,6 @@
 #!/bin/sh
 source /mnt/SDCARD/System/usr/miyoo/scripts/common_launcher.sh
-cpufreq.sh ondemand 4 7
+cpufreq.sh performance 4 7
 
 read -r device_type </tmp/device_type
 if [ "$device_type" = "brick" ]; then

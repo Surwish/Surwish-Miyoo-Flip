@@ -6,16 +6,8 @@
     "background":"bg.png",
     "themecolor":"64A8BD",
     "iconsel":"",
-"rompathlist":[
-        {
-            "rompath":"../../Roms/PSP",
-            "imgpath":"../../Imgs/PSP"
-        },
-        {
-            "rompath":"../../../../media/sdcard1/Roms/PSP",
-            "imgpath":"../../../../media/sdcard1/Img/PSP"
-        }
-    ],
+    "rompath": "../../Roms/PSP",
+    "imgpath": "../../Imgs/PSP",
     "useswap":0,
     "shortname":0,
     "hidebios":0,
