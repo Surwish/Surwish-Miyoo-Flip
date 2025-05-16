@@ -1,6 +1,6 @@
 #!/bin/sh
 PATH="/mnt/SDCARD/System/bin:$PATH"
-export LD_LIBRARY_PATH="/mnt/SDCARD/System/lib:/usr/trimui/lib:$LD_LIBRARY_PATH"
+export LD_LIBRARY_PATH="/mnt/SDCARD/System/lib:/usr/miyoo/lib:$LD_LIBRARY_PATH"
 
 # Configuring CPU performance
 echo performance >/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
@@ -15,22 +15,16 @@ for arg in "$@"; do
 done
 
 EmuCleanerPath="$(dirname "$0")/"
-EmuFolder="/mnt/SDCARD/Emus"
-json_file="/mnt/SDCARD/Emus/show.json"
+EmuFolder="/mnt/SDCARD/Emu"
+json_file="/mnt/SDCARD/Emu/show.json"
 
 NumRemoved=0
 NumAdded=0
 
-if [ "$silent" = false ]; then
-  /mnt/SDCARD/System/usr/trimui/scripts/infoscreen.sh -i "$EmuCleanerPath/background.jpg"
-fi
 
-# We show PICO-8 Splore if the required binaries are present
-if [ -f /mnt/SDCARD/Emus/PICO/PICO8_Wrapper/bin/pico8_64 ] && [ -f /mnt/SDCARD/Emus/PICO/PICO8_Wrapper/bin/pico8.dat ]; then
-  if [ -f "/mnt/SDCARD/Roms/PICO/° Run Splore.launch" ]; then
-    mv "/mnt/SDCARD/Roms/PICO/° Run Splore.launch" "/mnt/SDCARD/Roms/PICO/° Run Splore.p8"
-    rm "/mnt/SDCARD/Roms/PICO/PICO_cache7.db"
-  fi
+if [ "$silent" = false ]; then
+  # /mnt/SDCARD/System/usr/miyoo/scripts/infoscreen.sh -i "$EmuCleanerPath/background.png"
+	/mnt/SDCARD/System/bin/sdl2imgshow -i "$EmuCleanerPath/background.png" -f /mnt/SDCARD/System/resources/DejaVuSans.ttf -s 35 -c 220,220,220 -s 22 -t " " &
 fi
 
 # Initialize an empty string to store JSON entries
@@ -43,7 +37,7 @@ write_entry() {
   json_entries="$json_entries$entry"
 }
 
-# Check if some emulators must be hidden from /mnt/SDCARD/Emus
+# Check if some emulators must be hidden from /mnt/SDCARD/Emu
 for subfolder in "$EmuFolder"/*/; do
   # Skip folders that start with an underscore
 
@@ -87,11 +81,6 @@ EOF
       write_entry "$label" 0
       NumRemoved=$((NumRemoved + 1))
     fi
-	
-    if [ -f "$RomPath/${subfolder_name}_cache7.db" ] && [ ! -s "$RomPath/${subfolder_name}_cache7.db" ]; then
-        rm "$RomPath/${subfolder_name}_cache7.db"
-    fi
-
   fi
 done
 
@@ -112,5 +101,5 @@ echo -ne "${NumAdded} displayed emulator(s)\n${NumRemoved} hidden emulator(s)\n"
 echo -ne "=============================\n\n"
 
 if [ "$silent" = false ]; then
-  /mnt/SDCARD/System/usr/trimui/scripts/infoscreen.sh -i "$EmuCleanerPath/background-info.jpg" -m "${NumAdded} displayed emulator(s).      ${NumRemoved} hidden emulator(s)." -t 2.5
+  /mnt/SDCARD/System/usr/miyoo/scripts/infoscreen.sh -i "$EmuCleanerPath/background-info.png" -m "${NumAdded} displayed emulator(s).      ${NumRemoved} hidden emulator(s)." -t 2.5
 fi
