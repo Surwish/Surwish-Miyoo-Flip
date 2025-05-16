@@ -6,6 +6,7 @@ PATH="/mnt/SDCARD/System/bin:$PATH"
 RomFullPath=$1
 RomPath=$(dirname "$1")
 RomDir=$(basename "$RomPath")
+Config="/mnt/SDCARD/Emu/$RomDir/config.json"
 Launcher=$(jq -r '.launch' "/mnt/SDCARD/Emu/$RomDir/config.json")
 LaunchPath="/mnt/SDCARD/Emu/$RomDir/$Launcher"
 		  
@@ -31,7 +32,20 @@ echo "**************************************************************************
 
 
 if [ -f "$LaunchPath" ]; then
-
+    # Launcher selector
+    /mnt/SDCARD/System/usr/miyoo/scripts/button_state.sh X
+    if [ $? -eq 10 ] && jq -e ".launchlist" "$Config"; then
+        selected=$(jq -c '.launchlist[] | .name' "$Config" | xargs selector -t "$RomDir launchers: " -c)
+        if echo "$selected" | grep -q "You selected: "; then
+            Launcher_name="${selected#*: }"
+            Launcher=$(jq -r --arg name "$Launcher_name" \
+                '.launchlist[] | select(.name == $name) | .launch' "$Config")
+            if [ -n "$Launcher" ]; then
+                echo "collection launcher: $Launcher_name dowork 0x" 
+                LaunchPath=/mnt/SDCARD/Emu/$RomDir/$Launcher
+            fi
+        fi
+    fi
     "$LaunchPath" "$RomFullPath"
 
 else
