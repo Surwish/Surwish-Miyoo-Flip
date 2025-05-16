@@ -1,0 +1,10 @@
+#!/bin/bash
+export LD_LIBRARY_PATH="$(dirname "$0")/lib.armhf:$LD_LIBRARY_PATH"
+if [[ "$3" == "1" ]]; then
+    $(dirname "$0")/cpuswitch.sh
+    $(dirname "$0")/cpufreq.sh
+fi
+RA_DIR=$(dirname "$0")/../../RetroArch32
+cd $RA_DIR
+HOME=$RA_DIR/ $RA_DIR/retroarch -v $NET_PARAM -L $RA_DIR/.retroarch/cores/$2_libretro.so "$1" 2>&1 | tee -a ./log.txt
+

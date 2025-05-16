@@ -1,0 +1,29 @@
+{
+  "label": "SEGA MD",
+  "icon": "/mnt/SDCARD/Icons/Default/Emus/MD.png",
+  "iconsmall": "ic-MD-80-n.png",
+  "iconlist": "ic-MD-32-n.png",
+  "background": "/mnt/SDCARD/Backgrounds/Default/MD.png",
+  "themecolor": "0088CF",
+  "launch": "default.sh",
+  "rompath": "../../Roms/MD",
+  "imgpath": "../../Imgs/MD",
+  "useswap": 0,
+  "shortname": 0,
+  "hidebios": 0,
+  "extlist": "gen|smd|md|32x|bin|iso|sms|68k|chd|zip|7z",
+  "launchlist": [
+    {
+      "name": "PicoDrive",
+      "launch": "picodrive.sh"
+    },
+    {
+      "name": "GenesisPlusGX",
+      "launch": "genplus.sh"
+    },
+    {
+      "name": "GenesisPlusGX Wide",
+      "launch": "genplus_wide.sh"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "label": "SEGA MD MSU",
+  "icon": "/mnt/SDCARD/Icons/Default/Emus/MDMSU.png",
+  "iconsmall": "",
+  "iconlist": "",
+  "background": "/mnt/SDCARD/Backgrounds/Default/MDMSU.png",
+  "themecolor": "0088CF",
+  "launch": "default.sh",
+  "rompath": "../../Roms/MDMSU",
+  "imgpath": "../../Imgs/MDMSU",
+  "useswap": 0,
+  "shortname": 0,
+  "hidebios": 0,
+  "extlist": "gen|smd|md|32x|bin|iso|sms|68k|chd|zip|7z"
+}

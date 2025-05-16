@@ -1,0 +1,14 @@
+{
+  "label": "COLSGM",
+  "icon": "/mnt/SDCARD/Icons/Default/Emus/COLSGM.png",
+  "iconsmall": "",
+  "iconlist": "",
+  "background": "/mnt/SDCARD/Backgrounds/Default/COLSGM.png",
+  "themecolor": "FFFF88",
+  "launch": "default.sh",
+  "rompath": "../../Roms/COLSGM",
+  "imgpath": "../../Imgs/COLSGM",
+  "useswap": 1,
+  "shortname": 0,
+  "hidebios": 1
+}

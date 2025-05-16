@@ -1,0 +1,10 @@
+Mystical Ninja Starring Goemon (USA).n64=Mupen64Plus (glide64mk2)           
+Paper Mario (USA).n64=Mupen64Plus (glide64mk2)           
+Mario Tennis (USA).n64=Mupen64Plus (Rice)                       
+Wipeout 64 (USA).n64=Mupen64Plus                                 
+Yoshi's Story (USA) (En,Ja).n64=Mupen64Plus                                 
+Hey You Pikachu (Gen1 - 1998).z64=Mupen64Plus (glide64mk2)           
+Diddy Kong Racing (USA) (En,Fr) (Rev A).n64=Mupen64Plus                                 
+Jet Force Gemini (USA).n64=Mupen64Plus                                 
+Kirby 64 - The Crystal Shards (USA).n64=Mupen64Plus                                 
+Wave Race 64 (USA) (Rev A).n64=Mupen64Plus                                 

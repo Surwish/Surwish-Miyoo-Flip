@@ -1,0 +1,35 @@
+{
+  "label": "N. GBA",
+  "icon": "/mnt/SDCARD/Icons/Default/Emus/GBA.png",
+  "background": "/mnt/SDCARD/Backgrounds/Default/GBA.png",
+  "themecolor": "FF00FF",
+  "launch": "default.sh",
+  "rompath": "../../Roms/GBA",
+  "imgpath": "../../Imgs/GBA",
+  "useswap": 0,
+  "shortname": 0,
+  "hidebios": 1,
+  "extlist": "bin|gba|agb|gbz|zip|7z",
+  "launchlist": [
+    {
+      "name": "mGBA",
+      "launch": "mgba.sh"
+    },
+    {
+      "name": "gpSP",
+      "launch": "gpsp.sh"
+    },
+    {
+      "name": "VBA-M",
+      "launch": "vbam.sh"
+    },
+    {
+      "name": "VBA Next",
+      "launch": "vbanext.sh"
+    },
+    {
+      "name": "mGBA - Standalone",
+      "launch": "mgba_standalone.sh"
+    }
+  ]
+}

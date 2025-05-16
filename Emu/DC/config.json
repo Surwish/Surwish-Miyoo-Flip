@@ -1,0 +1,29 @@
+{
+  "label": "SEGA DC",
+  "icon": "/mnt/SDCARD/Icons/Default/Emus/DC.png",
+  "iconsmall": "ic-dc-small.png",
+  "iconlist": "ic-dc-list.png",
+  "effectsh": "effect.sh",
+  "background": "/mnt/SDCARD/Backgrounds/Default/DC.png",
+  "themecolor": "FFFFFF",
+  "launch": "default.sh",
+  "rompath": "../../Roms/DC",
+  "imgpath": "../../Imgs/DC",
+  "useswap": 1,
+  "shortname": 0,
+  "hidebios": 1,
+  "launchlist": [
+    {
+      "name": "Flycast (Libretro)",
+      "launch": "flycast.sh"
+    },
+    {
+      "name": "Flycast - v2.4 (Standalone)",
+      "launch": "flycast_standalone_v2.4.sh"
+    },
+    {
+      "name": "Flycast - v1.0 (Standalone)",
+      "launch": "flycast_standalone_v1.0.sh"
+    }
+  ]
+}

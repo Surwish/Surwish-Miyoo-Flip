@@ -1,0 +1,13 @@
+{
+  "label": "WS",
+  "icon": "/mnt/SDCARD/Icons/Default/Emus/WS.png",
+  "background": "/mnt/SDCARD/Backgrounds/Default/WS.png",
+  "iconsel": "",
+  "launch": "default.sh",
+  "rompath": "../../Roms/WS",
+  "imgpath": "../../Imgs/WS",
+  "useswap": 0,
+  "shortname": 0,
+  "hidebios": 0,
+  "extlist": "pc2|wsc|ws|zip|7z"
+}

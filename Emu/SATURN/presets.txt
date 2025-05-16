@@ -1,0 +1,2 @@
+Sega Rally Championship Plus Netlink Edition (USA).chd=Yabasanshiro (Real BIOS)
+Shining Force III (USA).chd=Yabasanshiro (HLE BIOS)

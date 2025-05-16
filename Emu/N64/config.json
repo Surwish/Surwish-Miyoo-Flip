@@ -1,0 +1,41 @@
+{
+  "label": "N. N64",
+  "icon": "/mnt/SDCARD/Icons/Default/Emus/N64.png",
+  "iconsmall": "ic-n64-80-n.png",
+  "iconlist": "ic-n64-32-n.png",
+  "background": "/mnt/SDCARD/Backgrounds/Default/N64.png",
+  "themecolor": "FFFF88",
+  "launch": "default.sh",
+  "rompath": "../../Roms/N64",
+  "imgpath": "../../Imgs/N64",
+  "useswap": 1,
+  "shortname": 0,
+  "hidebios": 1,
+  "extlist": "zip|7z|n64|z64|v64",
+  "launchlist": [
+    {
+      "name": "--------------  libretro  --------------",
+      "launch": ""
+    },
+    {
+      "name": "ParaLLEl N64                                 ",
+      "launch": "paralleln64.sh"
+    },
+    {
+      "name": "Mupen64Plus                                 ",
+      "launch": "mupen64plus.sh"
+    },
+    {
+      "name": "-------------  standalone  -------------",
+      "launch": ""
+    },
+    {
+      "name": "Mupen64Plus (glide64mk2)           ",
+      "launch": "mupen64plus_standalone_glide.sh"
+    },
+    {
+      "name": "Mupen64Plus (Rice)                       ",
+      "launch": "mupen64plus_standalone_rice.sh"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "label": "SUFAMI",
+  "icon": "/mnt/SDCARD/Icons/Default/Emus/SUFAMI.png",
+  "iconsmall": "",
+  "iconlist": "",
+  "background": "/mnt/SDCARD/Backgrounds/Default/SUFAMI.png",
+  "themecolor": "FF0000",
+  "launch": "default.sh",
+  "rompath": "../../Roms/SUFAMI",
+  "imgpath": "../../Imgs/SUFAMI",
+  "useswap": 0,
+  "shortname": 0,
+  "hidebios": 0,
+  "extlist": "smc|fig|sfc|gd3|gd7|dx2|bsx|swc|zip|7z"
+}

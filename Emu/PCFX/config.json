@@ -1,0 +1,14 @@
+{
+  "label": "PCFX",
+  "icon": "/mnt/SDCARD/Icons/Default/Emus/PCFX.png",
+  "iconsmall": "",
+  "iconlist": "",
+  "background": "/mnt/SDCARD/Backgrounds/Default/PCFX.png",
+  "themecolor": "FFFF88",
+  "launch": "default.sh",
+  "rompath": "../../Roms/PCFX",
+  "imgpath": "../../Imgs/PCFX",
+  "useswap": 1,
+  "shortname": 0,
+  "hidebios": 1
+}

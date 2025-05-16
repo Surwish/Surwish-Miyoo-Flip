@@ -1,0 +1,24 @@
+{
+  "label": "PGM",
+  "icon": "/mnt/SDCARD/Icons/Default/Emus/PGM.png",
+  "iconsel": "",
+  "background": "/mnt/SDCARD/Backgrounds/Default/PGM.png",
+  "themecolor": "FAF792",
+  "launch": "default.sh",
+  "rompath": "../../Roms/PGM",
+  "imgpath": "../../Imgs/PGM",
+  "useswap": 1,
+  "shortname": 1,
+  "hidebios": 1,
+  "extlist": "zip",
+  "launchlist": [
+    {
+      "name": "FB ALPHA 2012",
+      "launch": "launch.sh"
+    },
+    {
+      "name": "FB NEO",
+      "launch": "launch_fbneo.sh"
+    }
+  ]
+}

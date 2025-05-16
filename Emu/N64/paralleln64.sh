@@ -1,0 +1,16 @@
+#!/bin/sh
+source /mnt/SDCARD/System/usr/miyoo/scripts/common_launcher.sh
+cpufreq.sh ondemand 4 7
+
+read -r device_type </tmp/device_type
+    if [ "$device_type" = "brick" ]; then
+touch "/tmp/trimui_inputd/input_dpad_to_joystick" 
+
+fi
+
+
+cd $RA_DIR/
+
+HOME=$RA_DIR/ $RA_DIR/ra64.miyoo -v -L $RA_DIR/.retroarch/cores/parallel_n64_libretro.so "$@"
+
+rm -f "/tmp/trimui_inputd/input_dpad_to_joystick" 

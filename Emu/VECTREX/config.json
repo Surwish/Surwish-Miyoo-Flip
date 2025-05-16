@@ -1,0 +1,13 @@
+{
+  "label": "VECTREX",
+  "icon": "/mnt/SDCARD/Icons/Default/Emus/VECTREX.png",
+  "background": "/mnt/SDCARD/Backgrounds/Default/VECTREX.png",
+  "iconsel": "",
+  "launch": "default.sh",
+  "rompath": "../../Roms/VECTREX",
+  "imgpath": "../../Imgs/VECTREX",
+  "useswap": 0,
+  "shortname": 0,
+  "hidebios": 1,
+  "extlist": ""
+}

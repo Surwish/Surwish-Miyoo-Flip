@@ -1,0 +1,15 @@
+{
+  "label": "MEGADUCK",
+  "icon": "/mnt/SDCARD/Icons/Default/Emus/MEGADUCK.png",
+  "iconsmall": "",
+  "iconlist": "",
+  "background": "/mnt/SDCARD/Backgrounds/Default/MEGADUCK.png",
+  "themecolor": "FF0000",
+  "launch": "default.sh",
+  "rompath": "../../Roms/MEGADUCK",
+  "imgpath": "../../Imgs/MEGADUCK",
+  "useswap": 0,
+  "shortname": 0,
+  "hidebios": 0,
+  "extlist": "bin|zip|7z"
+}

@@ -1,0 +1,23 @@
+{
+    "label": "N. NDS",
+    "icon": "/mnt/SDCARD/Icons/Default/Emus/NDS.png",
+    "launch":"drastic.sh",
+    "background":"bg.png",
+    "themecolor":"FF8800",
+    "iconsel":"",
+    "rompath":"../../Roms/NDS",
+    "imgpath":"../../Imgs/NDS",
+    "useswap":0,
+    "shortname":0,
+    "extlist": "nds|zip|7z|rar",
+    "launchlist": [
+        {
+            "name": "Drastic (Bilinear)",
+            "launch": "drastic.sh"
+        },
+        {
+            "name": "Drastic (Nearest)",
+            "launch": "drastic_nn.sh"
+        }
+    ]
+}
