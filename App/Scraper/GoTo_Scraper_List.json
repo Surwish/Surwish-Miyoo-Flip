@@ -1,0 +1,22 @@
+{
+	"list":	[{
+			"title":	198,
+			"type":	0,
+			"currpos":	2,
+			"pagestart":	0,
+			"pageend":	3
+		}, {
+			"title":	2,
+			"type":	1,
+			"currpos":	56,
+			"pagestart":	49,
+			"pageend":	56
+		}, {
+			"title":	-1,
+			"type":	5,
+			"currpos":	1,
+			"pagestart":	0,
+			"pageend":	5,
+			"emuname":	"_Scraper"
+		}]
+}
