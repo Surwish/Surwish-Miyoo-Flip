@@ -1,0 +1,61 @@
+<theme>
+ <view name="detailed">
+     <image name="background" extra="true">
+         <path>./images/background.png</path>
+         <origin>0 0</origin>
+         <pos>0 .5  </pos>
+         <size>1 1</size>
+		<zIndex>2</zIndex>
+	</image>
+    <image name="background2" extra="true">
+        <path>./images/background.png</path>
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 1</size>
+		<zIndex>0</zIndex>
+	</image>
+    <image name="background_header" extra="true">
+        <path>./images/headerbar_updownleftright.png</path>
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 .15</size>
+		<zIndex>3</zIndex>
+    </image>
+    <image name="md_image">
+        <maxSize>1 .1</maxSize> 
+		<size>1 0</size>
+        <pos>0 -.3</pos>
+		<tile>true</tile>
+        <origin>0 0</origin>
+		<zIndex>1</zIndex>
+    </image>
+	<image name="md_marquee">
+        <maxSize>1 1</maxSize> 
+		<size>1 1</size>
+        <pos>.5 .5</pos>
+		<tile>true</tile>
+        <origin>0 0</origin>
+		<zIndex>5</zIndex>
+	</image>
+    <text name="title" extra="true">
+		<text>${system.fullName}</text>
+		<alignment>center</alignment>
+		<size>0 0</size>
+		<pos>.5 .01</pos>
+		<origin>.5 0</origin>
+        <fontPath>./images/fonts/au.otf</fontPath>
+		<color>FFFFFF</color>
+		<fontSize>.05</fontSize>
+    </text>
+    <textlist name="gamelist">
+        <pos>.03 .535</pos>
+        <size>1 .45</size>
+        <fontPath>./images/fonts/au.otf</fontPath>
+        <selectorColor>00000000</selectorColor>
+        <selectedColor>FFFFFF</selectedColor>
+        <primaryColor>585858</primaryColor>
+        <alignment>left</alignment>
+		<fontSize>.06</fontSize>
+    </textlist>
+</view>
+</theme>

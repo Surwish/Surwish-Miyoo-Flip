@@ -1,0 +1,52 @@
+<theme>
+    <view name="system">
+        <image name="background" extra="true">
+            <path>./${system.theme}/marquee.png</path>
+			<default>./images/background.png</default>
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+			<zIndex>2</zIndex>
+        </image>
+        <image name="background_header" extra="true">
+            <path>./images/headerbar_leftright.png</path>
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 .15</size>
+			<zIndex>3</zIndex>
+        </image>
+        <carousel name="systemcarousel">
+            <pos>0 .500</pos>
+            <color>00000000</color>
+			<size>1 .52</size>
+			<maxLogoCount>5</maxLogoCount>
+			<logoSize>.2 .2</logoSize>
+			<logoScale>1.5</logoScale>
+			<logoAlignment>center</logoAlignment>
+        </carousel>
+		<text name="systemInfo">
+			<alignment>center</alignment>
+			<size>0 0</size>
+			<pos>.5 .92</pos>
+			<origin>.5 0</origin>
+            <fontPath>./images/fonts/au.otf</fontPath>
+			<color>FFFFFF</color>
+			<fontSize>.04</fontSize>
+		</text>
+        <text name="title" extra="true">
+			<text>${system.fullName}</text>
+			<alignment>center</alignment>
+			<size>0 0</size>
+			<pos>.5 .01</pos>
+			<origin>.5 0</origin>
+            <fontPath>./images/fonts/au.otf</fontPath>
+			<color>FFFFFF</color>
+			<fontSize>.05</fontSize>
+        </text>
+        <image name="logo">
+            <path>./${system.theme}/icon.png</path>
+			<zIndex>3</zIndex>
+			<default>./images/iconblank.png</default>
+        </image>
+    </view>
+</theme>

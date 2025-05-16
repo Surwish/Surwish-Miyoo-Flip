@@ -1,0 +1,10 @@
+<theme>
+	
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+	
+	<view name="system, basic, detailed, video">
+
+	</view>
+	
+</theme>

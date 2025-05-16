@@ -1,0 +1,23 @@
+<theme>
+    <formatVersion>4</formatVersion>
+    <include>./../theme.xml</include>
+    <view name="basic, detailed, video, grid">
+        <text name="nameLabel" extra="true">
+            <text>Nintendo WiiU</text>
+        </text>
+    </view>
+    <view name="system">
+        <text name="sys_line1" extra="true">
+            <text>Nintendo</text>
+        </text>
+        <text name="sys_line2" extra="true">
+            <text>WiiU</text>
+        </text>
+        <text name="shortdescription" extra="true">
+            <text>2012  ·  Handheld Console</text>
+        </text>
+        <text name="longdescription" extra="true">
+            <text>Successor to the Wii and the first eighth-gen video game console, as it competed with Microsoft's Xbox One and Sony's PS4.</text>
+        </text>
+    </view>
+</theme>

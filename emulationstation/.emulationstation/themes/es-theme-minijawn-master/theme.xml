@@ -1,0 +1,101 @@
+<!--
+theme name:     MiniJawn
+version:        1.85
+author:         Cory Anotado
+email:          cory@pacdudegames.com
+website:        www.pacdudegames.com
+license:        creative commons CC-BY-NC-SA
+-->
+<theme>
+    <formatVersion>4</formatVersion>
+	<!-- rename to home_full.xml for a full-screen homescreen experience. -->
+	<include>./home.xml</include>
+	<!-- rename to home_full.xml for a full-screen homescreen experience. -->	
+	<!-- rename to detailed_more.xml for a screenshot-friendly detailed list. -->
+	<!-- rename to detailed_more_vert.xml for a screenshot-friendly vertical list. -->
+	<include>./detailed.xml</include>
+	<!-- rename to detailed_more_vert.xml for a screenshot-friendly vertical list. -->
+	<!-- rename to detailed_more.xml for a screenshot-friendly detailed list. -->
+    <view name="basic">
+        <image name="background" extra="true">
+            <path>./images/background.png</path>
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+			<zIndex>1</zIndex>
+		</image>
+        <image name="background_header" extra="true">
+            <path>./images/headerbar_updownleftright.png</path>
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 .15</size>
+			<zIndex>3</zIndex>
+        </image>
+        <image name="md_image" extra="true">
+            <maxSize>1 .383</maxSize>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+        </image>
+        <text name="title" extra="true">
+			<text>${system.fullName}</text>
+			<alignment>center</alignment>
+			<size>0 0</size>
+			<pos>.5 .01</pos>
+			<origin>.5 0</origin>
+            <fontPath>./images/fonts/au.otf</fontPath>
+			<color>FFFFFF</color>
+			<fontSize>.05</fontSize>
+        </text>
+	    <textlist name="gamelist">
+	      <pos>.04 .155</pos>
+	      <size>.92 .787</size>
+	      <fontPath>./images/fonts/au.otf</fontPath>
+		  <selectorColor>00000000</selectorColor>
+		  <selectedColor>FFFFFF</selectedColor>
+  		  <secondaryColor>44757B</secondaryColor>
+		  <primaryColor>383838</primaryColor>
+		  <alignment>left</alignment>
+		  <fontSize>.06</fontSize>
+	  </textlist>
+	</view>
+ <view name="video">
+        <image name="background" extra="true">
+            <path>./images/media_background.png</path>
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+			<zIndex>2</zIndex>
+		</image>
+       <image name="background_header" extra="true">
+           <path>./images/headerbar_updownleftright.png</path>
+           <origin>0 0</origin>
+           <pos>0 0</pos>
+           <size>1 .15</size>
+		<zIndex>3</zIndex>
+       </image>
+       <video name="md_video">
+           <size>.7 .7</size>
+           <pos>.5 .5</pos>
+       </video>
+       <text name="title" extra="true">
+		<text>${system.fullName}</text>
+		<alignment>center</alignment>
+		<size>0 0</size>
+		<pos>.5 .01</pos>
+		<origin>.5 0</origin>
+           <fontPath>./images/fonts/au.otf</fontPath>
+		<color>FFFFFF</color>
+		<fontSize>.05</fontSize>
+       </text>
+       <textlist name="gamelist">
+           <pos>0 .87</pos>
+           <size>1 .1</size>
+           <fontPath>./images/fonts/au.otf</fontPath>
+           <selectorColor>00000000</selectorColor>
+           <selectedColor>FFFFFF</selectedColor>
+           <primaryColor>585858</primaryColor>
+           <alignment>center</alignment>
+		<fontSize>.06</fontSize>
+       </textlist>
+</view>
+</theme>

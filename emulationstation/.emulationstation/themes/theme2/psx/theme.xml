@@ -1,0 +1,23 @@
+<theme>
+    <formatVersion>4</formatVersion>
+    <include>./../theme.xml</include>
+    <view name="basic, detailed, video, grid">
+        <image name="logo">
+            <path>./art/logo.svg</path>
+        </image>
+    </view>
+    <view name="system">
+        <text name="sys_line1" extra="true">
+            <text>Sony</text>
+        </text>
+        <text name="sys_line2" extra="true">
+            <text>Playstation</text>
+        </text>
+        <text name="shortdescription" extra="true">
+            <text>1994  ·  32-bit Console</text>
+        </text>
+        <text name="longdescription" extra="true">
+            <text>The Sony PlayStation primarily competed with the Nintendo 64 and the Sega Saturn as part of the fifth generation of video game consoles</text>
+        </text>
+    </view>
+</theme>

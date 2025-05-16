@@ -1,0 +1,27 @@
+<theme>
+    <formatVersion>4</formatVersion>
+    <include>./../theme.xml</include>
+    <view name="basic, detailed, video, grid">
+         <text name="top_label" extra="true">
+            <fontPath>./../_art/Acre.otf</fontPath>
+            <text>Favorites</text>
+            <alignment>left</alignment>
+            <color>F8F8F8</color>
+            <fontSize>0.034</fontSize>
+            <origin>0 0</origin>
+            <pos>0.029 0</pos>
+            <size>0.20 0.08</size>
+       </text>
+    </view>
+    <view name="system">
+        <text name="sys_line2" extra="true">
+            <text>Favorites</text>
+        </text>
+        <text name="shortdescription" extra="true">
+            <text>All Consoles / Handhelds</text>
+        </text>
+        <text name="longdescription" extra="true">
+            <text>Access and quickly play your favorite games across the entire library</text>
+        </text>
+    </view>
+</theme>

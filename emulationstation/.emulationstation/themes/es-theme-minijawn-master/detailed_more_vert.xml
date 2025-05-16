@@ -1,0 +1,61 @@
+<theme>
+ <view name="detailed">
+    <image name="background2" extra="true">
+        <path>./images/background.png</path>
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 1</size>
+		<zIndex>0</zIndex>
+	</image>
+    <image name="fade" extra="true">
+        <path>./images/vert_mask.png</path>
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>.75 1</size>
+		<zIndex>4</zIndex>
+	</image>
+    <image name="background_header" extra="true">
+        <path>./images/headerbar_updownleftright.png</path>
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 .15</size>
+		<zIndex>4</zIndex>
+    </image>
+    <image name="md_image">
+        <maxSize>1 .9</maxSize>
+		<size>1 .9</size>
+        <pos>.25 0</pos>
+        <origin>0 0</origin>
+		<zIndex>2</zIndex>
+    </image>
+    <image name="bg_tint" extra="true">
+		<path>./images/vert_block.png</path>
+        <maxSize>1 1</maxSize>
+		<size>1 1</size>
+        <pos>.25 0</pos>
+        <origin>0 0</origin>
+		<zIndex>3</zIndex>
+    </image>
+    <text name="title" extra="true">
+		<text>${system.fullName}</text>
+		<alignment>center</alignment>
+		<size>0 0</size>
+		<pos>.5 .01</pos>
+		<origin>.5 0</origin>
+        <fontPath>./images/fonts/au.otf</fontPath>
+		<color>FFFFFF</color>
+		<fontSize>.05</fontSize>
+    </text>
+    <textlist name="gamelist">
+        <pos>0 .16</pos>
+        <size>1 .8</size>
+        <fontPath>./images/fonts/au.otf</fontPath>
+        <selectorColor>000000CC</selectorColor>
+        <horizontalMargin>.04</horizontalMargin>
+        <selectedColor>FFFFFF</selectedColor>
+        <primaryColor>585858</primaryColor>
+        <alignment>left</alignment>
+		<fontSize>.06</fontSize>
+    </textlist>
+</view>
+</theme>

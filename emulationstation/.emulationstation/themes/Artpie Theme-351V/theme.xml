@@ -1,0 +1,164 @@
+<!--
+theme name:     Artpie
+creator:	         REMCIS&Dwayne Hurst
+version:             2.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+
+    <view name="menu">
+        <menuText name="menutitle">
+            <fontPath>./core/fonts/ubuntu_bold.ttf</fontPath>
+            <fontSize>0.064</fontSize>
+            <color>E88438</color> 
+        </menuText>
+
+         <menuText name="menufooter">
+            <fontPath>./core/fonts/ubuntu_medium.ttf</fontPath>
+            <fontSize>0.035</fontSize>
+            <color>E88438</color>
+        </menuText>
+
+       <menuText name="menutext">
+            <fontPath>./core/fonts/ubuntu_medium.ttf</fontPath>
+            <fontSize>0.041</fontSize> 
+            <color>E0D6CA</color> 
+            <separatorColor>333333</separatorColor>
+            <selectorColor>FF6633</selectorColor> 
+            <selectorColorEnd>EA4D00</selectorColorEnd>
+            <selectedColor>000000</selectedColor>  
+        </menuText>
+
+         <menuTextSmall name="menutextsmall">
+            <fontPath>./core/fonts/ubuntu_medium.ttf</fontPath>
+            <fontSize>0.045</fontSize>
+            <color>E88438</color> 
+        </menuTextSmall>
+
+       <menuBackground name="menubg">
+            <color>313131</color> 
+        </menuBackground>
+
+    </view>
+
+<feature supported="carousel">
+   <view name="system">
+      <carousel name="systemcarousel">
+        <type>horizontal</type>
+        <pos>0.0 0.0</pos>
+        <size>1 1</size>
+        <logoScale>1.025</logoScale> 
+         <zIndex>41</zIndex>          
+        <logoSize>0.80 0.80</logoSize> 
+        <color>00000000</color>
+        <maxLogoCount>5</maxLogoCount>
+        <scrollSound>./_inc/scroll.wav</scrollSound>
+      </carousel>
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>40</zIndex>                 
+         <path>./_inc/images/main.png</path>
+      </image>              
+      <text name="systemInfo">
+         <zIndex>44</zIndex>       
+         <pos>0 0.92</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>2C56AD</color>
+         <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+         <fontSize>0.035</fontSize>
+         <zIndex>44</zIndex>	     
+      </text>            
+   </view>
+</feature>
+
+
+   <view name="detailed,video">
+      <textlist name="gamelist"> 
+         <selectorColor>1c1c1c00</selectorColor>                     
+         <pos>0.269 0.024</pos>
+         <size>0.3 0.93</size>
+         <selectedColor>00BFFF</selectedColor> 
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>FFFF00</secondaryColor>
+         <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+         <fontSize>0.035</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+         <zIndex>42</zIndex>                          
+      </textlist>
+   </view>
+
+   <view name="basic">
+      <textlist name="gamelist">  
+         <selectorColor>1c1c1c00</selectorColor>                     
+         <pos>0.35 0.0305</pos>
+         <size>0.3 0.93</size>
+         <selectedColor>00BFFF</selectedColor>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>FFFF00</secondaryColor>
+         <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+         <fontSize>0.035</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>center</alignment>
+         <zIndex>42</zIndex>                          
+      </textlist>
+   </view>  
+
+   <view name="basic">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/images/systembasic.png</path>
+      </image>                
+   </view> 
+     
+
+   <view name="detailed,video">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>       
+         <path>./_inc/images/systemvideo-original.png</path>
+      </image>    
+
+   </view>
+
+   <view name="video">   
+      <video name="md_video">
+         <pos>0.78 0.35</pos>
+         <maxSize>0.38 0.38</maxSize>
+         <delay>1.2</delay>
+         <zIndex>41</zIndex>         
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>
+      </video>  
+   	  
+   </view>
+
+   <view name="detailed">  
+      <image name="md_image">
+         <pos>0.78 0.36</pos>
+         <maxSize>0.38 0.38</maxSize>
+         <zIndex>41</zIndex>         
+      </image>      
+   </view>
+
+   <view name="video">   
+      <video name="md_video">
+         <pos>0.78 0.34</pos>
+         <maxSize>0.38 0.38</maxSize>
+         <delay>1.2</delay>
+         <zIndex>41</zIndex>         
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>
+      </video>  
+  	  
+   </view> 
+</theme>
