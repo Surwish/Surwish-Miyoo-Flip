@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>0000FF</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>0000FF</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>With the goal of establishing a single industry standard for home computers, ASCII Corp. of Japan worked with Microsoft and debuted the MSX, short for Microsoft Extended, on June 27, 1983. Backed by many Japanese consumer electronics and computer heavyweight manufacturers, three additional generations were created: MSX2 (1985), MSX2+ (1988), and MSX TurboR (1990). While it was successful in Europe, South America, and Asia (selling 9 million units in Japan), the MSX family failed to become a global standard and was discontinued in 1995. The MSX is home to the creation of popular franchises such as Bomberman and Metal Gear.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>0000FF88</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>>

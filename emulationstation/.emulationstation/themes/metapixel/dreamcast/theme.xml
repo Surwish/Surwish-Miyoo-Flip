@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>CD0000</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>CD0000</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The Dreamcast is a 128-bit video game console which was released by Sega in late 1998 in Japan and from September 1999 in other territories. It preceded Sony's PlayStation 2, Microsoft's Xbox and the Nintendo GameCube. Dreamcast sales were positive during launch, but because of the strong pressure from rival PlayStation 2, Dreamcast sales decreased. The Dreamcast was discontinued in March 2001. It was Sega's final console.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>CD000088</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>BBA3FF</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>BBA3FF</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>DAPHNE is an arcade emulator that emulates a variety of laserdisc arcade games with the intent of preserving these games and making the play experience as faithful to the originals as possible. The developer calls DAPHNE the First Ever Multiple Arcade Laserdisc Emulator (FEMALE), and its name is a reference to Princess Daphne, the heroine of Dragon's Lair.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>BBA3FF88</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

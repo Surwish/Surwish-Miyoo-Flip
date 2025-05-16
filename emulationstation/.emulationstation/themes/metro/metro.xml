@@ -1,0 +1,373 @@
+<!--
+theme name:		Metro
+version:		1.0
+author:			Omnija
+license:		creative commons CC-BY-NC-SA
+-->
+
+<theme>
+    <formatVersion>4</formatVersion>
+	
+		<!-- <include>./layout.xml</include> -->
+	
+		<feature supported="carousel">
+
+		<view name="system">
+
+			<carousel name="systemcarousel">
+				<type>vertical</type>
+				<pos>0.010 0.100</pos>
+				<size>0.300 0.800</size>
+				<color>FFFFFF00</color>
+				<logoScale>2.0</logoScale>
+				<logoSize>0.125 0.160</logoSize>
+				<maxLogoCount>3</maxLogoCount>
+			</carousel>
+
+			<text name="systemInfo">
+				<backgroundColor>00000000</backgroundColor>
+				<color>FFFFFF</color>
+				<fontPath>./_inc/fonts/Exo2-Bold.ttf</fontPath>
+				<fontSize>0.042</fontSize>
+				<pos>0.340 0.932</pos>
+			</text>
+			
+			<image name="carousel_bar" extra="true">
+				<path>./_inc/images/invisible.png</path>
+				<origin>0 0</origin>
+			</image>	
+
+			<image name="system_help" extra="true">
+				<path>./_inc/icons/system_help.png</path>
+				<pos>0.156 0.962</pos>
+				<origin>0.5 0.5</origin>
+				<maxSize>0.300 0.35</maxSize>
+			</image>
+			
+		<image name="background" extra="true">
+		    <path>./_inc/images/bg.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+
+		</view>
+
+	</feature>
+	
+		<view name="system, basic, detailed, video">
+	
+		<image name="background" extra="true">
+		    <path>./_inc/images/bg_gamelist.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+		
+	<!-- <image name="background_overlay" extra="true">
+		    <path>./_inc/images/bg_overlay.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image> -->
+	
+		<helpsystem name="help">
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+			<fontPath>./_inc/fonts/invisible.ttf</fontPath>
+			<pos>0.020 0.955</pos>
+			<fontSize>0.025</fontSize>
+		</helpsystem>
+		
+		<text name="system_name" extra="true">
+			<text>${system.fullName}</text>
+			<forceUppercase>0</forceUppercase>
+			<size>0.5 0.025</size>
+			<pos>0.045 0.0225</pos>
+			<color>ffffff</color>
+			<fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+		</text>
+
+	</view>
+
+	<view name="system">
+		
+		<image name="background_systembox" extra="true">
+		    <path>./_inc/images/bg_systembox.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+		
+		<image name="system_mascot" extra="true">
+			<pos>0.700 0.500</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.400 0.650</size>
+		</image>
+		
+		<image name="system_logo" extra="true">
+			<tile>false</tile>
+			<pos>0.395 0.500</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.150 0.500</maxSize>
+		</image>
+		
+		<!-- <image name="system_dirt" extra="true">
+		    <path>./_inc/images/unavailable.png</path>
+			<pos>0.700 0.500</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.400 0.650</size>
+		</image> -->
+	
+	</view>
+	
+    <view name="basic">
+	
+		<image name="background_basicbox" extra="true">
+		    <path>./_inc/images/bg_basicbox.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+		
+		<image name="background_basicbox_text" extra="true">
+			<path>./_inc/images/bg_basicbox_text.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+		
+		<textlist name="gamelist">
+			<pos>0.355 0.163</pos>
+			<size>0.60 0.70</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+		</textlist>
+   
+	</view>
+	
+	<view name="detailed">
+		
+		<image name="md_image">
+			<pos>0.815 0.380</pos>
+	   <!-- <size>0.135 0.301</size> -->
+			<maxSize>0.300 0.450</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+	
+	</view>
+	
+	<view name="video">
+	
+		<image name="md_marquee">
+			<origin>0 0</origin>
+			<pos>1 1</pos>
+		</image>
+	  
+		<image name="md_image">
+			<pos>1 1</pos>
+			<origin>0 0</origin>
+		</image>
+	  
+		<video name="md_video">
+			<pos>0.815 0.380</pos>
+	   <!-- <size>0.135 0.301</size> -->
+			<maxSize>0.300 0.450</maxSize>
+			<origin>0.5 0.5</origin>
+			<delay>0.2</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+		</video>
+	  
+	</view>
+	
+	<view name="detailed, video">
+	
+		<image name="background_detailedbox" extra="true">
+			<path>./_inc/images/bg_detailedbox.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+		
+		<image name="background_detailedbox_text" extra="true">
+			<path>./_inc/images/bg_detailedbox_text.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+		
+		<textlist name="gamelist">
+			<pos>0.350 0.154</pos>
+			<size>0.30 0.46</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+		</textlist>
+		
+		<!-- Player Meta -->
+
+		<text name="md_lbl_players">
+			<fontPath>./_inc/fonts/NES2.ttf</fontPath>
+			<fontSize>0.034</fontSize>
+			<size>0.12 0.04</size>
+			<pos>0.045 0.17</pos>
+		</text>
+		
+		<text name="md_players">
+			<fontPath>./_inc/fonts/Exo2-Bold.ttf</fontPath>
+			<fontSize>0.034</fontSize>
+			<size>0.14 0.04</size>
+			<pos>0.185 0.17</pos>
+		</text>	
+		
+		<text name="md_lbl_playcount">
+			<fontPath>./_inc/fonts/NES2.ttf</fontPath>
+			<fontSize>0.034</fontSize>
+			<size>0.17 0.04</size>
+			<pos>0.045 0.235</pos>
+		</text>
+		
+		<text name="md_playcount">
+			<fontPath>./_inc/fonts/Exo2-Bold.ttf</fontPath>
+			<fontSize>0.034</fontSize>
+			<size>0.18 0.04</size>
+			<pos>0.185 0.235</pos>
+		</text>	
+		
+		<text name="md_lbl_lastplayed">
+			<fontPath>./_inc/fonts/NES2.ttf</fontPath>
+			<fontSize>0.034</fontSize>
+			<size>0.15 0.04</size>
+			<pos>0.045 0.30</pos>
+		</text>
+		
+		<datetime name="md_lastplayed">
+			<fontPath>./_inc/fonts/Exo2-Bold.ttf</fontPath>
+			<fontSize>0.034</fontSize>
+			<size>0.15 0.04</size>
+			<pos>0.160 0.30</pos>
+		</datetime>	
+		
+		<!-- End Player Meta -->
+		
+		<!-- Game Meta -->
+		
+		<text name="md_lbl_genre">
+			<fontPath>./_inc/fonts/NES2.ttf</fontPath>
+			<fontSize>0.034</fontSize>
+			<size>0.17 0.04</size>
+			<pos>0.045 0.685</pos>
+		</text>
+		
+		<text name="md_genre">
+			<fontPath>./_inc/fonts/Exo2-Bold.ttf</fontPath>
+			<fontSize>0.034</fontSize>
+			<size>0.14 0.04</size>
+			<pos>0.14 0.685</pos>
+		</text>	
+		
+		<text name="md_lbl_developer">
+			<fontPath>./_inc/fonts/NES2.ttf</fontPath>
+			<fontSize>0.034</fontSize>
+			<size>0.17 0.04</size>
+			<pos>0.045 0.755</pos>
+		</text>
+		
+		<text name="md_developer">
+			<fontPath>./_inc/fonts/Exo2-Bold.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+			<size>0.140 0.04</size>
+			<pos>0.14 0.755</pos>
+		</text>	
+		
+		<text name="md_lbl_publisher">
+			<fontPath>./_inc/fonts/NES2.ttf</fontPath>
+			<fontSize>0.034</fontSize>
+			<size>0.17 0.04</size>
+			<pos>0.045 0.825</pos>
+		</text>
+		
+		<text name="md_publisher">
+			<fontPath>./_inc/fonts/Exo2-Bold.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+			<size>0.140 0.04</size>
+			<pos>0.14 0.825</pos>
+		</text>	
+		
+		<!-- End Game Meta -->
+		
+		<text name="md_description">
+			<color>FFFFFF</color>
+			<fontPath>./_inc/fonts/Exo2-Bold.ttf</fontPath>
+			<fontSize>0.034</fontSize>
+			<size>0.590 0.202</size>
+			<pos>0.365 0.672</pos>
+		</text>
+		
+	</view>	
+
+    <view name="basic, detailed, video">
+	
+	<!--  md_lbl_players, md_players -->
+
+		<text name="md_lbl_releasedate">
+			<fontPath>./_inc/fonts/invisible.ttf</fontPath>
+			<fontSize>0.01</fontSize>
+			<pos>1 1</pos>
+		</text>
+
+		<datetime name="md_releasedate">
+			<fontPath>./_inc/fonts/invisible.ttf</fontPath>
+			<fontSize>0.01</fontSize>
+			<pos>1 1</pos>
+		</datetime>
+
+		<textlist name="gamelist">
+			<selectorColor>252525</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>ffffff</primaryColor>
+			<secondaryColor>ffffff</secondaryColor>
+			<fontPath>./_inc/fonts/Exo2-Bold.ttf</fontPath>
+			<fontSize>0.030</fontSize>
+			<scrollSound>./_inc/sounds/select.wav</scrollSound>
+		</textlist> 
+
+		<text name="md_lbl_rating">
+			<fontPath>./_inc/fonts/invisible.ttf</fontPath>
+			<color>FFFFFF</color>
+			<fontSize>0.050</fontSize>
+			<size>0.15 0.04</size>
+			<pos>0.730 0.940</pos>
+		</text>			
+		
+		<rating name="md_rating">
+			<filledPath>./_inc/icons/rate-full.png</filledPath>
+			<unfilledPath>./_inc/icons/rate-empty.png</unfilledPath>
+			<size>0.064 0.064</size>
+			<pos>0.810 0.930</pos>
+		</rating>
+		
+		<image name="logo">
+			<pos>0.162 0.504</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.400 0.260</maxSize>
+        </image>
+		
+		<image name="gamelist_help" extra="true">
+			<path>./_inc/icons/gamelist_help.png</path>
+			<pos>0.156 0.962</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.300 0.35</maxSize>
+		</image>
+		
+	</view>
+	
+</theme>

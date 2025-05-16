@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>E38849</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>E38849</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The history the Amiga of family personal computers began in 1984 when Commodore International lost a large number of employees when a key personnel left. This led Commodore to purchase the Amiga Corporation which had shown a prototype chipset with large potential. Although the first Amiga computer, the Amiga 1000 released in 1985, did not do well due to production issues and missing marketing, subsequent iterations were well-received and restrospectives stated that the computers were ahead of their time. The Amiga line would come to an end as a change in direction in Commodore would eventually lead to the company filing for bankruptcy in 1994. The Amiga line would sell 4.85 million units.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>E3884988</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>>

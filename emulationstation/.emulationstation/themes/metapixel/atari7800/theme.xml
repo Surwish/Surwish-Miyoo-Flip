@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>d7bb5b</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>d7bb5b</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>Designed by General Computer Coporation and manufactured by Atari Corporation, the Atari 7800 ProSystem is a third generation home video game console first released in the United States in 1986. Taking into consideration of customer dissatisfaction with the Atari 5200, such as including backward compatibility with the Atari 2600, Atari, Inc. announced the imminent release of the system in 1984, but it was delayed when Warner Communications, Atari, Inc.'s parent company, sold the home computing and game console division. After the formation of Atari Corporation, the console competed with the Sega Master System and the Nintendo Entertainment System, selling 3.77 million units.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>d7bb5b88</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

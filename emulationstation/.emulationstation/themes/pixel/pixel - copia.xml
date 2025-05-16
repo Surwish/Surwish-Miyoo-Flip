@@ -1,0 +1,183 @@
+<!--
+theme name:		Pixel
+version:		1.7
+author:			Eric Hettervik
+license:		creative commons CC-BY-NC-SA
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<view name="system">
+	
+		<helpsystem name="help">
+			<pos>0.012 0.960</pos>
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.033</fontSize>
+		</helpsystem>
+
+	</view>
+
+    <view name="basic">
+
+		<helpsystem name="help">
+			<pos>0.012 0.960</pos>
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.033</fontSize>
+		</helpsystem>
+		
+		<text name="md_lbl_playcount">
+			<pos>0.676 0.580</pos>
+			<fontSize>0.03</fontSize>
+		</text>
+		
+		<text name="md_playcount">
+			<pos>0.829 0.574</pos>
+			<fontSize>0.03</fontSize>
+		</text>
+		
+		<textlist name="gamelist">
+			<pos>0.034 0.235</pos>
+			<size>0.933 0.647</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+			<selectorColor>350648</selectorColor>
+			<selectedColor>bc14ff</selectedColor>
+			<primaryColor>ffffff</primaryColor>
+			<secondaryColor>871F78</secondaryColor>
+			<forceUppercase>1</forceUppercase>
+			<!--<scrollSound>./art/flipper.wav</scrollSound>-->
+		</textlist>
+
+	</view>
+
+	<view name="detailed">
+	
+		<helpsystem name="help">
+			<pos>0.012 0.960</pos>
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.033</fontSize>
+		</helpsystem>
+
+		<image name="logo">
+			<pos>0.274 0.114</pos>
+			<maxSize>0.418 0.115</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+
+		<image name="Border Overlay" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>		
+	
+		<image name="md_image">
+			<pos>0.766 0.322</pos>
+			<maxSize>0.366 0.480</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<textlist name="gamelist">
+			<pos>0.033 0.266</pos>
+			<size>0.483 0.611</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<selectorColor>350648</selectorColor>
+			<selectedColor>bc14ff</selectedColor>
+			<primaryColor>ffffff</primaryColor>
+			<secondaryColor>871F78</secondaryColor>
+			<forceUppercase>0</forceUppercase>
+			<!--<scrollSound>./art/flipper.wav</scrollSound>-->
+		</textlist>
+		
+		<text name="System_Desc" extra="true">
+			<text></text>
+			<forceUppercase>0</forceUppercase>
+			<size>0.268 0.204</size>
+			<pos>0.569 0.677</pos>
+			<color>ffffff</color>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<alignment>center</alignment>
+		</text>	
+		
+		<text name="System_Desc" extra="true">
+			<text>Nintendo Game Boy. Released in 1989. Displayed 4 colors at 160x144 pixels.</text>
+			<forceUppercase>0</forceUppercase>
+			<size>0.268 0.204</size>
+			<pos>0.569 0.677</pos>
+			<color>ffffff</color>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<alignment>center</alignment>
+		</text>	
+
+		<text name="md_lbl_playcount">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<!--- This will enable Player Count under the screenshot --->
+			<!---<pos>0.686 0.573</pos>--->
+			<fontSize>0.03</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+
+		<text name="md_playcount">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<!--- This will enable Player Count under the screenshot.--->
+			<!---<pos>0.830 0.567</pos>--->
+			<fontSize>0.03</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>			
+		
+	</view>	
+
+	<view name="basic, detailed">
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed,">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+
+		
+		<text name="md_developer, md_publisher, md_genre, md_players, md_description">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+		
+		<rating name="md_rating">
+			<filledPath>./art/invisible.png</filledPath>
+			<unfilledPath>./art/invisible.png</unfilledPath>
+		</rating>
+
+	</view>	
+
+
+	</theme>

@@ -1,0 +1,23 @@
+<theme>
+    <formatVersion>4</formatVersion>
+    <include>./../theme.xml</include>
+    <view name="basic, detailed, video, grid">
+        <image name="logo">
+            <path>./art/logo.svg</path>
+        </image>
+    </view>
+    <view name="system">
+        <text name="sys_line1" extra="true">
+            <text>Nintendo Entertainment</text>
+        </text>
+        <text name="sys_line2" extra="true">
+            <text>System</text>
+        </text>
+        <text name="shortdescription" extra="true">
+            <text>1983  ·  8-bit Console</text>
+        </text>
+        <text name="longdescription" extra="true">
+            <text>The best selling gaming console of its time, the NES helped revitalize the US video game industry following the video game crash of 1983</text>
+        </text>
+    </view>
+</theme>

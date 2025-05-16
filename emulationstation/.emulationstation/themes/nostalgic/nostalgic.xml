@@ -1,0 +1,208 @@
+!--
+theme name:     Nostalgic
+author: 		SuperMagicom
+email: 			supermagicom@gmail.com
+version         1.0
+-->
+
+<theme>
+   <formatVersion>4</formatVersion>
+
+	<view name="system">
+		<helpsystem name="help">
+			<pos>1.3 0.94</pos>
+			<textColor>a9a9a9</textColor>
+			<iconColor>a9a9a9</iconColor>
+		</helpsystem>	
+	  
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0.0 0.0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/background.png</path>
+		</image>
+
+		<image name="logo">
+			<path>./${system.theme}/logo.png</path>
+		</image>
+		
+		<carousel name="systemcarousel">
+			<color>ffffff00</color>
+				<logoScale>2.5</logoScale>
+				<logoSize>0.15 0.08</logoSize>
+				<maxLogoCount>3</maxLogoCount>
+			</carousel>	
+		
+		<text name="systemInfo">
+			<pos>0.0 0.825</pos>
+			<color>ffffffff</color>
+			<fontPath>./art/OpenSans-Bold.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+
+	</view>
+	
+	<view name="basic, detailed, video">
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_players, md_lbl_playcount, md_lbl_favorite">
+			<color>c0c0c0</color>
+			<fontPath>./art/NESCyrillic.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+		</text>
+		
+		<text name="md_developer, md_publisher, md_genre, md_playcount, md_lastplayed, md_description, md_players, md_releasedate, md_favorite">
+			<color>FFFFFF</color>
+			<fontPath>./art/OpenSans-CondBold.ttf</fontPath>
+			<fontSize>0.0195</fontSize>
+		</text>
+		<text name="md_lbl_releasedate">
+			<pos>0.010 0.720</pos>
+		</text>
+		<datetime name="md_releasedate">
+			<pos>0.015 0.750</pos>
+			<size>0.075 0.025</size>
+		</datetime>
+		<text name="md_lbl_rating">
+			<pos>0.25 0.724</pos>
+		</text>
+		<rating name="md_rating">
+			<pos>0.255 0.748</pos>
+			<size>0.008 0.029</size>
+			<filledPath>./art/star_filled.svg</filledPath>
+			<unfilledPath>./art/star_hollow.svg</unfilledPath>
+		</rating>
+		<text name="md_lbl_players">
+			<pos>0.010 0.780</pos>
+		</text>
+		<text name="md_players">
+			<pos>0.015 0.805</pos>
+			<size>0.075 0.025</size>
+		</text>
+		<text name="md_lbl_genre">
+			<pos>0.25 0.780</pos>
+		</text>
+		<text name="md_genre">
+			<pos>0.255 0.805</pos>
+			<size>0.220 0.025</size>
+		</text>
+		<text name="md_lbl_developer">
+			<pos>0.010 0.830</pos>
+		</text>
+		<text name="md_developer">
+			<pos>0.015 0.855</pos>
+			<size>0.220 0.025</size>
+		</text>
+		<text name="md_lbl_publisher">
+			<pos>0.25 0.830</pos>
+		</text>
+		<text name="md_publisher">
+			<pos>0.255 0.855</pos>
+			<size>0.220 0.025</size>
+		</text>
+		<text name="md_lbl_lastplayed">
+			<pos>0.010 0.880</pos>
+		</text>
+		<datetime name="md_lastplayed">
+			<pos>0.015 0.905</pos>
+			<size>0.2 0.025</size>
+		</datetime>
+		<text name="md_lbl_playcount">
+			<pos>0.25 0.880</pos>
+		</text>
+		<text name="md_playcount">
+			<pos>0.255 0.905</pos>
+			<size>0.0375 0.025</size>
+		</text>
+		<text name="md_description">
+			<pos>2 2</pos>
+			<size>0.0 0.0</size>
+		</text>
+		<text name="md_description">
+			<pos>2 2</pos>
+			<size>0.0 0.0</size>
+		</text>
+		<text name="md_lbl_favorite">
+			<pos>2 2</pos>
+			<size>0.0 0.0</size>
+		</text>
+		<text name="md_favorite">
+			<pos>2 2</pos>
+			<size>0.0 0.0</size>
+		</text>
+
+	</view>	
+
+    <view name="basic">
+	
+		<image name="logo">
+			<path>./${system.theme}/logo.png</path>
+			<pos>0.5 0.86</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.315 0.125</maxSize>
+		</image>
+		
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<path>./art/background.png</path>
+		</image>
+		
+		<helpsystem name="help">
+			<pos>0.012 0.960</pos>
+			<textColor>a9a9a9</textColor>
+			<iconColor>a9a9a9</iconColor>
+		</helpsystem>
+		
+		<textlist name="gamelist">
+			<pos>0.020 0.030</pos>
+			<size>0.933 0.75</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.028</horizontalMargin>
+			<fontPath>./art/OpenSans-Bold.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<selectorColor>c0c0c0</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>000000</primaryColor>
+			<secondaryColor>871F78</secondaryColor>
+		</textlist>
+
+	</view>
+	
+	<view name="detailed, video">
+
+		<helpsystem name="help">
+			<pos>0.012 0.960</pos>
+			<textColor>a9a9a9</textColor>
+			<iconColor>a9a9a9</iconColor>
+		</helpsystem>
+	
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./${system.theme}/background.jpg</path>
+		</image>
+
+		<image name="logo" extra="true">
+			<path>./${system.theme}/logo.png</path>
+			<pos>0.22 0.10</pos>
+			<maxSize>0.35 0.1</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<textlist name="gamelist">
+			<pos>0.010 0.16</pos>
+			<size>0.400 0.55</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.027</horizontalMargin>
+			<fontPath>./art/OpenSans-Bold.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<selectorColor>c0c0c0</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>ffffff</primaryColor>
+			<secondaryColor>871F78</secondaryColor>
+		</textlist>
+
+	</view>	
+	
+</theme>

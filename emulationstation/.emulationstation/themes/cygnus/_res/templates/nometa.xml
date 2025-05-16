@@ -1,0 +1,142 @@
+<theme>
+    <formatVersion>4</formatVersion>
+
+    <view name="basic, detailed, video">
+        <image name="gamelist-matte" extra="true">
+            <path>./../images/white.png</path>
+            <origin>0 0</origin>
+            <pos>0.03 0.163</pos>
+            <size>0.4 0.7742</size>
+        </image>
+
+        <textlist name="gamelist">
+            <fontPath>./../fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+            <pos>0.03 0.163</pos>
+            <size>0.4 0.75</size>
+            <fontSize>0.035</fontSize>
+            <lineSpacing>1.45</lineSpacing>
+            <horizontalMargin>0.015</horizontalMargin>
+            <alignment>left</alignment>
+            <forceUppercase>0</forceUppercase>
+        </textlist>
+    </view>
+
+    <view name="basic">
+        <image name="overlay" extra="true">
+            <origin>0.5 0.5</origin>
+            <pos>0.715 0.55</pos>
+            <maxSize>0.51 0.7</maxSize>
+        </image>
+
+        <image name="gamelist-matte" extra="true">
+            <size>0.4 0.7742</size>
+        </image>
+
+        <textlist name="gamelist">
+            <size>0.4 0.75</size>
+        </textlist>
+    </view>
+    <view name="detailed, video">
+
+        <text name="md_lbl_players">
+            <fontSize>0.024</fontSize>
+            <forceUppercase>1</forceUppercase>
+            <size>0 0</size>
+        </text>
+
+        <text name="md_players, md_genre, md_developer, md_publisher">
+            <fontSize>0.024</fontSize>
+            <size>0 0</size>
+            <forceUppercase>1</forceUppercase>
+        </text>
+
+        <datetime name="md_releasedate, md_lastplayed">
+            <fontSize>0.024</fontSize>
+            <forceUppercase>1</forceUppercase>
+        </datetime>
+
+        <text name="md_description">
+            <fontSize>0.023</fontSize>
+        </text>
+
+        <text name="md_lbl_rating, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_publisher, md_lbl_genre, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate">
+            <fontPath>./../fonts/AdobeBlank.ttf</fontPath>
+            <pos>0 0</pos>
+            <size>0 0</size>
+        </text>
+
+        <text name="md_description">
+            <fontPath>./../fonts/AdobeBlank.ttf</fontPath>
+            <fontSize>0.021</fontSize>
+            <lineSpacing>1.55</lineSpacing>
+            <pos>0.0345 0.69</pos>
+            <size>0.355 0.195</size>
+        </text>
+
+            <text name="md_genre, md_developer, md_publisher,md_lastplayed,md_rating,md_players,md_releasedate">
+                <size>0.13 0.023</size>
+            </text>
+
+            <datetime name="md_lastplayed">
+                <fontPath>./../fonts/AdobeBlank.ttf</fontPath>
+                <pos>0.035 0.645</pos>
+            </datetime>
+            <text name="md_lbl_players">
+                <fontPath>./../fonts/AdobeBlank.ttf</fontPath>
+                <pos>0.30 0.640</pos>
+            </text>
+            <text name="md_players">
+                <fontPath>./../fonts/AdobeBlank.ttf</fontPath>
+                <pos>0.37 0.645</pos>
+            </text>
+            <text name="md_genre">
+                <fontPath>./../fonts/AdobeBlank.ttf</fontPath>
+                <alignment>left</alignment>
+                <pos>0.035 0.898</pos>
+            </text>
+            <text name="md_developer">
+                <fontPath>./../fonts/AdobeBlank.ttf</fontPath>
+                <alignment>center</alignment>
+                <pos>0.14 0.898</pos>
+            </text>
+            <datetime name="md_releasedate">
+                <fontPath>./../fonts/AdobeBlank.ttf</fontPath>
+                <pos>0.313 0.898</pos>
+            </datetime>
+
+    </view>
+
+    <view name="detailed">
+        <image name="md_image">
+            <origin>0.5 0.5</origin>
+            <pos>0.70 0.55</pos>
+            <maxSize>0.55 0.55</maxSize>
+        </image>
+    </view>
+
+<feature supported="video">
+
+    <view name="video">
+        <video name="md_video">
+           <origin>0.5 0.5</origin>
+            <pos>0.75 0.55</pos>
+            <maxSize>0.5 0.5</maxSize>
+            <delay>0.01</delay>
+            <default>./../images/static.mp4</default>
+            <showSnapshotNoVideo>true</showSnapshotNoVideo>
+            <showSnapshotDelay>false</showSnapshotDelay>
+        </video>
+        <image name="md_marquee">
+            <pos>0.48 0.30</pos>
+            <origin>0 0.5</origin>
+            <maxSize>0.3 0.20</maxSize>
+        </image>
+        <image name="md_image">
+            <origin>0.5 0.5</origin>
+            <pos>0.55 0.8</pos>
+            <maxSize>0.22 0.22</maxSize>
+        </image>
+    </view>
+</feature>
+
+</theme>

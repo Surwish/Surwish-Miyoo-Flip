@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>7DC4ff</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>7DC4ff</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The Virtual Boy is a 32-bit fifth generation table-top 3D video game console first released by Nintendo in Japan in 1995. Impressed by Reflection Technology, Inc.'s 3D stereoscopic head-tracking protoype, Nintendo licensed the technology, but ongoing health and liability concerns in Japan led Nintendo to forgo head-tracking and focus on a table-top experience. With a highly publicized launch, the Virtual Boy was overwhelmingly panned by critics for its high price and discomfort while playing. A poor marketing campaign would also contribute to the Virtual Boy's commercial failure, selling only 770,000 units. It was quietly discontinued.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>7DC4ff88</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

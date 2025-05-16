@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>8a2be2</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>8a2be2</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The 3DO Interactive Multiplayer is a video game console originally produced by Panasonic in 1993. Despite a highly promoted launch and a host of cutting-edge technologies, the 3DO's high price (US$699.95 at launch), limited third-party developer support, and an over-saturated console market prevented the system from achieving success comparable to competitors Sega and Nintendo. This console was released in North America on October 4, 1993, Japan on March 20, 1994 and in Europe in 1994.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>8a2be288</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

@@ -1,0 +1,72 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../pixel.xml</include>
+	
+	<variables>
+		<themeColor>00a0e8</themeColor>
+		<selectColor>09c2ff</selectColor>
+	</variables>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>${themeColor}</color>
+		</image>
+		
+		<image name="console_overlay" extra="true">
+			<path>./console.png</path>
+		</image>
+		
+		<image name="logo">
+			<path>./logo.png</path>
+        </image>
+	
+	</view>
+
+	<view name="basic">
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+		
+		<image name="background" extra="true">
+			<color>${themeColor}</color>
+		</image>
+
+		<image name="Border Overlay" extra="true">
+			<path>./../art/border_simple.png</path>
+		</image>		
+	
+		<textlist name="gamelist">
+			<selectedColor>${selectColor}</selectedColor>
+		</textlist>
+		
+	</view>
+
+	<view name="detailed, video">
+	
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+		
+		<image name="background" extra="true">
+			<color>${themeColor}</color>
+		</image>
+
+		<textlist name="gamelist">
+			<selectedColor>${selectColor}</selectedColor>
+		</textlist>
+		
+
+		<image name="Bottom Console Image" extra="true">
+			<path>./console.png</path>
+		</image>
+
+		<text name="System_Desc" extra="true">
+			<text>Commodore 64. Released in 1982. 16 colors at 320x200 pixels.</text>
+		</text>	
+
+
+	</view>
+	
+</theme>

@@ -1,0 +1,23 @@
+<theme>
+    <formatVersion>4</formatVersion>
+    <include>./../theme.xml</include>
+    <view name="basic, detailed, video, grid">
+        <image name="logo">
+            <path>./art/logo.svg</path>
+        </image>
+    </view>
+    <view name="system">
+        <text name="sys_line1" extra="true">
+            <text>Nintendo</text>
+        </text>
+        <text name="sys_line2" extra="true">
+            <text>GameBoy</text>
+        </text>
+        <text name="shortdescription" extra="true">
+            <text>1989  ·  8-bit Handheld Console</text>
+        </text>
+        <text name="longdescription" extra="true">
+            <text>Nintendo's second handheld system following the Game & Watch series. It mainly competed with Sega Game Gear and Atari Lynx</text>
+        </text>
+    </view>
+</theme>

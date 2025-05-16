@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>dcc36f</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>dcc36f</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The Atari 5200 SuperSystem is a second generation home video game console designed by Atari to be a higher-end complementary to the Atari 2600 and first released in 1982 in North America. Although it was almost identical in hardware to Atari's 8-bit computers, software between the systems were incompatible, and the 5200 did not initially have backward compatability with its predecessor. The console did not do well, partially due to many games appearing simply to be updated versions of 2600 titles and lack of new games due to the company suffering from insufficient funding. The Atari 5200 would be on the market for only two years, with sells at over 1 million units.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>dcc36f88</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

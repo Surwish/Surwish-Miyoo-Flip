@@ -1,0 +1,45 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../nostalgic.xml</include>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>a2822c</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+		</textlist>
+		
+	</view>
+	
+	<view name="detailed">
+
+		<image name="md_image">
+			<pos>0.705 0.440</pos>
+			<maxSize>0.200 0.240</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+	</view>
+	
+	<view name="video">
+
+		<image name="md_marquee" extra="true">
+			<path>./marquee.png</path>
+			<pos>0.706 0.152</pos>
+			<size>0.295 0.140</size>
+			<origin>0.5 0.5</origin>
+		</image>
+	
+		<video name="md_video">
+			<pos>0.705 0.440</pos>
+			<maxSize>0.200 0.240</maxSize>
+			<origin>0.5 0.5</origin>
+			<delay>0.0</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+			<delay>0</delay>
+		</video>
+
+	</view>
+	
+</theme>

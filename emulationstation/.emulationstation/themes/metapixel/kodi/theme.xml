@@ -1,0 +1,95 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>63B8FF</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>63B8FF</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>Kodi is an award-winning free and open source (GPL) software media center for playing videos, music, pictures, games, and more. It allows users to play and view most videos, music, podcasts, and other digital media files from local and network storage media and the internet.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<image name="background">
+			<path>./../art/bg_simple.png</path>
+		</image>
+
+		<image name="logo" extra="true">
+			<pos>0.5 0.082</pos>
+			<maxSize>0.262 0.122</maxSize>
+		</image>
+
+		<image name="console" extra="true">
+			<path></path>
+		</image>
+
+		<textlist name="gamelist">
+			<selectorColor>63B8FF88</selectorColor>
+			<pos>0.025 0.4</pos>
+			<size>0.95 0.615</size>
+			<alignment>center</alignment>
+		</textlist>
+
+		<text name="md_lbl_players, md_lbl_genre, md_players, md_genre, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_playcount">
+			<pos>1 1</pos>
+		</text>
+
+		<rating name="md_rating">
+			<pos>1 1</pos>
+		</rating>
+		
+		<datetime name="md_releasedate, md_lastplayed">
+			<pos>1 1</pos>
+		</datetime>
+
+		<image name="md_favorite, md_kidgame, md_hidden" extra="true">
+			<pos>1 1</pos>
+			<origin>0 0</origin>
+		</image>
+
+		<image name="md_image">
+			<pos>1 1</pos>
+			<origin>0 0</origin>
+		</image>
+
+		<text name="md_description">
+			<pos>0.025 0.75</pos>
+			<size>0.95 0.1</size>
+		</text>
+
+		<image name="border" extra="true">
+			<path>./../art/border_settings.png</path>
+		</image>
+
+	</view>
+	
+</theme>

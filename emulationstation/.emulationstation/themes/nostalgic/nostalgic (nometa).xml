@@ -1,0 +1,144 @@
+!--
+theme name:     Nostalgic
+author: 		SuperMagicom
+email: 			supermagicom@gmail.com
+version         1.0
+-->
+
+<theme>
+   <formatVersion>4</formatVersion>
+
+	<view name="system">
+		<helpsystem name="help">
+			<pos>1.3 0.94</pos>
+			<textColor>a9a9a9</textColor>
+			<iconColor>a9a9a9</iconColor>
+		</helpsystem>	
+	  
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0.0 0.0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/background.png</path>
+		</image>
+
+		<image name="logo">
+			<path>./${system.theme}/logo.png</path>
+		</image>
+		
+		<carousel name="systemcarousel">
+			<color>ffffff00</color>
+				<logoScale>2.5</logoScale>
+				<logoSize>0.15 0.08</logoSize>
+				<maxLogoCount>3</maxLogoCount>
+			</carousel>	
+		
+		<text name="systemInfo">
+			<pos>0.0 0.825</pos>
+			<color>ffffffff</color>
+			<fontPath>./art/OpenSans-Bold.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+
+	</view>
+	
+	<view name="basic, detailed, video">
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/NESCyrillic.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+
+		
+		<text name="md_developer, md_publisher, md_genre, md_players, md_description, md_lastplayed, md_playcount">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/OpenSans-CondBold.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+		
+		<rating name="md_rating">
+			<filledPath>./art/transparent.png</filledPath>
+			<unfilledPath>./art/transparent.png</unfilledPath>
+		</rating>
+
+	</view>	
+
+    <view name="basic">
+	
+		<image name="logo">
+			<path>./${system.theme}/logo.png</path>
+			<pos>0.5 0.86</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.315 0.125</maxSize>
+		</image>
+		
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<path>./art/background.png</path>
+		</image>
+		
+		<helpsystem name="help">
+			<pos>0.012 0.960</pos>
+			<textColor>a9a9a9</textColor>
+			<iconColor>a9a9a9</iconColor>
+		</helpsystem>
+		
+		<textlist name="gamelist">
+			<pos>0.020 0.030</pos>
+			<size>0.933 0.75</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.028</horizontalMargin>
+			<fontPath>./art/OpenSans-Bold.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<selectorColor>c0c0c0</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>000000</primaryColor>
+			<secondaryColor>871F78</secondaryColor>
+		</textlist>
+
+	</view>
+	
+	<view name="detailed, video">
+
+		<helpsystem name="help">
+			<pos>0.012 0.960</pos>
+			<textColor>a9a9a9</textColor>
+			<iconColor>a9a9a9</iconColor>
+		</helpsystem>
+	
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./${system.theme}/background.jpg</path>
+		</image>
+
+		<image name="logo" extra="true">
+			<path>./${system.theme}/logo.png</path>
+			<pos>0.22 0.10</pos>
+			<maxSize>0.320 0.120</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<textlist name="gamelist">
+			<pos>0.010 0.18</pos>
+			<size>0.400 0.77</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.027</horizontalMargin>
+			<fontPath>./art/OpenSans-Bold.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<selectorColor>c0c0c0</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>ffffff</primaryColor>
+			<secondaryColor>871F78</secondaryColor>
+		</textlist>
+
+	</view>	
+	
+</theme>

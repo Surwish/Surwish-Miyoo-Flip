@@ -1,0 +1,23 @@
+<theme>
+    <formatVersion>4</formatVersion>
+    <include>./../theme.xml</include>
+    <view name="basic, detailed, video, grid">
+        <image name="logo">
+            <path>./art/logo.svg</path>
+        </image>
+    </view>
+    <view name="system">
+        <text name="sys_line1" extra="true">
+            <text>Super</text>
+        </text>
+        <text name="sys_line2" extra="true">
+            <text>Nintendo</text>
+        </text>
+        <text name="shortdescription" extra="true">
+            <text>1990  ·  16-bit Console</text>
+        </text>
+        <text name="longdescription" extra="true">
+            <text>Nintendo's second home console introduced advanced graphics and sound capabilities compared with other systems at the time</text>
+        </text>
+    </view>
+</theme>

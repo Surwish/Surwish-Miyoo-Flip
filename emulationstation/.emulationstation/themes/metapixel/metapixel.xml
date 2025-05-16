@@ -1,0 +1,299 @@
+<!--
+theme name:		MetaPixel
+version:		1.3
+author:			Matt Kennedy
+email:			info@cutmonkey.net
+website:		cutmonkey.net
+license:		creative commons CC-BY-NC-SA
+based on:		"Pixel" by Eric Hettervik
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<tile>false</tile>
+			<color>7b7b7b</color>
+			<size>0 1</size>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<path>./art/bg_simple.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<tile>false</tile>
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<image name="border" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+
+		<helpsystem name="help">
+			<textColor>ffffffff</textColor>
+			<iconColor>ffffffff</iconColor>
+			<fontSize>0.018</fontSize>
+		</helpsystem>
+
+		<!--
+			There are 5 pixel-based fonts available with this theme. You can change the font by changing "font1.ttf" to "font2.ttf" etc.
+			font1.ttf - Pixel-Noir Skinny
+			font2.ttf - SF Pixelate (the default Pixel theme font)
+			font3.ttf - DisposableDroid BB
+			font4.ttf - Press Start 2P
+			font5.ttf - Thin Pixel-7
+		-->
+		<helpsystem name="help">
+			<fontPath>./art/font1.ttf</fontPath>
+		</helpsystem>
+		<text name="system_description" extra="true">
+			<fontPath>./art/font1.ttf</fontPath>
+		</text>
+		<textlist name="gamelist">
+			<fontPath>./art/font1.ttf</fontPath>
+		</textlist>
+		<text name="md_lbl_players, md_players, md_genre, md_developer, md_publisher, md_playcount, md_description">
+			<fontPath>./art/font1.ttf</fontPath>
+		</text>
+		<datetime name="md_releasedate, md_lastplayed">
+			<fontPath>./art/font1.ttf</fontPath>
+		</datetime>
+		
+	</view>
+	
+	<view name="system">
+
+		<image name="console" extra="true">
+			<pos>0.5 0.189</pos>
+			<maxSize>0.312 0.333</maxSize>
+		</image>
+
+		<image name="screenshot_left, screenshot_right" extra="true">
+			<tile>false</tile>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.290 0.290</maxSize>
+		</image>
+			<image name="screenshot_left" extra="true">
+				<pos>0.169 0.189</pos>
+			</image>
+			<image name="screenshot_right" extra="true">
+				<pos>0.831 0.189</pos>
+			</image>
+
+		<text name="system_description" extra="true">
+			<pos>0.063 0.711</pos>
+			<size>0.876 0.198</size>
+			<color>ffffff</color>
+			<fontSize>0.018</fontSize>
+			<alignment>center</alignment>
+			<forceUppercase>0</forceUppercase>
+		</text>
+
+		<image name="border" extra="true">
+			<path>./art/border_system.png</path>
+		</image>
+
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>00000088</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>ffffff</primaryColor>
+			<secondaryColor>d5d5d5</secondaryColor>
+			<fontSize>0.02</fontSize>
+		</textlist>
+
+		<image name="logo" extra="true">
+			<tile>false</tile>
+			<pos>0.5 0.082</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.262 0.122</maxSize>
+		</image>
+
+	</view>
+
+	<view name="basic">
+
+		<image name="console" extra="true">
+			<pos>0.75 0.5</pos>
+			<maxSize>0.4 0.4</maxSize>
+		</image>
+
+		<textlist name="gamelist">
+			<pos>0.025 0.19</pos>
+			<size>0.50 0.7</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+		</textlist>
+
+		<image name="logo" extra="true">
+			<pos>0.5 0.082</pos>
+			<maxSize>0.262 0.122</maxSize>
+		</image>
+
+		<image name="border" extra="true">
+			<path>./art/border_simple.png</path>
+		</image>
+
+	</view>
+
+	<view name="detailed, video">
+		
+		<image name="background">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<color>7b7b7b</color>
+			<path>./art/bg_detailed.png</path>
+		</image>
+
+		<textlist name="gamelist">
+			<pos>0.025 0.04</pos>
+			<size>0.38 0.615</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+		</textlist>
+
+		<image name="logo" extra="true">
+			<pos>0.528 0.07</pos>
+			<maxSize>0.156 0.08</maxSize>
+		</image>
+
+		<image name="console" extra="true">
+			<pos>0.528 0.178</pos>
+			<maxSize>0.156 0.11</maxSize>
+		</image>
+		
+		<text name="md_lbl_rating">
+			<pos>1 1</pos>
+		</text>
+
+		<rating name="md_rating">
+			<pos>0.483 0.24</pos>
+			<size>0.156 0.03</size>
+			<filledPath>./art/star_full.png</filledPath>
+			<unfilledPath>./art/star_hollow.png</unfilledPath>
+		</rating>
+
+		<text name="md_lbl_players, md_players, md_genre, md_developer, md_publisher, md_playcount">
+			<forceUppercase>0</forceUppercase>
+			<lineSpacing>1</lineSpacing>
+			<fontSize>0.014</fontSize>
+			<color>ffffff</color>
+			<alignment>center</alignment>
+			<size>0.180 0.05</size>
+		</text>
+			<text name="md_lbl_genre, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount">
+				<pos>1 1</pos>
+			</text>
+
+		<datetime name="md_releasedate, md_lastplayed">
+			<forceUppercase>0</forceUppercase>
+			<fontSize>0.014</fontSize>
+			<color>ffffff</color>
+		</datetime>
+
+			<text name="md_genre">
+				<pos>0.435 0.3</pos>
+				<size>0.180 0.065</size>
+				<fontSize>0.025</fontSize>
+			</text>
+
+			<datetime name="md_releasedate">
+				<pos>0.492 0.4</pos>
+			</datetime>
+
+			<text name="md_developer">
+				<pos>0.435 0.45</pos>
+			</text>
+
+			<text name="md_publisher">
+				<pos>0.435 0.5</pos>
+			</text>
+
+			<image name="md_favorite, md_kidgame, md_hidden">
+				<origin>0.5 0.5</origin>
+				<maxSize>0.03 0.055</maxSize>
+			</image>
+				<image name="md_favorite">
+					<pos>0.470 0.620</pos>
+					<path>./art/icon_favourite.svg</path>
+				</image>
+				<image name="md_kidgame">
+					<pos>0.525 0.620</pos>
+					<path>./art/icon_kid.svg</path>
+				</image>
+				<image name="md_hidden">
+					<pos>0.580 0.620</pos>
+					<path>./art/icon_hidden.svg</path>
+				</image>
+
+		<text name="md_lbl_players">
+			<fontSize>0.018</fontSize>
+			<pos>0.020 0.7</pos>
+			<size>0.2 0.05</size>
+		</text>
+		<text name="md_players">
+			<fontSize>0.08</fontSize>
+			<pos>0.015 0.74</pos>
+			<size>0.2 0.18</size>
+		</text>
+
+		<text name="md_description">
+			<pos>0.33 0.71</pos>
+			<size>0.55 0.175</size>
+			<color>ffffff</color>
+			<fontSize>0.018</fontSize>
+			<alignment>center</alignment>
+			<forceUppercase>0</forceUppercase>
+		</text>
+	
+		<image name="border" extra="true">
+			<path>./art/border_detailed.png</path>
+		</image>
+		
+		<helpsystem name="help">
+			<textColor>ffffffff</textColor>
+			<iconColor>ffffffff</iconColor>
+		</helpsystem>
+
+	</view>
+
+	<view name="detailed">
+
+		<image name="md_image">
+			<maxSize>0.325 0.610</maxSize>
+			<pos>0.812 0.345</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+
+	</view>
+
+	<view name="video">
+
+		<image name="md_marquee">
+			<maxSize>0.325 0.160</maxSize>
+			<pos>0.815 0.120</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<video name="md_video">
+			<maxSize>0.325 0.430</maxSize>
+			<pos>0.815 0.435</pos>
+			<origin>0.5 0.5</origin>
+			<delay>2.0</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+		</video>
+		
+	</view>
+	
+</theme>

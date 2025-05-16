@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>FFA968</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>FFA968</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The WonderSwan Color is a 16-bit fifth generation handheld game console that was released by Bandai in 2000 exclusively in Japan. Launched over one-and-a-half years after the monochrome WonderSwan, the handheld featured a color display and backward compatibility. However, Nintendo's release of its next generation Game Boy Advance dampened the WonderSwan Color's sales. A redesign titled SwanCrystal with a lower price and an improved LCD screen entered the market, but it also was not able to compete with the GBA. This forced Bandai to discontinue and exit the console hardware business. The total sales of the WonderSwan line is 3.5 million units.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>FFA96888</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

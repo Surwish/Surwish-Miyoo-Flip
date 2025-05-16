@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>b8982d</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>b8982d</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>As the successor to Atari's 8-bit family, the Atari ST is a line of 16-bit home computers that began in 1985 with the Atari 520ST. It is the first personal computer to come with a bit-mapped color GUI and ship with at least a megabyte of RAM. Due to Atari's poor reputation among developers, its reception was met with skepticism, but by being less expensive and faster than most personal computers, it would become fairly popular, particularly in European markets. The Atari ST would be succeeded by the Atari STE, Atari TT, Atari MEGA STE, and Falcon computers but the ST line was discontinued in 1993 as focused shifted to development of the Atari Jaguar.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>b8982d88</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

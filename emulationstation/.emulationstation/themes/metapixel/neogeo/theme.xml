@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>947A4D</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>947A4D</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The NEO・GEO is a fourth generation cartridge-based arcade system board released by SNK Corporation in 1990. Originally launched as a Multi Video System (MVS) coin-operated arcade machine, it also had a rental console version available at video game stores. However, high demand despite its high price brought about the home console iteration called the Advanced Entertainment System (AES), which was identical in hardware with the arcade version. The NEO・GEO is the longest actively used arcade system, with its last games released in 2004, and is home to famous series such as Metal Slug and King of Fighters.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>947A4D88</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

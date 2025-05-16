@@ -1,0 +1,156 @@
+<!--
+theme name:		tronkyfran
+version:		1.7
+author:			Tronkyfran/Herb Fargus (simple by nils bonenberger at www.nilsbyte.de)
+website:		https://github.com/HerbFargus/es-theme-tronkyfran
+license:		creative commons CC-BY-NC-SA
+-->
+<theme>
+  <formatVersion>3</formatVersion>
+  <view name="system">
+    <image name="background" extra="true">
+      <size>0 1</size>
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+    </image>
+  </view>
+  <feature supported="video">
+    <view name="video">
+      <video name="md_video">
+        <pos>0.02 0.22</pos>
+        <maxSize>0.290 0.352</maxSize>
+        <origin>0 0</origin>
+        <delay>0.2</delay>
+        <default />
+        <showSnapshotNoVideo>true</showSnapshotNoVideo>
+        <showSnapshotDelay>false</showSnapshotDelay>
+      </video>
+    </view>
+  </feature>
+  <view name="basic, detailed, video">
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+      <color>393a3b</color>
+      <forceUppercase>1</forceUppercase>
+      <fontPath>./art/OPENSANS-LIGHT.TTF</fontPath>
+      <fontSize>0.03</fontSize>
+      <size>0.12 0.04</size>
+    </text>
+    <text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount">
+      <color>393a3b</color>
+      <forceUppercase>1</forceUppercase>
+      <fontPath>./art/OPENSANS-LIGHT.TTF</fontPath>
+      <fontSize>0.03</fontSize>
+      <size>0.14 0.04</size>
+    </text>
+    <text name="md_description">
+      <color>393a3b</color>
+      <forceUppercase>1</forceUppercase>
+      <fontPath>./art/OPENSANS-LIGHT.TTF</fontPath>
+      <fontSize>0.03</fontSize>
+    </text>
+    <datetime name="md_releasedate, md_lastplayed">
+      <color>393a3b</color>
+      <forceUppercase>1</forceUppercase>
+      <fontPath>./art/OPENSANS-LIGHT.TTF</fontPath>
+      <fontSize>0.03</fontSize>
+      <size>0 0.04</size>
+    </datetime>
+    <image name="header" extra="true">
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 0.16</size>
+      <path>./art/bright.png</path>
+    </image>
+    <image name="footer" extra="true">
+      <pos>0 1</pos>
+      <origin>0 1</origin>
+      <size>1 0.065</size>
+      <path>./art/bright.png</path>
+    </image>
+    <image name="background">
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+      <path>./art/mid.png</path>
+    </image>
+    <textlist name="gamelist">
+      <selectorColor>393a3b</selectorColor>
+      <selectedColor>97999b</selectedColor>
+      <primaryColor>393a3b</primaryColor>
+      <secondaryColor>000000</secondaryColor>
+      <fontPath>./art/OPENSANS.TTF</fontPath>
+      <fontSize>0.03</fontSize>
+      <forceUppercase>1</forceUppercase>
+    </textlist>
+  </view>
+  <view name="basic" />
+  <view name="detailed" />
+  <view name="video">
+    <text name="md_lbl_rating">
+      <pos>0.32 0.21</pos>
+    </text>
+    <text name="md_lbl_releasedate">
+      <pos>0.32 0.25</pos>
+    </text>
+    <text name="md_lbl_developer">
+      <pos>0.32 0.29</pos>
+      <size>0.133 0.04</size>
+    </text>
+    <text name="md_lbl_publisher">
+      <pos>0.32 0.33</pos>
+      <size>0.133 0.04</size>
+    </text>
+    <text name="md_lbl_genre">
+      <pos>0.32 0.37</pos>
+    </text>
+    <text name="md_lbl_players">
+      <pos>0.32 0.41</pos>
+    </text>
+    <text name="md_lbl_lastplayed">
+      <pos>0.32 0.45</pos>
+    </text>
+    <text name="md_lbl_playcount">
+      <pos>0.32 0.49</pos>
+    </text>
+    <text name="md_playcount">
+      <pos>0.448 0.49</pos>
+    </text>
+    <datetime name="md_lastplayed">
+      <pos>0.448 0.45</pos>
+    </datetime>
+    <text name="md_players">
+      <pos>0.448 0.41</pos>
+    </text>
+    <text name="md_genre">
+      <pos>0.448 0.37</pos>
+      <size>0.167 0.04</size>
+    </text>
+    <text name="md_publisher">
+      <pos>0.448 0.33</pos>
+      <size>0.167 0.04</size>
+    </text>
+    <text name="md_developer">
+      <pos>0.448 0.29</pos>
+      <size>0.167 0.04</size>
+    </text>
+    <datetime name="md_releasedate">
+      <pos>0.448 0.25</pos>
+    </datetime>
+    <rating name="md_rating">
+      <pos>0.448 0.216</pos>
+      <size>0.028 0.028</size>
+      <filledPath>./art/star_filled_spacing.svg</filledPath>
+      <unfilledPath>./art/star_hollow_3_spacing.svg</unfilledPath>
+    </rating>
+    <text name="md_description">
+      <size>0.59 0.29</size>
+      <pos>0.025 0.61</pos>
+    </text>
+    <textlist name="gamelist">
+      <pos>0.635 0.22</pos>
+      <size>0.319 0.68</size>
+      <alignment>left</alignment>
+      <horizontalMargin>0.01</horizontalMargin>
+    </textlist>
+  </view>
+</theme>

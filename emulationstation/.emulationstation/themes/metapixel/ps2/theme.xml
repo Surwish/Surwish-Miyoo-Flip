@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>4c5678</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>4c5678</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The PlayStation 2, is a sixth-generation video game console manufactured by Sony as part of the PlayStation series. Its development was announced in March 1999 and it was first released on March 4, 2000, in Japan. Its primary competitors were Sega's Dreamcast, Microsoft's Xbox, and Nintendo's GameCube. The PS2 is the best-selling console of all time, having reached over 150 million units sold as of January 31, 2011.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>4c567888</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

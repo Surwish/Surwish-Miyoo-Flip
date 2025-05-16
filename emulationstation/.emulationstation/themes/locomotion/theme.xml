@@ -1,0 +1,319 @@
+<!--
+theme name:     LOCOMOTION
+version         1.0
+ Blowfinger77
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+
+<feature supported="carousel">
+   <view name="system">
+<carousel name="systemcarousel">
+<type>vertical_wheel</type>
+<pos>-0.04 0.020</pos>
+<size>0.300 0.95</size>
+<logoScale>1.4</logoScale>
+<logoSize>0.15 0.180</logoSize>
+<color>00000000</color>
+<maxLogoCount>5</maxLogoCount>
+<logoRotationOrigin>-5 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment> 
+</carousel>
+
+      <text name="systemInfo">
+         <pos>0.4 0.02</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>FFFFFF</color>
+         <fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
+	 <fontSize>0.025</fontSize>
+    </text>
+   </view>
+</feature>
+
+   <view name="system">
+      <helpsystem name="help">
+          <pos>0.34 0.96</pos>
+          <textColor>777777</textColor>
+         <iconColor>FFFFFF</iconColor>
+      </helpsystem>
+   </view>
+   
+   <view name="basic,detailed">
+       <helpsystem name="help">
+           <pos>0.22 0.95</pos>
+           <textColor>777777</textColor>
+           <iconColor>FFFFFF</iconColor>
+       </helpsystem>
+   </view>
+   <view name="video">
+       <helpsystem name="help">
+           <pos>0.275 0.95</pos>
+           <textColor>777777</textColor>
+           <iconColor>FFFFFF</iconColor>
+       </helpsystem>
+   </view>
+   <view name="video">
+       <textlist name="gamelist">
+           <pos>0.2875 0.175</pos>
+           <size>0.45 0.675</size>
+           <selectorColor>1c1c1c00</selectorColor>
+           <selectedColor>e22828</selectedColor>
+           <primaryColor>eaeaea</primaryColor>
+           <secondaryColor>eaeaea</secondaryColor>
+           <fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
+           <fontSize>0.02</fontSize>
+           <scrollSound></scrollSound>
+           <alignment>center</alignment>
+       </textlist>
+   </view>
+   <view name="basic">
+       <textlist name="gamelist">
+           <pos>0.2875 0.175</pos>
+           <size>0.45 0.675</size>
+           <selectorColor>1c1c1c00</selectorColor>
+           <selectedColor>e22828</selectedColor>
+           <primaryColor>eaeaea</primaryColor>
+           <secondaryColor>eaeaea</secondaryColor>
+           <fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
+           <fontSize>0.03</fontSize>
+           <scrollSound></scrollSound>
+           <alignment>center</alignment>
+       </textlist>
+   </view>
+   <view name="detailed">
+       <textlist name="gamelist">
+           <pos>0.2875 0.175</pos>
+           <size>0.45 0.675</size>
+           <selectorColor>1c1c1c00</selectorColor>
+           <selectedColor>e22828</selectedColor>
+           <primaryColor>eaeaea</primaryColor>
+           <secondaryColor>eaeaea</secondaryColor>
+           <fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
+           <fontSize>0.025</fontSize>
+           <scrollSound></scrollSound>
+           <alignment>center</alignment>
+       </textlist>
+   </view>
+   <view name="basic">
+      <image name="logo">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.125</pos>
+         <maxSize>0.35 0.15</maxSize>
+      </image>
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/backgroundbasic.png</path>
+      </image>
+      <textlist name="gamelist">
+         <pos>0.3 0.225</pos>
+         <size>0.4 0.62</size>
+         <alignment>center</alignment>
+      </textlist>
+   </view>
+
+<view name="video">
+    <text name="md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+        <pos>1 1</pos>
+    </text>
+    <text name="md_description,md_lbl_players,md_players,md_lbl_lastplayed,md_lastplayed,md_lbl_playcount,md_playcount,md_lbl_genre,md_genre,md_lbl_rating,md_lbl_releasedate,md_releasedate">
+        <color>FFFFFF</color>
+        <fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
+        <fontSize>0.016</fontSize>
+    </text>
+    <text name="md_lbl_rating">
+        <pos>0.01 0.48</pos>
+        <size>0.0625 0.025</size>
+    </text>
+    <rating name="md_rating">
+        <pos>0.135 0.48</pos>
+        <size>0 0.025</size>
+        <filledPath>./_inc/images/star_filled.svg</filledPath>
+        <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
+    </rating>
+    <text name="md_description">
+        <pos>0.01 0.64</pos>
+        <size>0.205 0.3</size>
+        <color>cccccc</color>
+    </text>
+    <text name="md_playcount">
+        <pos>0.14 0.555</pos>
+        <size>0.0625 0.025</size>
+        <alignment>right</alignment>
+    </text>
+    <text name="md_lbl_playcount">
+        <pos>0.01 0.555</pos>
+        <size>0.0625 0.025</size>
+    </text>
+    <!--<text name="md_lbl_lastplayed">
+     <pos>0.1 0.895</pos>
+     <size>0.075 0.025</size>
+     </text>
+     <text name="md_lastplayed">
+     <pos>0.15 0.895</pos>
+     <size>0.025 0.01</size>
+     </text> -->
+    <text name="md_players">
+        <pos>0.14 0.505</pos>
+        <size>0.0625 0.025</size>
+        <alignment>right</alignment>
+    </text>
+    <text name="md_lbl_players">
+        <pos>0.01 0.505</pos>
+        <size>0.0375 0.025</size>
+    </text>
+    <text name="md_lbl_releasedate">
+        <pos>0.01 0.58</pos>
+        <size>0.075 0.025</size>
+    </text>
+    <datetime name="md_releasedate">
+        <pos>0.155 0.58</pos>
+        <size>0.075 0.025</size>
+    </datetime>
+    <text name="md_genre">
+        <pos>0.001 0.5205</pos>
+        <size>0.2 0.04</size>
+        <alignment>right</alignment>
+    </text>
+    <text name="md_lbl_genre">
+        <pos>0.01 0.5205</pos>
+        <size>0.3 0.04</size>
+    </text>
+    <textlist name="gamelist">
+        <pos>0.01 0.17</pos>
+        <size>0.2 0.3</size>
+        <alignment>left</alignment>
+    </textlist>
+</view>
+
+
+   <view name="detailed">
+       <image name="background" extra="true">
+           <origin>0 0</origin>
+           <pos>0 0</pos>
+           <size>1 1</size>
+           <path>./_inc/images/backgrounddetails.png</path>
+       </image>
+       <image name="logo">
+         <origin>0.5 0.5</origin>
+         <pos>0.205 0.19</pos>
+         <maxSize>0.38 0.35</maxSize>
+      </image>
+      <image name="md_image">
+         <origin>.5 .5</origin>
+         <pos>0.83 0.26</pos>
+         <maxSize>0.24 0.34</maxSize>
+      </image>
+      <image name="md_marquee">
+          <pos>0.01 0.25</pos>
+          <origin>0 0</origin>
+          <maxSize>0.17 0.1</maxSize>
+      </image>
+   </view>
+    <view name="detailed">
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre,md_lbl_playcount, md_playcount, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount,md_lbl_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>FFFFFF</color>
+         <fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
+         <fontSize>0.0195</fontSize>
+      </text>
+      <text name="md_lbl_rating">
+         <pos>0.45 0.13</pos>
+         <size>0.0625 0.025</size>
+      </text>
+      <rating name="md_rating">
+         <pos>0.58 0.13</pos>
+         <size>0.005 0.025</size>
+         <filledPath>./_inc/images/star_filled.svg</filledPath>
+         <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
+      </rating>
+      <text name="md_lbl_players">
+         <pos>0.45 0.18</pos>
+         <size>0.0625 0.025</size>
+      </text>
+      <text name="md_players">
+         <pos>0.58 0.18</pos>
+         <size>0.0375 0.025</size>
+      </text>
+      <text name="md_lbl_releasedate">
+         <pos>0.45 0.235</pos>
+         <size>0.0625 0.025</size>
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.58 0.235</pos>
+         <size>0.075 0.025</size>
+      </datetime>
+      <text name="md_lbl_genre">
+         <pos>0.45 0.29</pos>
+         <size>0.0625 0.025</size>
+      </text>
+      <text name="md_genre">
+         <pos>0.58 0.29</pos>
+         <size>0.5 0.025</size>
+      </text>
+      <text name="md_lbl_lastplayed">
+       <pos>0.45 0.34</pos>
+       <size>0.075 0.025</size>
+       </text>
+      <datetime name="md_lastplayed">
+       <pos>0.58 0.35</pos>
+       <size>0.025 0.01</size>
+      </datetime>
+      <text name="md_lbl_playcount">
+          <pos>0.45 0.39</pos>
+          <size>0.09 0.025</size>
+      </text>
+      <text name="md_playcount">
+          <pos>0.58 0.28</pos>
+          <size>0.075 0.25</size>
+      </text>
+      <text name="md_description">
+         <pos>0.44 0.53</pos>
+         <size>0.513 0.35</size>
+         <color>FFFFFF</color>
+      </text>
+      <textlist name="gamelist">
+         <pos>0.06 0.42</pos>
+         <size>0.3 0.45</size>
+         <alignment>left</alignment>
+      </textlist>
+   </view>
+
+   <view name="video">
+       <!--BOXART--
+       <image name="md_image">
+           <origin>1 1</origin>
+           <pos>0.175 0.55</pos>
+           <maxSize>0.17 5</maxSize>
+       </image> -->
+       
+      <image name="logo">
+         <origin>5.50000 5.50000</origin>
+         <pos>9.21 9.065</pos>
+         <maxSize>0.12 0.12</maxSize>
+      </image>
+        
+      <!--SNAP-->
+      <video name="md_video">
+          <origin>0.5 0.5</origin>
+          <pos>0.601 0.491</pos>
+          <zIndex>5</zIndex>
+          <size>0.48 0.495</size>
+          <delay>1.00</delay>
+          <showSnapshotNoVideo>true</showSnapshotNoVideo>
+          <showSnapshotDelay>true</showSnapshotDelay>
+      </video>
+      <!--WHEEL-->
+      <image name="md_marquee">
+          <pos>0.01 0.05</pos>
+          <origin>0 0</origin>
+          <size>0.2 0.1</size>
+      </image>
+   </view>
+   
+</theme>

@@ -1,0 +1,23 @@
+<theme>
+    <formatVersion>4</formatVersion>
+    <include>./../theme.xml</include>
+    <view name="basic, detailed, video, grid">
+        <image name="logo">
+            <path>./art/logo.svg</path>
+        </image>
+    </view>
+    <view name="system">
+        <text name="sys_line1" extra="true">
+            <text>Nintendo</text>
+        </text>
+        <text name="sys_line2" extra="true">
+            <text>Wii</text>
+        </text>
+        <text name="shortdescription" extra="true">
+            <text>2006  ·  32-bit Console</text>
+        </text>
+        <text name="longdescription" extra="true">
+            <text>The Wii introduced the Wii Remote controller, which can be used as a handheld pointing device and detects movement in three dimensions.</text>
+        </text>
+    </view>
+</theme>

@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>9c1b1b</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>9c1b1b</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The Mega-CD is an add-on device for the Mega Drive video game console. The device was also released in North America under the name Sega CD, for the Sega Genesis. The device adds a CD-ROM drive to the console, allowing the user to play CD-based games and providing additional hardware functionality. The Mega-CD was designed to compete with the PC Engine CD (TurboGrafx-16 CD) in Japan, which had a separate CD-ROM drive.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>9c1b1b88</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

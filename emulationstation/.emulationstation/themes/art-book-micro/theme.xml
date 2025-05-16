@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Art Book Pocket
+author:         Anthony
+license:        creative commons CC-BY-NC-SA
+-->
+<theme>
+   <formatVersion>4</formatVersion>
+
+   <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <pos>1 1</pos>
+      </helpsystem>
+      <image name="logo">
+         <path>./_inc/logos/${system.theme}.svg</path>
+      </image>
+      <text name="logoText">
+         <fontPath>./_inc/fonts/ChangaOne-Italic.ttf</fontPath>
+         <forceUppercase>true</forceUppercase>
+         <lineSpacing>1</lineSpacing>
+      </text>
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>000000</color>
+         <path>./_inc/images/space.png</path>
+         <tile>true</tile>
+         <zIndex>1</zIndex>
+      </image>
+   </view>
+
+   <feature supported="carousel">
+      <view name="system">
+         <carousel name="systemcarousel">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.45</pos>
+            <type>horizontal</type>
+            <color>000000</color>
+            <size>0.8 0.8</size>
+            <logoScale>1</logoScale>
+            <logoSize>0.8 0.8</logoSize>
+            <maxLogoCount>1</maxLogoCount>
+         </carousel>
+         <text name="systemInfo">
+            <origin>0.5 1</origin>
+            <pos>0.5 0.75</pos>
+            <backgroundColor>000000</backgroundColor>
+            <color>666666</color>
+            <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+            <fontSize>0.078125</fontSize>
+            <alignment>center</alignment>
+         </text>
+         <text name="logoText">
+            <color>cccccc</color>
+         </text>
+      </view>
+   </feature>
+
+   <view name="basic,detailed,video">
+      <image name="logo">
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </image>
+      <text name="logoText">
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </text>
+      <textlist name="gamelist">
+         <selectorColor>666666ff</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontSize>0.09375</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <alignment>center</alignment>
+         <lineSpacing>1</lineSpacing>
+         <zIndex>200</zIndex>
+      </textlist>
+   </view>
+
+   <view name="basic">
+      <textlist name="gamelist">
+         <pos>0.05 0.075</pos>
+         <size>0.9 0.9</size>
+         <lineSpacing>1.5</lineSpacing>
+      </textlist>
+   </view>
+
+   <view name="detailed,video">
+      <text name="md_lbl_rating,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_playcount,md_playcount,md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description">
+         <pos>1 1</pos>
+      </text>
+      <datetime name="md_lastplayed,md_releasedate">
+         <pos>1 1</pos>
+      </datetime>
+      <rating name="md_rating">
+         <pos>1 1</pos>
+      </rating>
+      <image name="md_image">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 0</size>
+         <zIndex>100</zIndex>
+      </image>
+      <image name="titleBar" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0.75</pos>
+         <size>1 0.25</size>
+         <path>./_inc/images/space.png</path>
+         <color>000000</color>
+         <zIndex>150</zIndex>
+      </image>
+      <textlist name="gamelist">
+         <selectorColor>33333300</selectorColor>
+         <pos>0.1 0.8</pos>
+         <size>.8 0.125</size>
+      </textlist>
+   </view>
+
+   <view name="video">
+      <image name="md_marquee">
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </image>
+      <video name="md_video">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 0</size>
+         <zIndex>100</zIndex>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      </video>
+   </view>
+
+</theme>

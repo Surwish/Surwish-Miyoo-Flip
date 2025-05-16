@@ -1,0 +1,13 @@
+<!--
+theme name:		Metro
+version:		1.0
+author:			Omnija
+license:		creative commons CC-BY-NC-SA
+-->
+<theme>
+    <formatVersion>4</formatVersion>
+	
+<!-- Choose your resolution -->	
+	<include>./_inc/layouts/1280x720.xml</include> 
+	
+</theme>

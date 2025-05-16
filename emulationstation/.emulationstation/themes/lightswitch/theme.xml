@@ -1,0 +1,195 @@
+<!--
+theme name:     Trading Card
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+
+<feature supported="carousel">
+   <view name="system">
+      <carousel name="systemcarousel">
+        <type>horizontal</type>
+        <pos>0 -0.05</pos>
+        <size>1 1</size>
+        <logoScale>1</logoScale>
+        <logoSize>0.35 0.35</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>5</maxLogoCount>
+      </carousel>
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/system-global-bg-over.png</path>
+      </image>      
+      <text name="systemInfo">
+         <pos>0.38 0.07</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>6e6e6e</color>
+         <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+	 <fontSize>0.019</fontSize>
+      </text>            
+   </view>
+</feature>
+
+   <view name="detailed,video">
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+         <fontSize>0.02</fontSize>      
+         <pos>0.476 0.95</pos>      
+         <textColor>6e6e6e</textColor>
+         <iconColor>6e6e6e</iconColor>
+      </helpsystem>
+   </view>
+   <view name="basic">
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+         <fontSize>0.02</fontSize>      
+         <pos>0.476 0.95</pos>      
+         <textColor>6e6e6e</textColor>
+         <iconColor>6e6e6e</iconColor>
+      </helpsystem>
+   </view>   
+   
+   <view name="system">
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+         <fontSize>0.02</fontSize>      
+         <pos>0.605 0.95</pos>      
+         <textColor>6e6e6e</textColor>
+         <iconColor>6e6e6e</iconColor>
+      </helpsystem>
+   </view>   
+
+   <view name="detailed,video">
+      <textlist name="gamelist">
+         <pos>0.01 0.01</pos>
+         <size>0.38 0.9</size>
+         <selectorColor>6e6e6e</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>6e6e6e</primaryColor>
+         <secondaryColor>6e6e6e</secondaryColor>
+         <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+         <fontSize>0.036</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+      </textlist>
+   </view>
+   
+   <view name="basic">
+      <textlist name="gamelist">
+         <pos>0.01 0.01</pos>
+         <size>0.5 0.9</size>
+         <selectorColor>6e6e6e</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>6e6e6e</primaryColor>
+         <secondaryColor>6e6e6e</secondaryColor>
+         <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+         <fontSize>0.036</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+      </textlist>
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/ingame-global-bg-basic.png</path>
+      </image>      
+   </view>   
+
+   <view name="detailed,video">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/ingame-global-bg.png</path>
+      </image>
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>6e6e6e</color>
+         <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+         <fontSize>0.03</fontSize>
+      </text>
+      <text name="md_lbl_rating">
+         <pos>1.73 0.2</pos>
+         <size>0.0625 0.035</size>
+      </text>
+      <rating name="md_rating">
+         <pos>1.353 1.05</pos>
+         <size>0.0063 0.04</size>
+         <filledPath>./_inc/images/star_filled.png</filledPath>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+      </rating>
+      <text name="md_lbl_players">
+         <pos>0.795 0.4</pos>
+         <size>0.2 0.035</size>
+         <color>116a9d</color>         
+      </text>
+      <text name="md_players">
+         <pos>0.795 0.43</pos>
+         <size>0.2 0.035</size>
+      </text>
+      <text name="md_lbl_releasedate">
+         <pos>0.795 0.475</pos>
+         <size>0.2 0.035</size>
+         <color>116a9d</color>         
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.795 0.505</pos>
+         <size>0.2 0.035</size>
+      </datetime>
+      <text name="md_lbl_genre">
+         <pos>0.795 0.55</pos>
+         <size>0.2 0.035</size>
+         <color>116a9d</color>          
+      </text>
+      <text name="md_genre">
+         <pos>0.795 0.58</pos>
+         <size>0.2 0.035</size>
+      </text>         
+      <text name="md_lbl_developer">
+         <pos>1.77 0.595</pos>
+         <size>1.12 0.035</size>
+         <color>116a9d</color>          
+      </text>
+      <text name="md_developer">
+         <pos>1.83 0.595</pos>
+         <size>0.12 0.035</size>         
+      </text>
+      <text name="md_description">
+         <color>ffffff</color>      
+         <pos>0.417 0.638</pos>
+         <size>0.57 0.252</size>
+      </text>
+   </view>
+
+   <view name="detailed">
+      <image name="md_image">
+         <pos>0.58 0.33</pos>
+         <maxSize>0.34 0.45</maxSize>
+      </image>      
+   </view>
+
+   <view name="video">   
+      <video name="md_video">
+         <pos>0.575 0.37</pos>
+         <maxSize>0.29 0.39</maxSize>
+         <delay>1.0</delay>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>
+      </video>
+      <image name="md_marquee">
+         <pos>0.575 0.0713</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.15 0.1</maxSize>
+      </image>          
+   </view>
+   
+</theme>

@@ -1,0 +1,77 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../comic_book.xml</include>
+
+	<view name="system">
+
+		<image name="SystemBackground" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/comic.png</path>
+		</image>
+		
+		<image name="Border" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./../art/border.png</path>
+		</image>
+		
+		<image name="logo">
+			<path>./art/system.png</path>
+        </image>
+		
+	</view>
+
+	<view name="basic, detailed, video">
+		
+		<image name="logo">
+			<path>./art/system.png</path>
+			<pos>0.266 0.086</pos>
+			<maxSize>0.460 0.126</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<image name="controller" extra="false">
+			<path>./art/controller.png</path>
+			<pos>0.918 0.29</pos>
+			<maxSize>0.29 0.13</maxSize>
+			<origin>0.5 0.5</origin>
+			<color>ffffff</color>
+		</image>
+		
+		<image name="classic_logo" extra="true">
+			<path>./art/system 3.png</path>
+			<pos>0.75 0.086</pos>
+			<maxSize>0.26 0.1</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<image name="comic_rip" extra="true">
+			<path>./../art/rip/shootem up.png</path>
+			<pos>0.918 0.25</pos>
+			<maxSize>0.32 0.32</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+	</view>
+
+	<view name="basic">		
+	</view>
+
+	<view name="detailed">
+	
+		<image name="controller" extra="true">
+			<path>./art/controller.png</path>
+			<pos>0.918 0.525</pos>
+			<maxSize>0.29 0.13</maxSize>
+			<origin>0.5 0.5</origin>
+			<color>ffffff</color>
+		</image>
+		
+	</view>
+	
+</theme>

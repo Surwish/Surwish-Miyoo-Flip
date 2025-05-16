@@ -1,0 +1,27 @@
+<!--
+Cygnus theme config file
+========================
+
+There are two files included below, one is a colorset, the other is a template.
+Valid changes you can make here are as follows.
+
+Colorsets
+---------
+cygnus.xml             <--- This is the default blue colorscheme
+mono.xml               <--- This is a black and grey colorscheme
+terminal.xml           <--- This is a green colorscheme
+
+Templates
+---------
+cygnus.xml             <--- All bells & whistles. Lots of metadata, lots of art
+nometa.xml             <--- No metadata, all text except gamelist removed
+simpleart.xml          <--- Large art, no overlayed boxart or marquee images
+simpleart-nometa.xml   <--- Minimal theme with just a gamelist and large art
+
+-->
+
+<theme>
+    <formatVersion>4</formatVersion>
+    <include>./_res/colorsets/cygnus.xml</include>
+    <include>./_res/templates/cygnus.xml</include>
+</theme>

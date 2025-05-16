@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>ffa933</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>ffa933</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>ResidualVM is a cross-platform 3D game interpreter designed to play LucasArts' Lua-based 3D adventure games and is the sister project to ScummVM, a program that was originally created to play LucasArts' 2D adventure games. Its name is in reference to supporting the residual LucasArts adventure games not supported by ScummVM and is also a word pun of the name of the original engine used in LucasArts' 3D adventure games, GrimE. Although ResidualVM began in 2003, it wasn't until 2011 before it achieved its main goal of supporting Grim Fandango. As of 2016, ResidualVM supports three games: Grim Fandango, Escape from Monkey Island, and Myst III: Exile.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>ffa933a88</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

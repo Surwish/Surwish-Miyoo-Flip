@@ -1,0 +1,36 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../nostalgic.xml</include>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>124682</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+		</textlist>
+		
+	</view>
+
+	<view name="detailed">	
+		<image name="md_image">
+			<pos>0.703 0.427</pos>
+			<maxSize>0.130 0.300</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+	</view>
+	
+	<view name="video">
+	
+		<video name="md_video">
+			<pos>0.703 0.427</pos>
+			<maxSize>0.130 0.300</maxSize>
+			<origin>0.5 0.5</origin>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+			<delay>0</delay>
+		</video>
+
+	</view>
+	
+</theme>

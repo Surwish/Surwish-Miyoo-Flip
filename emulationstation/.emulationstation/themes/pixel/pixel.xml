@@ -1,0 +1,265 @@
+<!--
+theme name:		Pixel
+version:		1.4
+author:			Eric Hettervik, video support by Nismo.
+license:		creative commons CC-BY-NC-SA
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<view name="system">
+	
+		<image name="logo">
+        </image>
+	
+		<helpsystem name="help">
+			<pos>0.012 0.962</pos>
+			<textColor>acacac</textColor>
+			<iconColor>acacac</iconColor>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.033</fontSize>
+		</helpsystem>
+	
+		
+		<carousel name="systemcarousel">
+			<pos>0 0.62</pos>
+			<size>1 0.22</size>
+			<color>00000000</color>
+			<logoSize>0.16 0.09</logoSize>
+			<logoScale>2 2</logoScale>
+		</carousel>	
+		
+		<text name="systemInfo">
+			<pos>0.0 0.895</pos>
+			<color>ffffff80</color>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.027</fontSize>
+		</text>
+
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/systems_select.png</path>
+		</image>
+		
+		<image name="console_overlay" extra="true">
+			<tile>false</tile>
+			<pos>0.5 0.31</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.45 0.45</maxSize>
+		</image>
+		
+		<image name="system_front" extra="true">
+			<tile>false</tile>
+			<pos>0.0 0.0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/systemfront.png</path>
+		</image>
+
+	</view>
+
+    <view name="basic">
+	
+		<image name="logo">
+			<pos>0.5 0.105</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.315 0.125</maxSize>
+		</image>
+		
+		<image name="background" extra="true">
+			<path>./art/systemback.png</path>
+		</image>
+
+		<image name="Border Overlay" extra="true">
+			<path>./art/border_simple.png</path>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>			
+		</image>
+
+		<helpsystem name="help">
+			<pos>0.012 0.960</pos>
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.033</fontSize>
+		</helpsystem>
+		
+		<text name="md_lbl_playcount">
+			<pos>0.676 0.580</pos>
+			<fontSize>0.03</fontSize>
+		</text>
+		
+		<text name="md_playcount">
+			<pos>0.829 0.574</pos>
+			<fontSize>0.03</fontSize>
+		</text>
+		
+		<textlist name="gamelist">
+			<pos>0.034 0.235</pos>
+			<size>0.933 0.647</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+			<selectorImagePath>./art/selector-basic.png</selectorImagePath>
+			<selectorImageTile>false</selectorImageTile>
+			<selectorOffsetY>0.0</selectorOffsetY>
+			<selectorHeight>0.06</selectorHeight>
+			<selectorColor>ffffff</selectorColor>
+			<selectedColor>bc14ff</selectedColor>
+			<primaryColor>ffffff</primaryColor>
+			<secondaryColor>871F78</secondaryColor>
+			<forceUppercase>1</forceUppercase>
+			<!--<scrollSound>./art/flipper.wav</scrollSound>-->
+		</textlist>
+
+	</view>
+
+	<view name="detailed, video">
+	
+		<helpsystem name="help">
+			<pos>0.012 0.960</pos>
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.033</fontSize>
+		</helpsystem>
+
+		<image name="logo">
+			<pos>0.274 0.114</pos>
+			<maxSize>0.418 0.115</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<image name="background">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/background.png</path>
+		</image>
+
+		<image name="Border Overlay" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/border.png</path>
+		</image>		
+	
+		<image name="md_image">
+			<pos>0.766 0.322</pos>
+			<maxSize>0.366 0.480</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<textlist name="gamelist">
+			<pos>0.034 0.258</pos>
+			<size>0.483 0.63</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.027</horizontalMargin>
+			<lineSpacing>2.02</lineSpacing>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<selectorImagePath>./art/selector.png</selectorImagePath>
+			<selectorImageTile>false</selectorImageTile>
+			<selectorOffsetY>0.0075</selectorOffsetY>
+			<selectorHeight>0.0295</selectorHeight>
+			<selectorColor>ffffff</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>ffffff</primaryColor>
+			<secondaryColor>871F78</secondaryColor>
+			<forceUppercase>0</forceUppercase>
+			<!--<scrollSound>./art/flipper.wav</scrollSound>-->
+		</textlist>
+		
+		<image name="Bottom Console Image" extra="true">
+			<tile>false</tile>
+			<pos>0.902 0.781</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.114 0.202</maxSize>
+		</image>
+		
+		<text name="System_Desc" extra="true">
+			<text>Nintendo Game Boy. Released in 1989. Displayed 4 colors at 160x144 pixels.</text>
+			<forceUppercase>0</forceUppercase>
+			<size>0.262 0.202</size>
+			<pos>0.568 0.678</pos>
+			<color>ffffff</color>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<alignment>center</alignment>
+		</text>	
+
+		<text name="md_lbl_playcount">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<!--- This will enable Player Count under the screenshot --->
+			<!---<pos>0.686 0.573</pos>--->
+			<fontSize>0.03</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+
+		<text name="md_playcount">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<!--- This will enable Player Count under the screenshot.--->
+			<!---<pos>0.830 0.567</pos>--->
+			<fontSize>0.03</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>			
+		
+	</view>	
+	
+	<view name="video">
+	
+		<video name="md_video">
+			<pos>0.766 0.322</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.366 0.480</maxSize>
+			<delay>2</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+		</video>
+		<image name="md_marquee">
+			<pos>0.57 0.035</pos>
+			<origin>0 0</origin>
+			<maxSize>0.3 0.1</maxSize>
+		</image>
+	</view>
+		
+	<view name="basic, detailed, video">
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed,">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+
+		
+		<text name="md_developer, md_publisher, md_genre, md_players, md_description">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+		
+		<rating name="md_rating">
+			<filledPath>./art/invisible.png</filledPath>
+			<unfilledPath>./art/invisible.png</unfilledPath>
+		</rating>
+
+	</view>	
+	
+</theme>

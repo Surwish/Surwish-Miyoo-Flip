@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>9b9cfb</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>9b9cfb</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The Wii is a seventh-generation home video game console released by Nintendo on November 19, 2006. As of November 2011, the Wii leads the generation over the PlayStation 3 and Xbox 360 in worldwide sales. The Wii is Nintendo's fifth home console and the direct successor of the Nintendo GameCube, being fully backwardly compatible with all GameCube games and most accessories.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>9b9cfb88</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

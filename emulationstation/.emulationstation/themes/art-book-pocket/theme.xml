@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Art Book Pocket
+author:         Anthony
+license:        creative commons CC-BY-NC-SA
+-->
+<theme>
+   <formatVersion>4</formatVersion>
+
+   <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <pos>1 1</pos>
+      </helpsystem>
+      <image name="logo">
+         <path>./_inc/logos/${system.theme}.svg</path>
+      </image>
+      <text name="logoText">
+         <fontPath>./_inc/fonts/ChangaOne-Italic.ttf</fontPath>
+         <forceUppercase>true</forceUppercase>
+         <lineSpacing>1</lineSpacing>
+      </text>
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>141414</color>
+         <path>./_inc/images/space.png</path>
+         <tile>true</tile>
+         <zIndex>1</zIndex>
+      </image>
+   </view>
+
+   <feature supported="carousel">
+      <view name="system">
+         <carousel name="systemcarousel">
+            <type>horizontal</type>
+            <color>141414</color>
+            <logoScale>1.9</logoScale>
+            <logoSize>0.15625 0.097222222222222</logoSize>
+         </carousel>
+         <text name="systemInfo">
+            <backgroundColor>141414</backgroundColor>
+            <color>666666</color>
+            <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         </text>
+         <text name="logoText">
+            <color>cccccc</color>
+         </text>
+      </view>
+   </feature>
+
+   <view name="basic,detailed,video">
+      <image name="logo">
+         <origin>1 0.5210</origin>
+         <pos>0.93125 0.875</pos>
+         <maxSize>0.1875 0.075</maxSize>
+         <color>ffffff44</color>
+         <zIndex>200</zIndex>
+      </image>
+      <text name="logoText">
+         <pos>0.6875 0.8083333333333333</pos>
+         <size>0.25 0.125</size>
+         <fontSize>0.05</fontSize>
+         <color>555555</color>
+         <alignment>right</alignment>
+         <lineSpacing>1</lineSpacing>
+         <zIndex>200</zIndex>
+      </text>
+      <textlist name="gamelist">
+         <selectorColor>333333ff</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>cccccc</primaryColor>
+         <secondaryColor>cccccc</secondaryColor>
+         <fontPath>./_inc/fonts/ChangaOne-Italic.ttf</fontPath>
+         <fontSize>0.058333333333333</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>
+         <zIndex>200</zIndex>
+      </textlist>
+   </view>
+
+   <view name="basic">
+      <image name="logo">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.125</pos>
+         <maxSize>0.4 0.1</maxSize>
+      </image>
+      <text name="logoText">
+         <pos>0.2 0.1</pos>
+         <size>0.6 0.075</size>
+         <alignment>center</alignment>
+      </text>
+      <textlist name="gamelist">
+         <pos>0.05 0.225</pos>
+         <size>0.9 0.7</size>
+         <alignment>center</alignment>
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <lineSpacing>1.5</lineSpacing>
+      </textlist>
+   </view>
+
+   <view name="detailed,video">
+      <text name="md_lbl_rating,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_playcount,md_playcount,md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description">
+         <pos>1 1</pos>
+      </text>
+      <datetime name="md_lastplayed,md_releasedate">
+         <pos>1 1</pos>
+      </datetime>
+      <rating name="md_rating">
+         <pos>1 1</pos>
+      </rating>
+      <image name="md_image">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 0</size>
+         <zIndex>100</zIndex>
+      </image>
+      <image name="titleBar" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0.75</pos>
+         <size>1 0.25</size>
+         <path>./_inc/images/space.png</path>
+         <color>141414fe</color>
+         <zIndex>150</zIndex>
+      </image>
+      <textlist name="gamelist">
+         <selectorColor>33333300</selectorColor>
+         <pos>0.0625 0.841666666666667</pos>
+         <size>0.5625 0.070833333333333</size>
+      </textlist>
+   </view>
+
+   <view name="video">
+      <image name="md_marquee">
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </image>
+      <video name="md_video">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 0</size>
+         <delay>0.0</delay>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <zIndex>110</zIndex>
+      </video>
+   </view>
+
+</theme>

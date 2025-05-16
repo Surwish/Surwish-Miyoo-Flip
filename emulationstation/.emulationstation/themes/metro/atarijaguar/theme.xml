@@ -1,0 +1,131 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../metro.xml</include>
+
+	<view name="system">
+
+	<!-- basic, detailed -->
+	
+		<image name="system_logo" extra="true">
+		    <path>./logo.png</path>
+			<tile>false</tile>
+			<color>D8C034</color>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+		
+		<image name="system_mascot" extra="true">
+		    <path>./mascot.png</path>
+			<tile>false</tile>
+			<color>C39C12</color>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+	
+		<image name="logo">
+			<path>./system.png</path>
+        </image>
+		
+		<image name="background_systembox" extra="true">
+			<color>D8C034</color>
+		</image>
+		
+	</view>
+	
+		<view name="basic">
+			<image name="background_basicbox" extra="true">
+			<color>D8C034</color>
+		</image>
+		
+		</view>
+	
+		<view name="detailed, video">
+	
+	<!-- Player Meta -->
+	
+		<text name="md_lbl_players">
+			<color>C39C12</color>
+		</text>
+		
+		<text name="md_players">
+			<color>C39C12</color>
+		</text>	
+		
+		<text name="md_lbl_playcount">
+			<color>C39C12</color>
+		</text>
+		
+		<text name="md_playcount">
+			<color>C39C12</color>
+		</text>	
+		
+		<text name="md_lbl_lastplayed">
+			<color>C39C12</color>
+		</text>
+		
+		<datetime name="md_lastplayed">
+			<color>C39C12</color>
+		</datetime>
+		
+		<!-- End Player Meta -->
+		
+		<!-- Game Meta -->
+		
+		<text name="md_lbl_genre">
+			<color>C39C12</color>
+		</text>
+		
+		<text name="md_genre">
+			<color>C39C12</color>
+		</text>	
+		
+		<text name="md_lbl_developer">
+			<color>C39C12</color>
+		</text>
+		
+		<text name="md_developer">
+			<color>C39C12</color>
+		</text>	
+		
+		<text name="md_lbl_publisher">
+			<color>C39C12</color>
+		</text>
+		
+		<text name="md_publisher">
+			<color>C39C12</color>
+		</text>	
+		<!-- End Game Meta -->
+		
+	</view>
+	
+	<view name="basic, detailed, video">
+	
+		<image name="set_logo" extra="true">
+			<path>./system.png</path>
+			<pos>0.035 0.375</pos>
+        </image>
+	
+		<image name="background_systembox" extra="true">
+			<color>D8C034</color>
+		</image>
+		
+		<image name="background_detailedbox" extra="true">
+			<color>D8C034</color>
+		</image>
+
+		<!-- <text name="logoText" extra="true">
+			<text>Gameboy Colour</text>
+		<forceUppercase>1</forceUppercase> 
+			<size>0.45 0.08</size>
+			<pos>0.28 0.045</pos>
+			<color>ffffff</color>
+			<fontPath>./../assets/font2.ttf</fontPath>
+			<fontSize>0.06</fontSize>
+			<alignment>center</alignment>
+		</text>-->
+		
+	</view>
+	
+</theme>

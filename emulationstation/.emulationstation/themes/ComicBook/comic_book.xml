@@ -1,0 +1,243 @@
+<!--
+Theme: ComicBook
+version: 2.6
+author: Kevin Thueringer (TMNTturtlguy)
+Controller.svg from "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
+Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
+
+-->
+<theme>
+    <formatVersion>3</formatVersion>
+<!-- Helpsystem menu all views //-->
+	<view name="system, basic, detailed, video">
+
+		<helpsystem name="help">
+			<textColor>7d7d7d</textColor>
+			<fontPath>./art/Shaka_Pow.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<pos>0.030 0.942</pos>
+			<iconColor>7d7d7d</iconColor>
+		</helpsystem>
+	
+	</view>
+	
+	<view name="system">
+	</view>
+<!-- End Helpsystem menu all views //-->
+<!-- Carousel Feature //-->		
+	<feature supported="carousel">
+
+		<view name="system">
+
+			<carousel name="systemcarousel">
+				<type>horizontal</type>
+				<color>eeeeeecc</color>
+				<logoScale>1.5</logoScale>
+				<maxLogoCount>3</maxLogoCount>
+			</carousel>
+		
+			<text name="systemInfo">
+				<backgroundColor>eeeeeecc</backgroundColor>
+				<color>000000</color>
+				<fontPath>./art/Shaka_Pow.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+			</text>
+		
+		</view>
+	
+	</feature>
+<!-- End Carousel Feature //-->	
+<!-- Background & Gamelist All Views //-->		
+	<view name="basic, detailed, video">
+	
+		<image name="background">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/menu.png</path>
+		</image>
+		
+		<textlist name="gamelist">
+			<selectorColor>33333399</selectorColor>
+			<selectedColor>eeeeee</selectedColor>
+			<primaryColor>000000</primaryColor>
+			<secondaryColor>000000</secondaryColor>
+			<fontPath>./art/Shaka_Pow.ttf</fontPath>
+			<forceUppercase>0</forceUppercase>
+			<pos>0.014 0.18</pos>
+			<size>0.478 0.7495</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.00</horizontalMargin>
+			<fontSize>0.0335</fontSize>
+			<scrollSound>./art/scroll.wav</scrollSound>
+		</textlist>
+		
+	</view>
+<!-- End Background & Gamelist All Views //-->
+<!-- View Specific Image Placement //-->
+	<view name="basic">
+	</view>
+
+	<view name="detailed">
+
+		<image name="md_image">
+			<pos>0.672 0.4</pos>
+			<maxSize>0.32 0.42</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+	</view>
+	
+	<feature supported="video">
+	
+		<view name="video">
+	
+			<video name="md_video">
+				<pos>0.672 0.4</pos>
+				<origin>0.5 0.5</origin>
+				<maxSize>0.32 0.42</maxSize>
+				<delay></delay>
+				<default></default>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+			</video>
+		
+			<image name="md_marquee">
+				<pos>1 1</pos>
+				<maxSize>0 0</maxSize>
+				<origin>0 0</origin>
+			</image>
+			
+			<image name="md_image">
+				<pos>0.918 0.525</pos>
+				<maxSize>0.127 0.17</maxSize>
+				<origin>0.5 0.5</origin>
+			</image>
+		
+		</view>
+		
+	</feature>
+<!-- End View Specific Image Placement //-->
+<!-- Meta Data //-->	
+	<view name="detailed, video">
+
+		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players">
+			<color>000000</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/Shaka_Pow.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+		</text>
+
+		<text name="md_lbl_rating, md_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
+			<pos>1 1</pos>
+		</text>
+
+		<datetime name="md_lastplayed, md_releasedate">
+			<color>000000</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/Shaka_Pow.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+		</datetime>
+
+		<datetime name="md_lastplayed">
+			<pos>1 1</pos>
+		</datetime>
+
+		<text name="md_lbl_releasedate">
+			<pos>0.513 0.635</pos>
+			<size>0 0.033</size>
+			<color>000000</color>
+			<fontPath>./art/Shaka_Pow.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+		</text>
+		
+		<datetime name="md_releasedate">
+			<pos>0.59 0.635</pos>
+			<size>0 0.033</size>
+		</datetime>
+
+		<text name="md_lbl_genre">
+			<pos>0.513 0.66</pos>
+			<size>0 0.033</size>
+		</text>
+		
+		<text name="md_genre">
+			<pos>0.59 0.668</pos>
+			<size>0.16 0.02</size>
+		</text>
+
+		<text name="md_lbl_developer">
+			<pos>0.513 0.685</pos>
+			<size>0 0</size>
+		</text>
+		
+		<text name="md_developer">
+			<pos>0.59 0.694</pos>
+			<size>0.18 0.02</size>
+		</text>
+
+		<text name="md_lbl_players, md_players">
+			<pos>0.89 0.635</pos>
+			<size>0.09 0</size>
+		</text>
+
+		<text name="md_players">
+			<pos>0.96 0.635</pos>
+			<size>0.02 0</size>
+		</text>
+		
+		<rating name="md_rating">
+         <pos>0.87 0.66</pos>
+         <size>0 0.038</size>
+         <filledPath>./art/star_filled.png</filledPath>
+         <unfilledPath>./art/star_empty.png</unfilledPath>
+        </rating>
+		
+		<text name="md_lbl_playcount">
+			<pos>0.88 0.685</pos>
+			<size>0.0 0.033</size>
+		</text>
+		
+		<text name="md_playcount">
+			<pos>0.96 0.685</pos>
+			<size>0.02 0</size>
+		</text>
+
+		<text name="md_description">
+			<color>000000</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/Shaka_Pow.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<size>0.45 0.19</size>
+			<pos>0.525 0.746</pos>
+		</text>
+		
+		<image name="md_hidden">
+			<pos>0.7 0.942</pos>
+			<path>./art/hidden.svg</path>
+			<maxSize>0.032 0.032</maxSize>
+			<origin>0.5 0.5</origin>
+			<color>7d7d7d</color>
+		</image>
+		
+		<image name="md_kidgame">
+			<pos>0.75 0.942</pos>
+			<path>./art/kid.svg</path>
+			<maxSize>0.032 0.032</maxSize>
+			<origin>0.5 0.5</origin>
+			<color>7d7d7d</color>
+		</image>
+		
+		<image name="md_favorite">
+			<pos>0.8 0.942</pos>
+			<path>./art/favorite.svg</path>
+			<maxSize>0.032 0.032</maxSize>
+			<origin>0.5 0.5</origin>
+			<color>7d7d7d</color>
+		</image>
+
+	</view>
+<!-- End Meta Data //-->
+
+</theme>

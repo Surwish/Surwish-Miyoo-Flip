@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   id="Layer_1"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="daphne.svg"
+   x="0px"
+   y="0px"
+   width="282"
+   height="93"
+   viewBox="0 0 282.00001 93"
+   enable-background="new 0 0 313.4 95.6"
+   xml:space="preserve"><metadata
+   id="metadata13"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title>3DO Logo</dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs11" />
+<sodipodi:namedview
+   bordercolor="#666666"
+   borderopacity="1"
+   fit-margin-bottom="5"
+   fit-margin-left="5"
+   fit-margin-right="5"
+   fit-margin-top="5"
+   gridtolerance="10"
+   guidetolerance="10"
+   id="namedview21"
+   inkscape:current-layer="Layer_1"
+   inkscape:cx="141.75"
+   inkscape:cy="45.750001"
+   inkscape:pagecheckerboard="true"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-height="1017"
+   inkscape:window-maximized="1"
+   inkscape:window-width="1920"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:zoom="0.58848891"
+   objecttolerance="10"
+   pagecolor="#ffffff"
+   showgrid="false"
+   inkscape:document-rotation="0"
+   lock-margins="true">
+	</sodipodi:namedview>
+<title
+   id="title2">3DO Logo</title>
+<g
+   id="g8"
+   transform="translate(-15.5,-1.5)">
+	<g
+   id="g6">
+		<path
+   fill-rule="evenodd"
+   clip-rule="evenodd"
+   fill="#ffffff"
+   d="m 65.5,10.5 -27,1 -3,-5 -15,15 h 31 l -12,13 4,3 1,29 -4,4 h 7 l -8,8 h -19 l 10,11 h 14 l 49,-49 z m -10,12 h 2 l 19,19 -21,21 z m 96,29 18,-22 -9,-8 h -33 l 4,4 -1,33 -20,-37 h -20 l 10,11 -17,37 h 14 l 19,-9 2,5 -4,4 h 31 l -4,-4 v -14 z m -10,-20 h 12 l -9,9 h -3 z m -39,23 5,-9 4,3 z m 180,4 h -10 l -6,-5 v -3 h 8 l 4,4 10,-20 -7,6 h -16 l 7,-9 h 7 l 1,4 7,-15 h -21 l -19,20 v -15 l 3,-4 h -18 l 4,3 v 17 l -12,-20 h -12 v 45 l -4,2 -3,-2 v -42 l 4,-4 h -18 l 4,4 v 16 h -14 v -15 l 5,-5 h -19 l 4,5 v 41 l -4,3 h 18 l -4,-4 v -15 h 14 v 16 l -4,4 h 35 l -3,-5 v -21 l 13,26 h 11 v -20 l 20,19 h 12 l 3,5 10,-20 z"
+   id="path4" />
+	</g>
+</g>
+</svg>

@@ -1,0 +1,112 @@
+<theme>
+    <formatVersion>4</formatVersion>
+
+<!-- Game View - All -->
+    <view name="system, basic, detailed, video, grid">
+	<!-- Page Layout -->
+        <image name="system-background" extra="true">
+            <path>./../images/cygnusdb.png</path>
+        </image>
+        <image name="background">
+            <path>./../images/cygnusdb.png</path>
+        </image>
+        <helpsystem name="help">
+            <textColor>8482BD</textColor>
+            <iconColor>8482BD</iconColor>
+        </helpsystem>
+        <text name="systemInfo">
+            <backgroundColor>00000000</backgroundColor>
+            <color>8482BD</color>
+        </text>
+		<image name="top" extra="true">
+			<color>0A0A1D</color>
+		</image>
+
+		<image name="top-highlight" extra="true">
+			<color>00000A</color>
+		</image>
+
+		<image name="bottom" extra="true">
+			<color>0A0A1D</color>
+		</image>
+
+		<image name="bottom-highlight" extra="true">
+			<color>00000A</color>
+		</image>
+
+
+	<!-- System Specific Images -->
+		<image name="logo">
+		</image>
+
+	<!-- Game List -->
+		<image name="gamelist-matte" extra="true">
+			<color>0A0A1DAA</color>
+		</image>
+		<image name="gamelist-mattes" extra="true">
+			<color>00000AAA</color>
+		</image>
+		<image name="gamelist-matteh" extra="true">
+			<color>8482BDAA</color>
+		</image>
+
+		<textlist name="gamelist">
+			<primaryColor>8482BD</primaryColor>
+			<secondaryColor>8482BD80</secondaryColor>
+			<selectorColor>2B94FB</selectorColor>
+			<selectedColor>00000A</selectedColor>
+		</textlist>
+
+
+
+	</view>
+
+
+<!-- Game View - Basic -->
+	<view name="basic">
+		<image name="overlay" extra="true">
+			<color>2B94FB80</color>
+		</image>
+	</view>
+
+
+<!-- Game View - Detailed -->
+	<view name="detailed, video, grid">
+
+	<!-- Metadata -->
+        <datetime name="md_lastplayed">
+			<color>00000A</color>
+		</datetime>
+    	<text name="md_lbl_players">
+			<color>00000A</color>
+		</text>
+        <text name="md_players">
+			<color>00000A</color>
+		</text>
+        <text name="md_genre, md_developer">
+			<color>8482BD</color>
+		</text>
+        <datetime name="md_releasedate">
+			<color>8482BD</color>
+		</datetime>
+        <image name="md_hidden, md_kidgame, md_favorite">
+            <color>8482BD</color>
+        </image>
+
+
+	<!-- Description -->
+		<image name="description-mattes" extra="true">
+			<color>00000AAA</color>
+		</image>
+		<image name="description-matteh" extra="true">
+			<color>8482BDAA</color>
+		</image>
+		<image name="description-matte" extra="true">
+			<color>0A0A1DAA</color>
+		</image>
+		<text name="md_description">
+			<color>8482BD</color>
+		</text>
+	</view>
+
+</theme>

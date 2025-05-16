@@ -1,0 +1,58 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../nostalgic.xml</include>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>8bc147</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+		</textlist>
+
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+			<color>ffffff</color>
+			<pos>2 2</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./../art/NESCyrillic.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+
+		
+		<text name="md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_description, md_playcount">
+			<color>ffffff</color>
+			<pos>2 2</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./../art/NESCyrillic.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+		
+		<rating name="md_rating">
+			<filledPath>./../art/transparent.png</filledPath>
+			<unfilledPath>./../art/transparent.png</unfilledPath>
+		</rating>
+		
+	</view>
+
+	<view name="detailed">	
+		<image name="md_image">
+			<pos>0.710 0.382</pos>
+			<maxSize>0.240 0.320</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+	</view>
+	
+	<view name="video">
+	
+		<video name="md_video">
+			<pos>0.715 0.347</pos>
+			<maxSize>0.480 0.480</maxSize>
+			<origin>0.5 0.5</origin>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+			<delay>0</delay>
+		</video>
+
+	</view>
+	
+</theme>

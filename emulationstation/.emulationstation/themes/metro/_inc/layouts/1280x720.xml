@@ -1,0 +1,38 @@
+<!--
+theme name:		Metro
+version:		1.0
+author:			Omnija
+license:		creative commons CC-BY-NC-SA
+-->
+<theme>
+    <formatVersion>4</formatVersion>
+
+	<view name="system">
+
+	<!-- basic, detailed -->
+	
+		<image name="system_logo" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+		
+		<image name="system_mascot" extra="true">
+			<pos>0.700 0.500</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.400 0.650</size>
+		</image>
+
+		
+	</view>
+	
+	<view name="basic, detailed, video">
+	
+		<image name="set_logo" extra="true">
+			<pos>0.035 0.375</pos>
+        </image>
+	
+	</view>
+	
+</theme>

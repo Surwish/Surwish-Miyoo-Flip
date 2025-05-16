@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>cda932</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>cda932</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The Atari 8-bit family is a series of 8-bit home computers released by Atari between 1979 and 1992. Originally designed to succeed the Atari 2600 home video game console, the Atari 400 and 800 models were created when the personal computer market was taking off. In subsequent years, the evolution of the family would bring about the XL series and the XE series, but competition from Commodore and a few major blunders in marketing and production would limit Atari's 8-bit family future. In total, it would sell 4 million units.</text>
+		</text>
+		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>cda93288</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

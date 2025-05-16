@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>FFB882</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>FFB882</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The WonderSwan is a 16-bit fifth generation handheld game console designed by Koto Laboratory and manufactured by Bandai and released in 1999 only in Japan. With a monochrome screen, it displayed up to eight shades of gray, four more than the Game Boy, and had an extra set of buttons to allow it to be played in portrait and landscape orientations. Released five months after the Game Boy Color, Bandai insisted that its monochrome handheld could be successful based on the Game Boy's success over its competitors' with color displays. Originally, Bandai had planned to sell the WonderSwan in North America, but then decided against a Western release. The WonderSwan sold 1.55 million units.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>FFB88288</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

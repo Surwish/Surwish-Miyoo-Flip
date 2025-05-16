@@ -1,0 +1,41 @@
+Theme 'ComicBook' by TMNTturtlguy
+Controller.svg from "carbon" Eric Hettervik (Rookervik) RYOKAI.DEVIANTART.COM
+Theme Concept based on images posted by: lipebello on Retropie.org.uk/forum
+For use with EmulationStation (http://www.emulationstation.org/)
+
+Fonts:
+Users can use any font they would like with the theme. Just copy your font to /etc/emulationstation/themes/ComicBook/art folder. 
+
+Gamelist Font Size:
+To change the font size of the Gamelist, open the "ComicBook.xml" with a text editor, look for the tag <gamelist> and find a tag inside called <fontSize>. The original value is 0.03. A small change makes a big difference in size. If you want smaller gamelist names, try 0.02. If you want larger, try 0.04. You can even go further by trying 0.015.
+
+Colors:
+To change the colors open ComicBook.xml with a text editor. Choose a color and find it's hexidecimal value. Some examples are found in the carbon.xml file. Find all occurances of "8b0000" and replace them with your chosen color. Such as Orange: ef710b. Save the carbon.xml and exit. To change the color to another color after the first change, search for your old color, and replace it with a new one.
+
+Sounds:
+- To change the sound effect, replace /art/scroll.wav with what ever WAV file you would like. ComicBook theme will play what ever is called "scroll.wav" in the /art folder.
+- Some systems have launching sounds, for example NES plays a coin sound at launch.  To remove the launch sound, edit the theme.xml in the system folder within ComicBook Theme.
+- To add launch sound add this to the theme.xml for the system:
+		<sound name="launch">
+			<path>./../art/XXXX.wav</path>
+		</sound>
+XXXX = the name of the .wav file.  Add the .wav file to the art forlder.
+
+Change Comic Rip Mascot to Basic Controller: (note, instructions are based on notepad ++, any text editor with a find replace tool can do this)
+
+STEP 1 - Turn OFF comic Rip:
+
+	open any theme.xml in notepad ++ (or another text editing program)
+	Highlight the following line <image name="comic_rip" extra="true">
+	Select Search/Find in Files
+	In the "replace with" insert <image name="comic_rip" extra="false">
+	choose the directory for the comic book theme folder.
+	click "replace in files"
+	
+Step 2 - Turn on Controller
+
+	Highlight the following line <image name="controller" extra="false">
+	Select Search/Find in Files
+	In the "replace with" insert <image name="controller" extra="true">
+	choose the directory for the comic book theme folder.
+	click "replace in files"

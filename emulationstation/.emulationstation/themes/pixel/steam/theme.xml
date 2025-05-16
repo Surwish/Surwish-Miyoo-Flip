@@ -1,0 +1,83 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../pixel.xml</include>
+	
+	<variables>
+		<themeColor>2EA8DD</themeColor>
+		<selectColor>2EA8DD</selectColor>
+	</variables>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>${themeColor}</color>
+		</image>
+		
+		<image name="console_overlay" extra="true">
+			<path>./console.png</path>
+		</image>
+		
+		<image name="logo">
+			<path>./logo.png</path>
+        </image>
+	
+	</view>
+
+	<view name="basic">
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+		
+		<image name="background" extra="true">
+			<color>${themeColor}</color>
+		</image>
+
+		<image name="Border Overlay" extra="true">
+			<path>./../art/border_simple.png</path>
+		</image>		
+	
+		<textlist name="gamelist">
+			<selectedColor>${selectColor}</selectedColor>
+		</textlist>
+		
+	</view>
+
+	<view name="detailed, video">
+	
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+		
+		<image name="background" extra="true">
+			<color>${themeColor}</color>
+		</image>
+
+		<textlist name="gamelist">
+			<selectedColor>${selectColor}</selectedColor>
+		</textlist>
+		
+
+		<image name="Bottom Console Image" extra="true">
+			<pos>1 1</pos>
+			<origin>0 0</origin>
+			<path>./console.png</path>
+		</image>
+		
+		<text name="System_Desc" extra="true">
+			<pos>1 1</pos>
+		</text>	
+
+		<text name="md_description">
+			<color>ffffff</color>
+			<pos>0.569 0.677</pos>
+			<size>0.380 0.204</size>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./../art/font.ttf</fontPath>
+			<alignment>center</alignment>
+			<fontSize>0.03</fontSize>
+		</text>
+
+	</view>
+	
+</theme>

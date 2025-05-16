@@ -1,0 +1,20 @@
+<theme>
+    <formatVersion>4</formatVersion>
+    <include>./../theme.xml</include>
+    <view name="basic, detailed, video, grid">
+        <image name="logo">
+            <path>./art/logo.svg</path>
+        </image>
+    </view>
+    <view name="system">
+        <text name="sys_line2" extra="true">
+            <text>Arcade</text>
+        </text>
+        <text name="shortdescription" extra="true">
+            <text>1970's  ·  Arcade Machines</text>
+        </text>
+        <text name="longdescription" extra="true">
+            <text>Coin-operated entertainment machines. The golden age is defined as a period between the late 1970s and ending in the mid-1980s</text>
+        </text>
+    </view>
+</theme>

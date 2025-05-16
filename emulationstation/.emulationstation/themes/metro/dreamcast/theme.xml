@@ -1,0 +1,111 @@
+<theme>
+    <formatVersion>4</formatVersion>
+    <include>./../metro.xml</include>
+
+	<view name="system">
+
+	<!-- basic, detailed -->
+	
+		<image name="system_logo" extra="true">
+		    <path>./logo.png</path>
+			<color>E77E22</color>
+		</image>
+		
+		<image name="system_mascot" extra="true">
+		    <path>./mascot.png</path>
+			<color>D25400</color>
+		</image>
+	
+		<image name="logo">
+			<path>./system.png</path>
+        </image>
+		
+		<image name="background_systembox" extra="true">
+			<color>E77E22</color>
+		</image>
+		
+	</view>
+	
+		<view name="basic">
+			<image name="background_basicbox" extra="true">
+			<color>E77E22</color>
+		</image>
+		
+		</view>
+	
+		<view name="detailed, video">
+	
+	<!-- Player Meta -->
+	
+		<text name="md_lbl_players">
+			<color>D25400</color>
+		</text>
+		
+		<text name="md_players">
+			<color>D25400</color>
+		</text>	
+		
+		<text name="md_lbl_playcount">
+			<color>D25400</color>
+		</text>
+		
+		<text name="md_playcount">
+			<color>D25400</color>
+		</text>	
+		
+		<text name="md_lbl_lastplayed">
+			<color>D25400</color>
+		</text>
+		
+		<datetime name="md_lastplayed">
+			<color>D25400</color>
+		</datetime>
+		
+		<!-- End Player Meta -->
+		
+		<!-- Game Meta -->
+		
+		<text name="md_lbl_genre">
+			<color>D25400</color>
+		</text>
+		
+		<text name="md_genre">
+			<color>D25400</color>
+		</text>	
+		
+		<text name="md_lbl_developer">
+			<color>D25400</color>
+		</text>
+		
+		<text name="md_developer">
+			<color>D25400</color>
+		</text>	
+		
+		<text name="md_lbl_publisher">
+			<color>D25400</color>
+		</text>
+		
+		<text name="md_publisher">
+			<color>D25400</color>
+		</text>	
+		<!-- End Game Meta -->
+		
+	</view>
+	
+	<view name="basic, detailed, video">
+	
+		<image name="logo">
+			<path>./system.png</path>
+        </image>
+	
+		<image name="background_systembox" extra="true">
+			<color>E77E22</color>
+		</image>
+		
+		<image name="background_detailedbox" extra="true">
+			<color>E77E22</color>
+		</image>
+
+	</view>
+	
+</theme>

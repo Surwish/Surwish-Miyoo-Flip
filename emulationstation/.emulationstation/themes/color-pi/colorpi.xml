@@ -1,0 +1,131 @@
+<!--
+theme name:		Color-Pi
+version:		1.1
+author:			c0ldmeth0d - based on simple 1.4 by nils bonenberger (nilsbyte@nilsbyte.de)
+email:			c0ldmeth0d@hotmail.com 
+license:		creative commons CC-BY-NC-SA
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+    <view name="system, basic, detailed">
+
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+			<color>cccccc</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./0res/CaviarDreams.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<size>0.12 0.04</size>
+		</text>
+		
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount">
+			<color>cccccc</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./0res/CaviarDreams.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<size>0.14 0.04</size>
+		</text>
+
+		<text name="md_description">
+			<color>cccccc</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./0res/CaviarDreams.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+		</text>
+		
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>cccccc</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./0res/CaviarDreams.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<size>0 0.04</size>
+		</datetime> 
+
+		<textlist name="gamelist">
+			<selectorColor>ffffff00</selectorColor>
+			<selectedColor>00f314</selectedColor>
+			<primaryColor>f1f1f1</primaryColor>
+			<secondaryColor>f1f1f1</secondaryColor>
+			<fontPath>./0res/Triggering_Fanfares.ttf</fontPath>
+			<fontSize>0.038</fontSize>
+		</textlist>
+		
+	</view>
+	
+		<view name="system">	
+	
+		<image name="background" extra="true">
+			<size>0 1</size>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<path>./0res/sysbg.jpg</path>
+		</image>		
+
+		<helpsystem name="help">
+			<pos>-1 -1</pos>
+		</helpsystem>
+
+	</view>
+	
+		<view name="basic, detailed">
+
+		<image name="header" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 0</size>
+			<maxSize>1 0.166</maxSize>
+			<path>./0res/bdbanner.jpg</path>
+		</image>
+		
+		<image name="footer" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.065</size>
+			<path>./0res/branding.png</path>
+		</image>		
+		
+		<helpsystem name="help">
+			<textColor>00f314</textColor>
+			<iconColor>00f314</iconColor>
+		</helpsystem>
+
+	</view>
+
+	<view name="basic">
+	
+		<image name="background">
+			<path>./0res/bdbg.jpg</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<origin>0 0</origin>
+		</image>	
+		
+		<textlist name="gamelist">
+			<pos>0.025 0.22</pos>
+			<size>0.950 0.68</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+		</textlist>
+		
+	</view>
+	
+		<view name="detailed">
+	
+		<image name="background">
+			<path>./0res/bdbg.jpg</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<origin>0 0</origin>
+		</image>
+		
+		<textlist name="gamelist">
+			<pos>0.535 0.22</pos>
+			<size>0.45 0.68</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+		</textlist>
+		
+	</view>
+	
+</theme>
