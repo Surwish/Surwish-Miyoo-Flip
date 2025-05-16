@@ -2044,10 +2044,10 @@ def main(argv):
         pm = PortMasterGUI()
         pm.hm = None
 
-        if not harbourmaster.HM_TESTING and not config['no-check']:
-            if portmaster_check_update(pm, config, temp_dir):
-                pm.quit()
-                return 0
+        # if not harbourmaster.HM_TESTING and not config['no-check']:
+        #     if portmaster_check_update(pm, config, temp_dir):
+        #         pm.quit()
+        #         return 0
 
         with pm.enable_cancellable(False):
             pm.hm = HarbourMaster(config, temp_dir=temp_dir, callback=pm)
