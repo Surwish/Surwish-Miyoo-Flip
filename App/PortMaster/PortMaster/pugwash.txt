@@ -1,0 +1,747 @@
+2025-04-22 02:32:07.155 | INFO     | __main__:__init__:531 - PM: 2025.04.05-1249
+2025-04-22 02:32:07.157 | INFO     | __main__:__init__:532 - HM: 2024-02-27
+2025-04-22 02:32:07.159 | INFO     | __main__:__init__:533 - SDL DLL: /mnt/SDCARD/System/lib/SDL2/libSDL2-2.0.so.0.3000.8,  2.30.8
+2025-04-22 02:32:07.162 | INFO     | __main__:__init__:534 - TTF DLL: /mnt/SDCARD/System/lib/SDL2/libSDL2_ttf-2.0.so.0.18.0, 2.0.18
+2025-04-22 02:32:07.164 | INFO     | __main__:__init__:535 - IMG DLL: /mnt/SDCARD/System/lib/SDL2/libSDL2_image.so, 2.0.5
+2025-04-22 02:32:07.166 | INFO     | __main__:__init__:536 - MIX DLL: /mnt/SDCARD/System/lib/SDL2/libSDL2_mixer-2.0.so.0.2.2, 2.0.4
+2025-04-22 02:32:07.168 | INFO     | __main__:__init__:537 - HM_TESTING: False
+2025-04-22 02:32:07.171 | INFO     | __main__:__init__:547 - Opened GameController 0: b'Xbox 360 Controller'
+2025-04-22 02:32:07.173 | INFO     | __main__:__init__:548 -  b'0300976a5e0400008e02000014010000,Xbox 360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux,'
+2025-04-22 02:32:07.204 | INFO     | harbourmaster.hardware:new_device_info:465 - {'name': 'Miyoo', 'version': '20250228101926', 'device': 'miyoo-flip'}
+2025-04-22 02:32:07.214 | INFO     | harbourmaster.hardware:device_info:665 - DEVICE INFO: {'name': 'Miyoo', 'version': '20250228101926', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-04-22 02:32:07.216 | INFO     | __main__:__init__:568 - Display size: 640x480
+2025-04-22 02:32:07.217 | INFO     | __main__:__init__:609 - {'name': 'Miyoo', 'version': '20250228101926', 'device': 'miyoo-flip', 'resolution': (640, 480), 'analogsticks': 2, 'cpu': 'rk3566', 'capabilities': ['power', 'aarch64', 'restore', '4:3', '640x480', 'Miyoo', 'miyoo-flip', 'analog_0', 'analog_1', 'analog_2', '1gb', 'en_US'], 'ram': 1024, 'primary_arch': 'aarch64', 'glibc': '2.36'}
+2025-04-22 02:32:07.464 | INFO     | pugtheme:theme_load:130 - Loading theme /mnt/sdcard/App/PortMaster/PortMaster/pylibs/default_theme/theme.json
+2025-04-22 02:32:07.470 | DEBUG    | pugtheme:theme_load:230 - - loading base_data
+2025-04-22 02:32:07.472 | DEBUG    | pugtheme:theme_load:255 - - loading elements:
+2025-04-22 02:32:07.475 | DEBUG    | pugtheme:theme_load:301 -   - loading section ports_list
+2025-04-22 02:32:07.479 | DEBUG    | pugtheme:theme_load:301 -   - loading section port_info
+2025-04-22 02:32:07.482 | DEBUG    | pugtheme:theme_load:301 -   - loading section main_menu
+2025-04-22 02:32:07.485 | DEBUG    | pugtheme:theme_load:301 -   - loading section option_menu
+2025-04-22 02:32:07.488 | DEBUG    | pugtheme:theme_load:301 -   - loading section themes_list
+2025-04-22 02:32:07.491 | DEBUG    | pugtheme:theme_load:301 -   - loading section runtime_list
+2025-04-22 02:32:07.493 | DEBUG    | pugtheme:theme_load:301 -   - loading section on_screen_keyboard
+2025-04-22 02:32:07.495 | DEBUG    | pugtheme:theme_load:301 -   - loading section filter_list
+2025-04-22 02:32:07.498 | DEBUG    | pugtheme:theme_load:301 -   - loading section message_window
+2025-04-22 02:32:07.500 | DEBUG    | pugtheme:theme_load:301 -   - loading section featured_ports_list
+2025-04-22 02:32:07.502 | DEBUG    | pugtheme:theme_load:301 -   - loading section featured_ports
+2025-04-22 02:32:07.506 | DEBUG    | pugtheme:theme_load:301 -   - loading section message_box
+2025-04-22 02:32:07.508 | DEBUG    | pugtheme:theme_load:301 -   - loading section blank
+2025-04-22 02:32:07.509 | DEBUG    | pugtheme:theme_load:301 -   - loading section selection_list
+2025-04-22 02:32:07.512 | DEBUG    | pugtheme:theme_load:301 -   - loading section selection_list_description
+2025-04-22 02:32:07.514 | DEBUG    | pugtheme:theme_load:301 -   - loading section selection_list_images
+2025-04-22 02:32:07.516 | DEBUG    | pugtheme:theme_load:301 -   - loading section selection_list_description_images
+2025-04-22 02:32:07.519 | DEBUG    | pugtheme:theme_load:278 - - loading pallet:
+2025-04-22 02:32:07.520 | DEBUG    | pugtheme:theme_load:234 - - loading resources:
+2025-04-22 02:32:07.626 | DEBUG    | pugtheme:theme_load:250 -   - loading sound click.ogg as click - [OKAY]
+2025-04-22 02:32:07.696 | DEBUG    | pugtheme:theme_load:244 -   - loading image buttons.png - [OKAY]
+2025-04-22 02:32:07.723 | DEBUG    | pugtheme:theme_load:242 -   - loading image no-image.jpg as NO_IMAGE - [OKAY]
+2025-04-22 02:32:07.731 | DEBUG    | pugtheme:theme_load:244 -   - loading image pointenfedde.png - [OKAY]
+2025-04-22 02:32:07.732 | DEBUG    | pugtheme:theme_load:301 -   - loading section disclaimer
+2025-04-22 02:32:09.287 | INFO     | __main__:portmaster_check_update:1897 - Checking for updates: 2025.04.05-1249 vs 2025.04.05-1249
+2025-04-22 02:32:09.298 | DEBUG    | __main__:push_scene:1308 - PUSH SCENE LAYER messages
+2025-04-22 02:32:09.300 | DEBUG    | __main__:push_scene:1311 - SCENE LIST: ['root', 'messages']
+2025-04-22 02:32:14.318 | DEBUG    | harbourmaster.source:_update2:805 - images_zip_md5=f55970adc8ec6412a155bd4a97b5e32d != images_local_md5=f30ce6b3742824d480a88d47ab630683
+2025-04-22 02:32:17.833 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/alphaman.screenshot.png
+2025-04-22 02:32:17.841 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/arx.screenshot.jpg
+2025-04-22 02:32:17.862 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/braid.screenshot.png
+2025-04-22 02:32:17.878 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/candleprick.screenshot.png
+2025-04-22 02:32:17.889 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/caseandbot_murder.screenshot.jpg
+2025-04-22 02:32:17.907 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/diceydungeons.screenshot.png
+2025-04-22 02:32:17.913 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/doddgoestothemuseum.screenshot.png
+2025-04-22 02:32:17.919 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/dodgindiamonds2d.screenshot.png
+2025-04-22 02:32:17.930 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/googledinowithagun.screenshot.png
+2025-04-22 02:32:17.945 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/hoopervania.screenshot.png
+2025-04-22 02:32:17.959 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/justkissheralready.screenshot.png
+2025-04-22 02:32:18.002 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/pipflipparadise.screenshot.png
+2025-04-22 02:32:18.009 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/pixelskaterdude.screenshot.png
+2025-04-22 02:32:18.017 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/redronin.screenshot.png
+2025-04-22 02:32:18.028 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/simtheory.screenshot.png
+2025-04-22 02:32:18.034 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/sokoplan.screenshot.png
+2025-04-22 02:32:18.038 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/superhaxagon.screenshot.png
+2025-04-22 02:32:18.043 | DEBUG    | harbourmaster.source:_update2:831 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pm/superstarpunk.screenshot.png
+2025-04-22 02:32:19.427 | DEBUG    | harbourmaster.source:_update:892 - images_md5=abd115f8d5a10eee1681622d9419faf1, self.images_md5=38c1e78a7fc19c1a09e7faeb5df7d412
+2025-04-22 02:32:21.812 | DEBUG    | harbourmaster.source:_update:910 - adding /mnt/SDCARD/App/PortMaster/PortMaster/config/images_pmmv/duckdodge.screenshot.png
+2025-04-22 02:32:22.475 | INFO     | harbourmaster.harbour:load_ports:787 - Unknown port: Cro-Mag Rally.sh
+2025-04-22 02:32:22.478 | INFO     | harbourmaster.harbour:load_ports:787 - Unknown port: Otto Matic.sh
+2025-04-22 02:32:22.480 | INFO     | harbourmaster.harbour:load_ports:787 - Unknown port: Salt and Sanctuary.sh
+2025-04-22 02:32:22.482 | INFO     | harbourmaster.harbour:load_ports:787 - Unknown port: SDLPAL.sh
+2025-04-22 02:32:22.484 | INFO     | harbourmaster.harbour:load_ports:787 - Unknown port: SDLPAL98.sh
+2025-04-22 02:32:22.486 | INFO     | harbourmaster.harbour:load_ports:787 - Unknown port: Super Mario 64.sh
+2025-04-22 02:32:22.487 | INFO     | harbourmaster.harbour:load_ports:787 - Unknown port: TMNT - Shredders Revenge.sh
+2025-04-22 02:32:22.499 | ERROR    | harbourmaster.harbour:load_ports:880 - Port rota.zip missing rota/.
+2025-04-22 02:32:22.508 | ERROR    | harbourmaster.harbour:load_ports:880 - Port cromagrally.zip missing CroMagRally.sh.
+2025-04-22 02:32:22.521 | DEBUG    | harbourmaster.harbour:load_ports:906 - Dumping /mnt/SDCARD/Data/ports/maldita.castilla/port.json: {'version': 4, 'name': 'maldita.castilla.zip', 'items': ['Maldita Castilla.sh', 'maldita.castilla/'], 'items_opt': None, 'attr': {'title': 'Maldita Castilla', 'porter': ['krishenriksen', 'JanTrueno'], 'desc': 'An arcade action video game developed by Locomalito and released in December 2012. The gameplay is inspired by the games Shinobi and Ghost and Goblins.', 'desc_md': None, 'inst': 'This port is ready to run.', 'inst_md': None, 'genres': ['action'], 'image': {'screenshot': 'screenshot.png', 'covers': ['cover.png'], 'thumbnail': None, 'video': None}, 'rtr': True, 'exp': False, 'runtime': [], 'reqs': [], 'arch': ['armhf'], 'min_glibc': ''}, 'status': {'source': 'PortMaster', 'md5': '888cf2ab298458fe4c5dfdc71ad34b44', 'status': 'Installed'}, 'files': {'port.json': 'maldita.castilla/port.json', 'Maldita Castilla.sh': ['Maldita Castilla.sh', 'Am2r.sh'], 'maldita.castilla/': 'maldita.castilla/'}}
+2025-04-22 02:32:22.530 | ERROR    | harbourmaster.harbour:load_ports:880 - Port ottomatic.zip missing OttoMatic.sh.
+2025-04-22 02:32:22.538 | ERROR    | harbourmaster.harbour:load_ports:880 - Port sm64.zip missing sm64.sh.
+2025-04-22 02:32:22.544 | ERROR    | harbourmaster.harbour:load_ports:880 - Port tmntsr.zip missing TMNTShreddersRevenge.sh.
+2025-04-22 02:32:22.548 | ERROR    | harbourmaster.harbour:load_ports:880 - Port celeste.zip missing celeste/.
+2025-04-22 02:32:22.551 | WARNING  | harbourmaster.harbour:load_ports:910 - Unable to dump /mnt/SDCARD/Data/ports/celeste/celeste.port.json: {'version': 4, 'name': 'celeste.zip', 'items': ['Celeste.sh', 'celeste/'], 'items_opt': None, 'attr': {'title': 'Celeste', 'desc': 'Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight, hand-crafted platformer from the creators of multiplayer classic TowerFall.', 'inst': '- Install the port via PortMaster.\n- Download the Linux DRM-Free version of the game:\n  - https://maddymakesgamesinc.itch.io/celeste\n- Copy the game\'s data into "celeste/gamedata".\n- Run the port, the first time setup will take a few minutes.\n- Enjoy!', 'genres': ['platformer'], 'porter': ['Johnny on Flame'], 'image': {'screenshot': 'screenshot.jpg', 'covers': ['cover.png'], 'thumbnail': None, 'video': None}, 'rtr': False, 'exp': False, 'runtime': ['mono-6.12.0.122-aarch64.squashfs'], 'min_glibc': '', 'reqs': [], 'arch': ['aarch64']}, 'status': {'source': 'Unknown', 'md5': None, 'status': 'Broken'}, 'files': {'Celeste.sh': 'Celeste.sh'}}
+2025-04-22 02:32:22.553 | ERROR    | harbourmaster.harbour:load_ports:880 - Port cave.story-evo.zip missing nxengine-evo/.
+2025-04-22 02:32:22.555 | WARNING  | harbourmaster.harbour:load_ports:910 - Unable to dump /mnt/SDCARD/Data/ports/nxengine-evo/cave.story-evo.port.json: {'version': 4, 'name': 'cave.story-evo.zip', 'items': ['Cave Story-evo.sh', 'nxengine-evo/'], 'items_opt': None, 'attr': {'title': 'Cave Story (Evo)', 'desc': 'Cave Story using the Nxengine-evo engine from https://github.com/nxengine/nxengine-evo', 'inst': 'Ready to run.', 'genres': ['action', 'adventure', 'platformer'], 'porter': ['Christian_Haitian'], 'image': {'screenshot': 'screenshot.jpg', 'covers': ['cover.png'], 'thumbnail': None, 'video': None}, 'rtr': True, 'exp': False, 'runtime': [], 'min_glibc': '', 'reqs': [], 'arch': ['aarch64']}, 'status': {'source': 'Unknown', 'md5': None, 'status': 'Broken'}, 'files': {'Cave Story-evo.sh': 'Cave Story-evo.sh'}}
+2025-04-22 02:32:22.557 | ERROR    | harbourmaster.harbour:load_ports:880 - Port gmu.music.player.zip missing gmu-music-player/.
+2025-04-22 02:32:22.560 | WARNING  | harbourmaster.harbour:load_ports:910 - Unable to dump /mnt/SDCARD/Data/ports/gmu-music-player/gmu.music.player.port.json: {'version': 4, 'name': 'gmu.music.player.zip', 'items': ['Gmu Music Player.sh', 'gmu-music-player/'], 'items_opt': None, 'attr': {'title': 'Gmu Music Player', 'desc': 'Gmu is an open source music player for portable gaming consoles and handhelds.', 'inst': "Add your music to the 'ports/gmu-music-player/music' folder for easy access or wherever else you wish as you can browse all storage for files.", 'genres': ['other'], 'porter': ['Slayer366'], 'image': {'screenshot': 'screenshot.jpg', 'covers': [], 'thumbnail': None, 'video': None}, 'rtr': True, 'exp': False, 'runtime': [], 'min_glibc': '', 'reqs': [], 'arch': ['aarch64']}, 'status': {'source': 'Unknown', 'md5': None, 'status': 'Broken'}, 'files': {'Gmu Music Player.sh': 'Gmu Music Player.sh'}}
+2025-04-22 02:32:22.562 | ERROR    | harbourmaster.harbour:load_ports:880 - Port skijump3.zip missing skijump3/.
+2025-04-22 02:32:22.565 | WARNING  | harbourmaster.harbour:load_ports:910 - Unable to dump /mnt/SDCARD/Data/ports/skijump3/skijump3.port.json: {'version': 4, 'name': 'skijump3.zip', 'items': ['skijump3/', 'Skijump3.sh'], 'items_opt': None, 'attr': {'title': 'SkiJump3', 'desc': 'Ski Jump International v3', 'inst': 'Ready to run.', 'genres': ['sports'], 'porter': ['Cebion'], 'image': {'screenshot': 'screenshot.jpg', 'covers': ['cover.png'], 'thumbnail': None, 'video': None}, 'rtr': True, 'exp': False, 'runtime': [], 'min_glibc': '', 'reqs': [], 'arch': ['aarch64']}, 'status': {'source': 'Unknown', 'md5': None, 'status': 'Broken'}, 'files': {'Skijump3.sh': 'Skijump3.sh'}}
+2025-04-22 02:32:22.585 | DEBUG    | __main__:pop_scene:1333 - POP SCENE LAYER messages
+2025-04-22 02:32:22.590 | DEBUG    | __main__:pop_scene:1336 - SCENE LIST: ['root']
+2025-04-22 02:32:23.847 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:24.044 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:24.929 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED A
+2025-04-22 02:32:24.971 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port annalynn.zip.
+2025-04-22 02:32:24.974 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port arengius.zip.
+2025-04-22 02:32:24.975 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port arx.zip.
+2025-04-22 02:32:24.976 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port assaultshell.zip.
+2025-04-22 02:32:24.982 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port barbarian.zip.
+2025-04-22 02:32:24.983 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port battalion.zip.
+2025-04-22 02:32:24.984 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port beardblade.zip.
+2025-04-22 02:32:24.986 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port beemisthecurseofgod.zip.
+2025-04-22 02:32:24.987 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port benboquest.zip.
+2025-04-22 02:32:24.989 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port beyondtotalloss.zip.
+2025-04-22 02:32:24.990 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port biomassgrowth.zip.
+2025-04-22 02:32:24.991 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bittriprunner2.zip.
+2025-04-22 02:32:24.993 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port blastius.zip.
+2025-04-22 02:32:24.997 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port boneraiserminions.zip.
+2025-04-22 02:32:24.998 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bootlegbox.zip.
+2025-04-22 02:32:25.000 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port botvice.zip.
+2025-04-22 02:32:25.001 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port botbreak.zip.
+2025-04-22 02:32:25.002 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bowlingcross.zip.
+2025-04-22 02:32:25.003 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bravedogsroad.zip.
+2025-04-22 02:32:25.004 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port breaker.zip.
+2025-04-22 02:32:25.006 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port brotato.zip.
+2025-04-22 02:32:25.007 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bugdom.zip.
+2025-04-22 02:32:25.008 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bumpersbroadswords.zip.
+2025-04-22 02:32:25.009 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bnbmax.zip.
+2025-04-22 02:32:25.010 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bnbtourn.zip.
+2025-04-22 02:32:25.011 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bunnysflowers.zip.
+2025-04-22 02:32:25.014 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port callystrials.zip.
+2025-04-22 02:32:25.016 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port carriesorderup.zip.
+2025-04-22 02:32:25.017 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port simonsqrev.zip.
+2025-04-22 02:32:25.021 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port chessisstupid.zip.
+2025-04-22 02:32:25.023 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port chipndale.zip.
+2025-04-22 02:32:25.024 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port circainfinity.zip.
+2025-04-22 02:32:25.026 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port cleavingcaliber.zip.
+2025-04-22 02:32:25.028 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port climb.zip.
+2025-04-22 02:32:25.029 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port cognizance.zip.
+2025-04-22 02:32:25.030 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port coincrypt.zip.
+2025-04-22 02:32:25.034 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port crystalsamalgam.zip.
+2025-04-22 02:32:25.036 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port curseball.zip.
+2025-04-22 02:32:25.037 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port cybarian.zip.
+2025-04-22 02:32:25.039 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port darkdeity.zip.
+2025-04-22 02:32:25.041 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port daydreamer.zip.
+2025-04-22 02:32:25.042 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port deadicedeluxe.zip.
+2025-04-22 02:32:25.043 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port deadknight.zip.
+2025-04-22 02:32:25.046 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port deltarune.zip.
+2025-04-22 02:32:25.047 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port demonofsakurapass.zip.
+2025-04-22 02:32:25.048 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port demonslayer.zip.
+2025-04-22 02:32:25.050 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port derelict.zip.
+2025-04-22 02:32:25.052 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port destructivator.zip.
+2025-04-22 02:32:25.053 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port destructivator2.zip.
+2025-04-22 02:32:25.055 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port devbootleg.zip.
+2025-04-22 02:32:25.056 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port digitaltamersreborn.zip.
+2025-04-22 02:32:25.058 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port discroom.zip.
+2025-04-22 02:32:25.062 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port drbloodshot.zip.
+2025-04-22 02:32:25.064 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port drinkndrive.zip.
+2025-04-22 02:32:25.067 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port dungeonsouls.zip.
+2025-04-22 02:32:25.069 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port elecdude.zip.
+2025-04-22 02:32:25.072 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port estigma.zip.
+2025-04-22 02:32:25.073 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port everpatch.zip.
+2025-04-22 02:32:25.075 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port f-zeropocket.zip.
+2025-04-22 02:32:25.077 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port faithdemonsiege.zip.
+2025-04-22 02:32:25.081 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port firearrow.zip.
+2025-04-22 02:32:25.083 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port flaskoman.zip.
+2025-04-22 02:32:25.085 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port flywrench.zip.
+2025-04-22 02:32:25.086 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port fnafnes.zip.
+2025-04-22 02:32:25.087 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port forager.zip.
+2025-04-22 02:32:25.088 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port forgodden.zip.
+2025-04-22 02:32:25.090 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port franbow.zip.
+2025-04-22 02:32:25.092 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port freedom.planet.zip.
+2025-04-22 02:32:25.094 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port frogger2.zip.
+2025-04-22 02:32:25.096 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port galaxychampionstv.zip.
+2025-04-22 02:32:25.097 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gaugeofrage.zip.
+2025-04-22 02:32:25.099 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gaurodan.zip.
+2025-04-22 02:32:25.100 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gcrash.zip.
+2025-04-22 02:32:25.101 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port ghostris.zip.
+2025-04-22 02:32:25.103 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gloomreducer.zip.
+2025-04-22 02:32:25.105 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port goblindungeoneer.zip.
+2025-04-22 02:32:25.106 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port goldenhornet.zip.
+2025-04-22 02:32:25.108 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gooptygoo.zip.
+2025-04-22 02:32:25.109 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gravityblocks.zip.
+2025-04-22 02:32:25.111 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port grelox.zip.
+2025-04-22 02:32:25.112 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port grimstorm.zip.
+2025-04-22 02:32:25.116 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port guacamelee.zip.
+2025-04-22 02:32:25.117 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gumgirlgb.zip.
+2025-04-22 02:32:25.118 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gumchugirl.zip.
+2025-04-22 02:32:25.120 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gunsandguns.zip.
+2025-04-22 02:32:25.122 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hakopalace.zip.
+2025-04-22 02:32:25.123 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hallowedcandy.zip.
+2025-04-22 02:32:25.125 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port halloweenforever.zip.
+2025-04-22 02:32:25.126 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hauntedlandsburial.zip.
+2025-04-22 02:32:25.131 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hoopervania.zip.
+2025-04-22 02:32:25.132 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hotlinesanzu.zip.
+2025-04-22 02:32:25.134 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hunters.zip.
+2025-04-22 02:32:25.136 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hyperlightdrifter.zip.
+2025-04-22 02:32:25.137 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hyperprincesspitch.zip.
+2025-04-22 02:32:25.139 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port igachahead.zip.
+2025-04-22 02:32:25.140 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port iconoclasts.zip.
+2025-04-22 02:32:25.142 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port iii.zip.
+2025-04-22 02:32:25.143 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port infested.zip.
+2025-04-22 02:32:25.146 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port ironferret.zip.
+2025-04-22 02:32:25.148 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port itta.zip.
+2025-04-22 02:32:25.149 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port jestershelper.zip.
+2025-04-22 02:32:25.150 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port jetlancer.zip.
+2025-04-22 02:32:25.152 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port jumpoffthebridge.zip.
+2025-04-22 02:32:25.154 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port jumponhead.zip.
+2025-04-22 02:32:25.156 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port kikai.zip.
+2025-04-22 02:32:25.158 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port kingofmachines.zip.
+2025-04-22 02:32:25.159 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port kleebuucravesfruitsalad.zip.
+2025-04-22 02:32:25.160 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port klorets.zip.
+2025-04-22 02:32:25.162 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port la-mulana.zip.
+2025-04-22 02:32:25.165 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port liltanks.zip.
+2025-04-22 02:32:25.166 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port lineoff.zip.
+2025-04-22 02:32:25.170 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port lividmeadow.zip.
+2025-04-22 02:32:25.171 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port lizandlaz.zip.
+2025-04-22 02:32:25.173 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port lode.zip.
+2025-04-22 02:32:25.174 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port loopcat.zip.
+2025-04-22 02:32:25.176 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port lostethereal.zip.
+2025-04-22 02:32:25.177 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port love3.zip.
+2025-04-22 02:32:25.179 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port love.zip.
+2025-04-22 02:32:25.180 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port luminousslash.zip.
+2025-04-22 02:32:25.182 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port mableandthewood.zip.
+2025-04-22 02:32:25.183 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port magicvigilante.zip.
+2025-04-22 02:32:25.185 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port magnibox.zip.
+2025-04-22 02:32:25.186 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port maldita.castilla.zip.
+2025-04-22 02:32:25.190 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port mslugsbf.zip.
+2025-04-22 02:32:25.192 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port mezzer.zip.
+2025-04-22 02:32:25.194 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port mimisdeliverydash.zip.
+2025-04-22 02:32:25.196 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port minidoom.zip.
+2025-04-22 02:32:25.197 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port minit.zip.
+2025-04-22 02:32:25.198 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port mire.zip.
+2025-04-22 02:32:25.200 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port missiledancer.zip.
+2025-04-22 02:32:25.201 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port mobility.zip.
+2025-04-22 02:32:25.203 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port monolith.zip.
+2025-04-22 02:32:25.205 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port moonlight.zip.
+2025-04-22 02:32:25.208 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port mystikbelle.zip.
+2025-04-22 02:32:25.210 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nainainights.zip.
+2025-04-22 02:32:25.211 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nanosaur.zip.
+2025-04-22 02:32:25.213 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port netouchezpas5.zip.
+2025-04-22 02:32:25.214 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nfs2se.zip.
+2025-04-22 02:32:25.216 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port neogensokyo.zip.
+2025-04-22 02:32:25.217 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port neoncityriders.zip.
+2025-04-22 02:32:25.219 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nidhogg.zip.
+2025-04-22 02:32:25.221 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port notransmission.zip.
+2025-04-22 02:32:25.223 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nonstopspaceprobe.zip.
+2025-04-22 02:32:25.225 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nvpw.zip.
+2025-04-22 02:32:25.227 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nuclearthronemobile.zip.
+2025-04-22 02:32:25.228 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nulldrifter.zip.
+2025-04-22 02:32:25.229 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port ocda.zip.
+2025-04-22 02:32:25.231 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port ohmygodlookatthisknight.zip.
+2025-04-22 02:32:25.233 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port omegastrike.zip.
+2025-04-22 02:32:25.238 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port operius.zip.
+2025-04-22 02:32:25.240 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port outofammo.zip.
+2025-04-22 02:32:25.242 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port outlawn.zip.
+2025-04-22 02:32:25.243 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port overgun.zip.
+2025-04-22 02:32:25.246 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port panicroom.zip.
+2025-04-22 02:32:25.249 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port ppengui.zip.
+2025-04-22 02:32:25.251 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port pingo.zip.
+2025-04-22 02:32:25.253 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port pinky.zip.
+2025-04-22 02:32:25.255 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port pixelskaterdude.zip.
+2025-04-22 02:32:25.256 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port plague.zip.
+2025-04-22 02:32:25.259 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port pleasedonttouchanything.zip.
+2025-04-22 02:32:25.261 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port pocketwondersport.zip.
+2025-04-22 02:32:25.263 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port powerlevel.zip.
+2025-04-22 02:32:25.265 | DEBUG    | harbourmaster.harbour:build_port_attrs:1103 - skip experimental port starfighter.zip.
+2025-04-22 02:32:25.267 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port psebay.zip.
+2025-04-22 02:32:25.268 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port pulstario.zip.
+2025-04-22 02:32:25.269 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port pupaipospacedx.zip.
+2025-04-22 02:32:25.271 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port puremetal.zip.
+2025-04-22 02:32:25.277 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port rwatch.zip.
+2025-04-22 02:32:25.278 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port ragingblasters.zip.
+2025-04-22 02:32:25.281 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port redhandsomehood.zip.
+2025-04-22 02:32:25.284 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port redo.zip.
+2025-04-22 02:32:25.285 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port relichunters.zip.
+2025-04-22 02:32:25.286 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port residentvania.zip.
+2025-04-22 02:32:25.288 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port restore.portmaster.zip.
+2025-04-22 02:32:25.290 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port revbros.zip.
+2025-04-22 02:32:25.292 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port riddledcorpses.zip.
+2025-04-22 02:32:25.293 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port riptale.zip.
+2025-04-22 02:32:25.295 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port riskofrain.zip.
+2025-04-22 02:32:25.296 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port rite.zip.
+2025-04-22 02:32:25.298 | DEBUG    | harbourmaster.harbour:build_port_attrs:1103 - skip experimental port rlvm.zip.
+2025-04-22 02:32:25.299 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port roadwarriors2.zip.
+2025-04-22 02:32:25.302 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port roguelight.zip.
+2025-04-22 02:32:25.304 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port rotationalshift.zip.
+2025-04-22 02:32:25.305 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port russiansubwaydogs.zip.
+2025-04-22 02:32:25.308 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port santassurprise.zip.
+2025-04-22 02:32:25.309 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port satlovecake.zip.
+2025-04-22 02:32:25.311 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port savant.zip.
+2025-04-22 02:32:25.312 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port savingprincess.zip.
+2025-04-22 02:32:25.315 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port secretteagarden.zip.
+2025-04-22 02:32:25.316 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port serioussam-tfe.zip.
+2025-04-22 02:32:25.318 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port serioussam-tse.zip.
+2025-04-22 02:32:25.319 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port shadowwrangler.zip.
+2025-04-22 02:32:25.322 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port shovel.knight.zip.
+2025-04-22 02:32:25.324 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port shrubnaut.zip.
+2025-04-22 02:32:25.326 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port skeletonboomerang.zip.
+2025-04-22 02:32:25.329 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port smoothiegalaxy.zip.
+2025-04-22 02:32:25.330 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port snaklipse.zip.
+2025-04-22 02:32:25.331 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port sneakr.zip.
+2025-04-22 02:32:25.333 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port snout.zip.
+2025-04-22 02:32:25.335 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port sokobrawn.zip.
+2025-04-22 02:32:25.337 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port sonic1sms.zip.
+2025-04-22 02:32:25.339 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port sonic2sms.zip.
+2025-04-22 02:32:25.341 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port sonic3sms.zip.
+2025-04-22 02:32:25.343 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port sonictimetwisted.zip.
+2025-04-22 02:32:25.345 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port sorr.zip.
+2025-04-22 02:32:25.346 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port spacegladiators.zip.
+2025-04-22 02:32:25.348 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port spacemothdx.zip.
+2025-04-22 02:32:25.349 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port spacewingwar.zip.
+2025-04-22 02:32:25.350 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port spearmintmountain.zip.
+2025-04-22 02:32:25.353 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port spinch.zip.
+2025-04-22 02:32:25.354 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port splinterzone.zip.
+2025-04-22 02:32:25.356 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port squeek.zip.
+2025-04-22 02:32:25.358 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port starvsthegame.zip.
+2025-04-22 02:32:25.360 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port stargrovescramble.zip.
+2025-04-22 02:32:25.362 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port static.zip.
+2025-04-22 02:32:25.363 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port steamlink.zip.
+2025-04-22 02:32:25.365 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port streetsofclaus.zip.
+2025-04-22 02:32:25.367 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port strikeysisters.zip.
+2025-04-22 02:32:25.368 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port sulka.zip.
+2025-04-22 02:32:25.371 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port supercakeboy.zip.
+2025-04-22 02:32:25.372 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port supercratebox.zip.
+2025-04-22 02:32:25.374 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port supergaelicdodgeball.zip.
+2025-04-22 02:32:25.375 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hydorah.zip.
+2025-04-22 02:32:25.377 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port supermeatboy.zip.
+2025-04-22 02:32:25.378 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port supermegazero.zip.
+2025-04-22 02:32:25.380 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port superraftboatclassic.zip.
+2025-04-22 02:32:25.381 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port superrobotninjagirl.zip.
+2025-04-22 02:32:25.382 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port superskelemania.zip.
+2025-04-22 02:32:25.383 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port superstarpath.zip.
+2025-04-22 02:32:25.387 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port superxyx.zip.
+2025-04-22 02:32:25.388 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port swapwoodquestr.zip.
+2025-04-22 02:32:25.390 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port tamashii.zip.
+2025-04-22 02:32:25.393 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port tempuslocus.zip.
+2025-04-22 02:32:25.395 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port theaspect.zip.
+2025-04-22 02:32:25.396 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port thecurseofissyos.zip.
+2025-04-22 02:32:25.398 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port happyhills.zip.
+2025-04-22 02:32:25.400 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nightshift.zip.
+2025-04-22 02:32:25.402 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port thestarlitescape.zip.
+2025-04-22 02:32:25.403 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port thesunandmoon.zip.
+2025-04-22 02:32:25.405 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port thewind.zip.
+2025-04-22 02:32:25.407 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port thysword.zip.
+2025-04-22 02:32:25.412 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port towardsthepantheones.zip.
+2025-04-22 02:32:25.414 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port towerfortress.zip.
+2025-04-22 02:32:25.417 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port trickykeys.zip.
+2025-04-22 02:32:25.418 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port trickykeys2.zip.
+2025-04-22 02:32:25.422 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port ubermoshcollection.zip.
+2025-04-22 02:32:25.427 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port valhalla.zip.
+2025-04-22 02:32:25.430 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port verticaldropheroeshd.zip.
+2025-04-22 02:32:25.433 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port vitasnake.zip.
+2025-04-22 02:32:25.436 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port wakingmars.zip.
+2025-04-22 02:32:25.441 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port wordswithfreds.zip.
+2025-04-22 02:32:25.443 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port xenonvalkyrie.zip.
+2025-04-22 02:32:25.446 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port yellowjacket.zip.
+2025-04-22 02:32:25.449 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port youdiedbanry.zip.
+2025-04-22 02:32:25.450 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port youhave10s2023.zip.
+2025-04-22 02:32:25.452 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port z-warp.zip.
+2025-04-22 02:32:25.453 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port zeroranger.zip.
+2025-04-22 02:32:25.456 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port am2r.zip.
+2025-04-22 02:32:25.459 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port pokewilds.zip.
+2025-04-22 02:32:25.462 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port starbound.zip.
+2025-04-22 02:32:25.466 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port zeldadoi.zip.
+2025-04-22 02:32:25.470 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port ziiaol.zip.
+2025-04-22 02:32:25.472 | DEBUG    | harbourmaster.harbour:build_port_attrs:1103 - skip experimental port zeldansq.zip.
+2025-04-22 02:32:25.473 | DEBUG    | harbourmaster.harbour:build_port_attrs:1103 - skip experimental port zelda_roth.zip.
+2025-04-22 02:32:25.475 | DEBUG    | harbourmaster.harbour:build_port_attrs:1103 - skip experimental port zelda3t.zip.
+2025-04-22 02:32:25.511 | DEBUG    | __main__:push_scene:1308 - PUSH SCENE LAYER ports
+2025-04-22 02:32:25.512 | DEBUG    | __main__:push_scene:1311 - SCENE LIST: ['root', 'ports']
+2025-04-22 02:32:25.613 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED A
+2025-04-22 02:32:26.343 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:26.579 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:26.706 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:27.021 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:27.209 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:27.342 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:27.531 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:27.631 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:27.806 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:27.882 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:28.009 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:28.127 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:28.469 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:28.580 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:28.707 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:28.845 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:28.910 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:29.218 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:29.345 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:29.710 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:29.806 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:31.201 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:31.390 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:31.498 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:31.593 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:31.704 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:31.799 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:31.884 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:31.936 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:32.224 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:32.349 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:32.616 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:32.710 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:32.827 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:32.943 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:33.032 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:33.127 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:33.240 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:33.520 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:33.609 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:32:33.890 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED UP
+2025-04-22 02:32:34.027 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED UP
+2025-04-22 02:32:39.557 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED A
+2025-04-22 02:32:39.559 | DEBUG    | pugscene:do_update:1703 - install: am2r.zip
+2025-04-22 02:32:39.574 | DEBUG    | pugscene:update_port:1855 - install: am2r.zip -> ['action', 'adventure', 'platformer', 'johnny on flame', '!rtr', 'installed'] -> {'version': 4, 'name': 'am2r.zip', 'items': ['AM2R.sh', 'am2r/'], 'items_opt': None, 'attr': {'title': 'AM2R', 'desc': 'Another Metroid 2 Remake.  An action-adventure game developed by Argentinian programmer Milton Guasti (also known as DoctorM64).', 'inst': "You'll need to provide your own am2r android apk into the ports/am2r/gamedata folder.  Make sure it is named am2r.apk.  The name is case sensitive.", 'genres': ['action', 'adventure', 'platformer'], 'porter': ['Johnny on Flame'], 'image': {'screenshot': 'screenshot.jpg', 'covers': ['cover.png'], 'thumbnail': None, 'video': None}, 'rtr': False, 'runtime': [], 'reqs': [], 'arch': ['armhf'], 'desc_md': None, 'inst_md': None, 'exp': False, 'min_glibc': ''}, 'source': {'date_added': '2021-12-21', 'date_updated': '2025-01-16', 'md5': 'd3b0378c57d1ea68a696d7ead034f7c4', 'release_id': '2025-01-16_1454', 'size': 1474924, 'url': 'https://github.com/PortsMaster-MV/PortMaster-MV-New/releases/download/2025-01-16_1454/am2r.zip'}, 'status': {'source': 'Unknown', 'md5': None, 'status': 'Installed'}, 'files': {'port.json': 'am2r/port.json', 'AM2R.sh': 'AM2R.sh', 'am2r/': 'am2r/'}}
+2025-04-22 02:32:39.582 | DEBUG    | __main__:push_scene:1308 - PUSH SCENE LAYER port_info
+2025-04-22 02:32:39.583 | DEBUG    | __main__:push_scene:1311 - SCENE LIST: ['root', 'ports', 'port_info']
+2025-04-22 02:32:39.805 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED A
+2025-04-22 02:32:43.734 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED A
+2025-04-22 02:32:43.737 | DEBUG    | __main__:pop_scene:1333 - POP SCENE LAYER port_info
+2025-04-22 02:32:43.739 | DEBUG    | __main__:pop_scene:1336 - SCENE LIST: ['root', 'ports']
+2025-04-22 02:32:43.753 | DEBUG    | __main__:push_scene:1308 - PUSH SCENE LAYER messages
+2025-04-22 02:32:43.755 | DEBUG    | __main__:push_scene:1311 - SCENE LIST: ['root', 'ports', 'messages']
+2025-04-22 02:32:45.708 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED A
+2025-04-22 02:32:46.801 | INFO     | harbourmaster.harbour:_install_port:1626 - Installing AM2R
+2025-04-22 02:32:46.848 | ERROR    | harbourmaster.harbour:_install_port:1759 - Installation failed, removing installed files.
+2025-04-22 02:32:46.876 | INFO     | harbourmaster.harbour:_install_port:1763 - Removing AM2R.sh
+2025-04-22 02:32:46.912 | DEBUG    | __main__:push_scene:1308 - PUSH SCENE LAYER message_box
+2025-04-22 02:32:46.914 | DEBUG    | __main__:push_scene:1311 - SCENE LIST: ['root', 'ports', 'messages', 'message_box']
+2025-04-22 02:32:50.982 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED A
+2025-04-22 02:32:51.014 | DEBUG    | __main__:pop_scene:1333 - POP SCENE LAYER message_box
+2025-04-22 02:32:51.019 | DEBUG    | __main__:pop_scene:1336 - SCENE LIST: ['root', 'ports', 'messages']
+2025-04-22 02:32:51.185 | INFO     | harbourmaster.harbour:load_ports:787 - Unknown port: Cro-Mag Rally.sh
+2025-04-22 02:32:51.186 | INFO     | harbourmaster.harbour:load_ports:787 - Unknown port: Otto Matic.sh
+2025-04-22 02:32:51.186 | INFO     | harbourmaster.harbour:load_ports:787 - Unknown port: Salt and Sanctuary.sh
+2025-04-22 02:32:51.187 | INFO     | harbourmaster.harbour:load_ports:787 - Unknown port: SDLPAL.sh
+2025-04-22 02:32:51.188 | INFO     | harbourmaster.harbour:load_ports:787 - Unknown port: SDLPAL98.sh
+2025-04-22 02:32:51.189 | INFO     | harbourmaster.harbour:load_ports:787 - Unknown port: Super Mario 64.sh
+2025-04-22 02:32:51.190 | INFO     | harbourmaster.harbour:load_ports:787 - Unknown port: TMNT - Shredders Revenge.sh
+2025-04-22 02:32:51.194 | ERROR    | harbourmaster.harbour:load_ports:880 - Port rota.zip missing rota/.
+2025-04-22 02:32:51.202 | ERROR    | harbourmaster.harbour:load_ports:880 - Port cromagrally.zip missing CroMagRally.sh.
+2025-04-22 02:32:51.216 | ERROR    | harbourmaster.harbour:load_ports:880 - Port ottomatic.zip missing OttoMatic.sh.
+2025-04-22 02:32:51.223 | ERROR    | harbourmaster.harbour:load_ports:880 - Port sm64.zip missing sm64.sh.
+2025-04-22 02:32:51.227 | ERROR    | harbourmaster.harbour:load_ports:880 - Port tmntsr.zip missing TMNTShreddersRevenge.sh.
+2025-04-22 02:32:51.231 | ERROR    | harbourmaster.harbour:load_ports:880 - Port celeste.zip missing celeste/.
+2025-04-22 02:32:51.232 | WARNING  | harbourmaster.harbour:load_ports:910 - Unable to dump /mnt/SDCARD/Data/ports/celeste/celeste.port.json: {'version': 4, 'name': 'celeste.zip', 'items': ['Celeste.sh', 'celeste/'], 'items_opt': None, 'attr': {'title': 'Celeste', 'desc': 'Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight, hand-crafted platformer from the creators of multiplayer classic TowerFall.', 'inst': '- Install the port via PortMaster.\n- Download the Linux DRM-Free version of the game:\n  - https://maddymakesgamesinc.itch.io/celeste\n- Copy the game\'s data into "celeste/gamedata".\n- Run the port, the first time setup will take a few minutes.\n- Enjoy!', 'genres': ['platformer'], 'porter': ['Johnny on Flame'], 'image': {'screenshot': 'screenshot.jpg', 'covers': ['cover.png'], 'thumbnail': None, 'video': None}, 'rtr': False, 'exp': False, 'runtime': ['mono-6.12.0.122-aarch64.squashfs'], 'min_glibc': '', 'reqs': [], 'arch': ['aarch64']}, 'status': {'source': 'Unknown', 'md5': None, 'status': 'Broken'}, 'files': {'Celeste.sh': 'Celeste.sh'}}
+2025-04-22 02:32:51.234 | ERROR    | harbourmaster.harbour:load_ports:880 - Port cave.story-evo.zip missing nxengine-evo/.
+2025-04-22 02:32:51.235 | WARNING  | harbourmaster.harbour:load_ports:910 - Unable to dump /mnt/SDCARD/Data/ports/nxengine-evo/cave.story-evo.port.json: {'version': 4, 'name': 'cave.story-evo.zip', 'items': ['Cave Story-evo.sh', 'nxengine-evo/'], 'items_opt': None, 'attr': {'title': 'Cave Story (Evo)', 'desc': 'Cave Story using the Nxengine-evo engine from https://github.com/nxengine/nxengine-evo', 'inst': 'Ready to run.', 'genres': ['action', 'adventure', 'platformer'], 'porter': ['Christian_Haitian'], 'image': {'screenshot': 'screenshot.jpg', 'covers': ['cover.png'], 'thumbnail': None, 'video': None}, 'rtr': True, 'exp': False, 'runtime': [], 'min_glibc': '', 'reqs': [], 'arch': ['aarch64']}, 'status': {'source': 'Unknown', 'md5': None, 'status': 'Broken'}, 'files': {'Cave Story-evo.sh': 'Cave Story-evo.sh'}}
+2025-04-22 02:32:51.236 | ERROR    | harbourmaster.harbour:load_ports:880 - Port gmu.music.player.zip missing gmu-music-player/.
+2025-04-22 02:32:51.237 | WARNING  | harbourmaster.harbour:load_ports:910 - Unable to dump /mnt/SDCARD/Data/ports/gmu-music-player/gmu.music.player.port.json: {'version': 4, 'name': 'gmu.music.player.zip', 'items': ['Gmu Music Player.sh', 'gmu-music-player/'], 'items_opt': None, 'attr': {'title': 'Gmu Music Player', 'desc': 'Gmu is an open source music player for portable gaming consoles and handhelds.', 'inst': "Add your music to the 'ports/gmu-music-player/music' folder for easy access or wherever else you wish as you can browse all storage for files.", 'genres': ['other'], 'porter': ['Slayer366'], 'image': {'screenshot': 'screenshot.jpg', 'covers': [], 'thumbnail': None, 'video': None}, 'rtr': True, 'exp': False, 'runtime': [], 'min_glibc': '', 'reqs': [], 'arch': ['aarch64']}, 'status': {'source': 'Unknown', 'md5': None, 'status': 'Broken'}, 'files': {'Gmu Music Player.sh': 'Gmu Music Player.sh'}}
+2025-04-22 02:32:51.239 | ERROR    | harbourmaster.harbour:load_ports:880 - Port skijump3.zip missing skijump3/.
+2025-04-22 02:32:51.240 | WARNING  | harbourmaster.harbour:load_ports:910 - Unable to dump /mnt/SDCARD/Data/ports/skijump3/skijump3.port.json: {'version': 4, 'name': 'skijump3.zip', 'items': ['skijump3/', 'Skijump3.sh'], 'items_opt': None, 'attr': {'title': 'SkiJump3', 'desc': 'Ski Jump International v3', 'inst': 'Ready to run.', 'genres': ['sports'], 'porter': ['Cebion'], 'image': {'screenshot': 'screenshot.jpg', 'covers': ['cover.png'], 'thumbnail': None, 'video': None}, 'rtr': True, 'exp': False, 'runtime': [], 'min_glibc': '', 'reqs': [], 'arch': ['aarch64']}, 'status': {'source': 'Unknown', 'md5': None, 'status': 'Broken'}, 'files': {'Skijump3.sh': 'Skijump3.sh'}}
+2025-04-22 02:32:51.242 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED A
+2025-04-22 02:32:51.248 | DEBUG    | __main__:pop_scene:1333 - POP SCENE LAYER messages
+2025-04-22 02:32:51.250 | DEBUG    | __main__:pop_scene:1336 - SCENE LIST: ['root', 'ports']
+2025-04-22 02:32:51.313 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port annalynn.zip.
+2025-04-22 02:32:51.316 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port arengius.zip.
+2025-04-22 02:32:51.317 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port arx.zip.
+2025-04-22 02:32:51.318 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port assaultshell.zip.
+2025-04-22 02:32:51.321 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port barbarian.zip.
+2025-04-22 02:32:51.322 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port battalion.zip.
+2025-04-22 02:32:51.323 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port beardblade.zip.
+2025-04-22 02:32:51.325 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port beemisthecurseofgod.zip.
+2025-04-22 02:32:51.326 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port benboquest.zip.
+2025-04-22 02:32:51.327 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port beyondtotalloss.zip.
+2025-04-22 02:32:51.329 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port biomassgrowth.zip.
+2025-04-22 02:32:51.330 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bittriprunner2.zip.
+2025-04-22 02:32:51.331 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port blastius.zip.
+2025-04-22 02:32:51.335 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port boneraiserminions.zip.
+2025-04-22 02:32:51.336 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bootlegbox.zip.
+2025-04-22 02:32:51.337 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port botvice.zip.
+2025-04-22 02:32:51.338 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port botbreak.zip.
+2025-04-22 02:32:51.339 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bowlingcross.zip.
+2025-04-22 02:32:51.341 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bravedogsroad.zip.
+2025-04-22 02:32:51.342 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port breaker.zip.
+2025-04-22 02:32:51.344 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port brotato.zip.
+2025-04-22 02:32:51.345 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bugdom.zip.
+2025-04-22 02:32:51.346 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bumpersbroadswords.zip.
+2025-04-22 02:32:51.347 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bnbmax.zip.
+2025-04-22 02:32:51.348 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bnbtourn.zip.
+2025-04-22 02:32:51.349 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port bunnysflowers.zip.
+2025-04-22 02:32:51.351 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port callystrials.zip.
+2025-04-22 02:32:51.354 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port carriesorderup.zip.
+2025-04-22 02:32:51.355 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port simonsqrev.zip.
+2025-04-22 02:32:51.359 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port chessisstupid.zip.
+2025-04-22 02:32:51.360 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port chipndale.zip.
+2025-04-22 02:32:51.361 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port circainfinity.zip.
+2025-04-22 02:32:51.363 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port cleavingcaliber.zip.
+2025-04-22 02:32:51.365 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port climb.zip.
+2025-04-22 02:32:51.366 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port cognizance.zip.
+2025-04-22 02:32:51.367 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port coincrypt.zip.
+2025-04-22 02:32:51.371 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port crystalsamalgam.zip.
+2025-04-22 02:32:51.372 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port curseball.zip.
+2025-04-22 02:32:51.374 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port cybarian.zip.
+2025-04-22 02:32:51.376 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port darkdeity.zip.
+2025-04-22 02:32:51.378 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port daydreamer.zip.
+2025-04-22 02:32:51.379 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port deadicedeluxe.zip.
+2025-04-22 02:32:51.380 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port deadknight.zip.
+2025-04-22 02:32:51.382 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port deltarune.zip.
+2025-04-22 02:32:51.383 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port demonofsakurapass.zip.
+2025-04-22 02:32:51.384 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port demonslayer.zip.
+2025-04-22 02:32:51.386 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port derelict.zip.
+2025-04-22 02:32:51.388 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port destructivator.zip.
+2025-04-22 02:32:51.389 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port destructivator2.zip.
+2025-04-22 02:32:51.391 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port devbootleg.zip.
+2025-04-22 02:32:51.392 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port digitaltamersreborn.zip.
+2025-04-22 02:32:51.394 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port discroom.zip.
+2025-04-22 02:32:51.398 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port drbloodshot.zip.
+2025-04-22 02:32:51.400 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port drinkndrive.zip.
+2025-04-22 02:32:51.403 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port dungeonsouls.zip.
+2025-04-22 02:32:51.405 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port elecdude.zip.
+2025-04-22 02:32:51.408 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port estigma.zip.
+2025-04-22 02:32:51.409 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port everpatch.zip.
+2025-04-22 02:32:51.411 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port f-zeropocket.zip.
+2025-04-22 02:32:51.412 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port faithdemonsiege.zip.
+2025-04-22 02:32:51.416 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port firearrow.zip.
+2025-04-22 02:32:51.423 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port flaskoman.zip.
+2025-04-22 02:32:51.424 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port flywrench.zip.
+2025-04-22 02:32:51.425 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port fnafnes.zip.
+2025-04-22 02:32:51.427 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port forager.zip.
+2025-04-22 02:32:51.428 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port forgodden.zip.
+2025-04-22 02:32:51.429 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port franbow.zip.
+2025-04-22 02:32:51.431 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port freedom.planet.zip.
+2025-04-22 02:32:51.433 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port frogger2.zip.
+2025-04-22 02:32:51.435 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port galaxychampionstv.zip.
+2025-04-22 02:32:51.437 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gaugeofrage.zip.
+2025-04-22 02:32:51.438 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gaurodan.zip.
+2025-04-22 02:32:51.439 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gcrash.zip.
+2025-04-22 02:32:51.441 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port ghostris.zip.
+2025-04-22 02:32:51.442 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gloomreducer.zip.
+2025-04-22 02:32:51.444 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port goblindungeoneer.zip.
+2025-04-22 02:32:51.446 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port goldenhornet.zip.
+2025-04-22 02:32:51.447 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gooptygoo.zip.
+2025-04-22 02:32:51.448 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gravityblocks.zip.
+2025-04-22 02:32:51.450 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port grelox.zip.
+2025-04-22 02:32:51.451 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port grimstorm.zip.
+2025-04-22 02:32:51.453 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port guacamelee.zip.
+2025-04-22 02:32:51.454 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gumgirlgb.zip.
+2025-04-22 02:32:51.455 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gumchugirl.zip.
+2025-04-22 02:32:51.457 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port gunsandguns.zip.
+2025-04-22 02:32:51.459 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hakopalace.zip.
+2025-04-22 02:32:51.461 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hallowedcandy.zip.
+2025-04-22 02:32:51.462 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port halloweenforever.zip.
+2025-04-22 02:32:51.463 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hauntedlandsburial.zip.
+2025-04-22 02:32:51.467 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hoopervania.zip.
+2025-04-22 02:32:51.469 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hotlinesanzu.zip.
+2025-04-22 02:32:51.471 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hunters.zip.
+2025-04-22 02:32:51.473 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hyperlightdrifter.zip.
+2025-04-22 02:32:51.474 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hyperprincesspitch.zip.
+2025-04-22 02:32:51.475 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port igachahead.zip.
+2025-04-22 02:32:51.477 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port iconoclasts.zip.
+2025-04-22 02:32:51.479 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port iii.zip.
+2025-04-22 02:32:51.480 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port infested.zip.
+2025-04-22 02:32:51.483 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port ironferret.zip.
+2025-04-22 02:32:51.484 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port itta.zip.
+2025-04-22 02:32:51.486 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port jestershelper.zip.
+2025-04-22 02:32:51.487 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port jetlancer.zip.
+2025-04-22 02:32:51.489 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port jumpoffthebridge.zip.
+2025-04-22 02:32:51.490 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port jumponhead.zip.
+2025-04-22 02:32:51.493 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port kikai.zip.
+2025-04-22 02:32:51.494 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port kingofmachines.zip.
+2025-04-22 02:32:51.495 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port kleebuucravesfruitsalad.zip.
+2025-04-22 02:32:51.496 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port klorets.zip.
+2025-04-22 02:32:51.498 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port la-mulana.zip.
+2025-04-22 02:32:51.501 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port liltanks.zip.
+2025-04-22 02:32:51.502 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port lineoff.zip.
+2025-04-22 02:32:51.506 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port lividmeadow.zip.
+2025-04-22 02:32:51.507 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port lizandlaz.zip.
+2025-04-22 02:32:51.508 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port lode.zip.
+2025-04-22 02:32:51.510 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port loopcat.zip.
+2025-04-22 02:32:51.511 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port lostethereal.zip.
+2025-04-22 02:32:51.513 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port love3.zip.
+2025-04-22 02:32:51.514 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port love.zip.
+2025-04-22 02:32:51.516 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port luminousslash.zip.
+2025-04-22 02:32:51.517 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port mableandthewood.zip.
+2025-04-22 02:32:51.518 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port magicvigilante.zip.
+2025-04-22 02:32:51.519 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port magnibox.zip.
+2025-04-22 02:32:51.521 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port maldita.castilla.zip.
+2025-04-22 02:32:51.525 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port mslugsbf.zip.
+2025-04-22 02:32:51.527 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port mezzer.zip.
+2025-04-22 02:32:51.529 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port mimisdeliverydash.zip.
+2025-04-22 02:32:51.531 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port minidoom.zip.
+2025-04-22 02:32:51.532 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port minit.zip.
+2025-04-22 02:32:51.533 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port mire.zip.
+2025-04-22 02:32:51.535 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port missiledancer.zip.
+2025-04-22 02:32:51.536 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port mobility.zip.
+2025-04-22 02:32:51.538 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port monolith.zip.
+2025-04-22 02:32:51.540 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port moonlight.zip.
+2025-04-22 02:32:51.543 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port mystikbelle.zip.
+2025-04-22 02:32:51.544 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nainainights.zip.
+2025-04-22 02:32:51.546 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nanosaur.zip.
+2025-04-22 02:32:51.547 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port netouchezpas5.zip.
+2025-04-22 02:32:51.549 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nfs2se.zip.
+2025-04-22 02:32:51.550 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port neogensokyo.zip.
+2025-04-22 02:32:51.551 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port neoncityriders.zip.
+2025-04-22 02:32:51.553 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nidhogg.zip.
+2025-04-22 02:32:51.556 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port notransmission.zip.
+2025-04-22 02:32:51.557 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nonstopspaceprobe.zip.
+2025-04-22 02:32:51.559 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nvpw.zip.
+2025-04-22 02:32:51.561 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nuclearthronemobile.zip.
+2025-04-22 02:32:51.562 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nulldrifter.zip.
+2025-04-22 02:32:51.563 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port ocda.zip.
+2025-04-22 02:32:51.565 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port ohmygodlookatthisknight.zip.
+2025-04-22 02:32:51.566 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port omegastrike.zip.
+2025-04-22 02:32:51.571 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port operius.zip.
+2025-04-22 02:32:51.574 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port outofammo.zip.
+2025-04-22 02:32:51.575 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port outlawn.zip.
+2025-04-22 02:32:51.576 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port overgun.zip.
+2025-04-22 02:32:51.579 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port panicroom.zip.
+2025-04-22 02:32:51.582 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port ppengui.zip.
+2025-04-22 02:32:51.584 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port pingo.zip.
+2025-04-22 02:32:51.586 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port pinky.zip.
+2025-04-22 02:32:51.588 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port pixelskaterdude.zip.
+2025-04-22 02:32:51.589 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port plague.zip.
+2025-04-22 02:32:51.592 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port pleasedonttouchanything.zip.
+2025-04-22 02:32:51.594 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port pocketwondersport.zip.
+2025-04-22 02:32:51.596 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port powerlevel.zip.
+2025-04-22 02:32:51.598 | DEBUG    | harbourmaster.harbour:build_port_attrs:1103 - skip experimental port starfighter.zip.
+2025-04-22 02:32:51.599 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port psebay.zip.
+2025-04-22 02:32:51.601 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port pulstario.zip.
+2025-04-22 02:32:51.602 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port pupaipospacedx.zip.
+2025-04-22 02:32:51.603 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port puremetal.zip.
+2025-04-22 02:32:51.608 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port rwatch.zip.
+2025-04-22 02:32:51.609 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port ragingblasters.zip.
+2025-04-22 02:32:51.612 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port redhandsomehood.zip.
+2025-04-22 02:32:51.614 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port redo.zip.
+2025-04-22 02:32:51.616 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port relichunters.zip.
+2025-04-22 02:32:51.617 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port residentvania.zip.
+2025-04-22 02:32:51.618 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port restore.portmaster.zip.
+2025-04-22 02:32:51.620 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port revbros.zip.
+2025-04-22 02:32:51.622 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port riddledcorpses.zip.
+2025-04-22 02:32:51.624 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port riptale.zip.
+2025-04-22 02:32:51.625 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port riskofrain.zip.
+2025-04-22 02:32:51.626 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port rite.zip.
+2025-04-22 02:32:51.628 | DEBUG    | harbourmaster.harbour:build_port_attrs:1103 - skip experimental port rlvm.zip.
+2025-04-22 02:32:51.629 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port roadwarriors2.zip.
+2025-04-22 02:32:51.632 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port roguelight.zip.
+2025-04-22 02:32:51.634 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port rotationalshift.zip.
+2025-04-22 02:32:51.635 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port russiansubwaydogs.zip.
+2025-04-22 02:32:51.637 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port santassurprise.zip.
+2025-04-22 02:32:51.639 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port satlovecake.zip.
+2025-04-22 02:32:51.641 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port savant.zip.
+2025-04-22 02:32:51.642 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port savingprincess.zip.
+2025-04-22 02:32:51.644 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port secretteagarden.zip.
+2025-04-22 02:32:51.646 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port serioussam-tfe.zip.
+2025-04-22 02:32:51.647 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port serioussam-tse.zip.
+2025-04-22 02:32:51.649 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port shadowwrangler.zip.
+2025-04-22 02:32:51.652 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port shovel.knight.zip.
+2025-04-22 02:32:51.653 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port shrubnaut.zip.
+2025-04-22 02:32:51.656 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port skeletonboomerang.zip.
+2025-04-22 02:32:51.658 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port smoothiegalaxy.zip.
+2025-04-22 02:32:51.660 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port snaklipse.zip.
+2025-04-22 02:32:51.661 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port sneakr.zip.
+2025-04-22 02:32:51.662 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port snout.zip.
+2025-04-22 02:32:51.664 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port sokobrawn.zip.
+2025-04-22 02:32:51.666 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port sonic1sms.zip.
+2025-04-22 02:32:51.668 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port sonic2sms.zip.
+2025-04-22 02:32:51.670 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port sonic3sms.zip.
+2025-04-22 02:32:51.672 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port sonictimetwisted.zip.
+2025-04-22 02:32:51.674 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port sorr.zip.
+2025-04-22 02:32:51.675 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port spacegladiators.zip.
+2025-04-22 02:32:51.677 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port spacemothdx.zip.
+2025-04-22 02:32:51.678 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port spacewingwar.zip.
+2025-04-22 02:32:51.679 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port spearmintmountain.zip.
+2025-04-22 02:32:51.681 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port spinch.zip.
+2025-04-22 02:32:51.683 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port splinterzone.zip.
+2025-04-22 02:32:51.685 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port squeek.zip.
+2025-04-22 02:32:51.687 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port starvsthegame.zip.
+2025-04-22 02:32:51.690 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port stargrovescramble.zip.
+2025-04-22 02:32:51.691 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port static.zip.
+2025-04-22 02:32:51.692 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port steamlink.zip.
+2025-04-22 02:32:51.695 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port streetsofclaus.zip.
+2025-04-22 02:32:51.696 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port strikeysisters.zip.
+2025-04-22 02:32:51.698 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port sulka.zip.
+2025-04-22 02:32:51.700 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port supercakeboy.zip.
+2025-04-22 02:32:51.701 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port supercratebox.zip.
+2025-04-22 02:32:51.703 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port supergaelicdodgeball.zip.
+2025-04-22 02:32:51.705 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port hydorah.zip.
+2025-04-22 02:32:51.706 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port supermeatboy.zip.
+2025-04-22 02:32:51.707 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port supermegazero.zip.
+2025-04-22 02:32:51.709 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port superraftboatclassic.zip.
+2025-04-22 02:32:51.710 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port superrobotninjagirl.zip.
+2025-04-22 02:32:51.711 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port superskelemania.zip.
+2025-04-22 02:32:51.712 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port superstarpath.zip.
+2025-04-22 02:32:51.715 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port superxyx.zip.
+2025-04-22 02:32:51.717 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port swapwoodquestr.zip.
+2025-04-22 02:32:51.719 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port tamashii.zip.
+2025-04-22 02:32:51.721 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port tempuslocus.zip.
+2025-04-22 02:32:51.723 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port theaspect.zip.
+2025-04-22 02:32:51.725 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port thecurseofissyos.zip.
+2025-04-22 02:32:51.726 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port happyhills.zip.
+2025-04-22 02:32:51.729 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port nightshift.zip.
+2025-04-22 02:32:51.734 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port thestarlitescape.zip.
+2025-04-22 02:32:51.736 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port thesunandmoon.zip.
+2025-04-22 02:32:51.737 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port thewind.zip.
+2025-04-22 02:32:51.740 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port thysword.zip.
+2025-04-22 02:32:51.744 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port towardsthepantheones.zip.
+2025-04-22 02:32:51.746 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port towerfortress.zip.
+2025-04-22 02:32:51.749 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port trickykeys.zip.
+2025-04-22 02:32:51.750 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port trickykeys2.zip.
+2025-04-22 02:32:51.754 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port ubermoshcollection.zip.
+2025-04-22 02:32:51.759 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port valhalla.zip.
+2025-04-22 02:32:51.762 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port verticaldropheroeshd.zip.
+2025-04-22 02:32:51.764 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port vitasnake.zip.
+2025-04-22 02:32:51.767 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port wakingmars.zip.
+2025-04-22 02:32:51.771 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port wordswithfreds.zip.
+2025-04-22 02:32:51.775 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port xenonvalkyrie.zip.
+2025-04-22 02:32:51.777 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port yellowjacket.zip.
+2025-04-22 02:32:51.780 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port youdiedbanry.zip.
+2025-04-22 02:32:51.781 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port youhave10s2023.zip.
+2025-04-22 02:32:51.783 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port z-warp.zip.
+2025-04-22 02:32:51.785 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port zeroranger.zip.
+2025-04-22 02:32:51.788 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port am2r.zip.
+2025-04-22 02:32:51.792 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port pokewilds.zip.
+2025-04-22 02:32:51.794 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port starbound.zip.
+2025-04-22 02:32:51.797 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port zeldadoi.zip.
+2025-04-22 02:32:51.802 | DEBUG    | harbourmaster.harbour:build_port_attrs:1095 - skip incompatible port ziiaol.zip.
+2025-04-22 02:32:51.804 | DEBUG    | harbourmaster.harbour:build_port_attrs:1103 - skip experimental port zeldansq.zip.
+2025-04-22 02:32:51.806 | DEBUG    | harbourmaster.harbour:build_port_attrs:1103 - skip experimental port zelda_roth.zip.
+2025-04-22 02:32:51.808 | DEBUG    | harbourmaster.harbour:build_port_attrs:1103 - skip experimental port zelda3t.zip.
+2025-04-22 02:32:54.301 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:32:54.519 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:35:46.194 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED DOWN
+2025-04-22 02:35:46.391 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED DOWN
+2025-04-22 02:35:46.733 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED B
+2025-04-22 02:35:46.736 | DEBUG    | __main__:pop_scene:1333 - POP SCENE LAYER ports
+2025-04-22 02:35:46.739 | DEBUG    | __main__:pop_scene:1336 - SCENE LIST: ['root']
+2025-04-22 02:35:46.931 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED B
+2025-04-22 02:35:48.539 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED B
+2025-04-22 02:35:48.550 | DEBUG    | __main__:push_scene:1308 - PUSH SCENE LAYER message_box
+2025-04-22 02:35:48.552 | DEBUG    | __main__:push_scene:1311 - SCENE LIST: ['root', 'message_box']
+2025-04-22 02:35:48.686 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED B
+2025-04-22 02:35:48.942 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED B
+2025-04-22 02:35:48.976 | DEBUG    | __main__:pop_scene:1333 - POP SCENE LAYER message_box
+2025-04-22 02:35:48.979 | DEBUG    | __main__:pop_scene:1336 - SCENE LIST: ['root']
+2025-04-22 02:35:49.085 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED B
+2025-04-22 02:35:49.675 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED B
+2025-04-22 02:35:49.684 | DEBUG    | __main__:push_scene:1308 - PUSH SCENE LAYER message_box
+2025-04-22 02:35:49.686 | DEBUG    | __main__:push_scene:1311 - SCENE LIST: ['root', 'message_box']
+2025-04-22 02:35:49.887 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED B
+2025-04-22 02:35:50.074 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED B
+2025-04-22 02:35:50.108 | DEBUG    | __main__:pop_scene:1333 - POP SCENE LAYER message_box
+2025-04-22 02:35:50.111 | DEBUG    | __main__:pop_scene:1336 - SCENE LIST: ['root']
+2025-04-22 02:35:50.186 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED B
+2025-04-22 02:35:50.375 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED B
+2025-04-22 02:35:50.384 | DEBUG    | __main__:push_scene:1308 - PUSH SCENE LAYER message_box
+2025-04-22 02:35:50.386 | DEBUG    | __main__:push_scene:1311 - SCENE LIST: ['root', 'message_box']
+2025-04-22 02:35:50.456 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED B
+2025-04-22 02:35:50.674 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED B
+2025-04-22 02:35:50.708 | DEBUG    | __main__:pop_scene:1333 - POP SCENE LAYER message_box
+2025-04-22 02:35:50.710 | DEBUG    | __main__:pop_scene:1336 - SCENE LIST: ['root']
+2025-04-22 02:35:50.758 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED B
+2025-04-22 02:35:50.988 | DEBUG    | pySDL2gui:handle_events:1522 - PRESSED B
+2025-04-22 02:35:50.996 | DEBUG    | __main__:push_scene:1308 - PUSH SCENE LAYER message_box
+2025-04-22 02:35:50.998 | DEBUG    | __main__:push_scene:1311 - SCENE LIST: ['root', 'message_box']
+2025-04-22 02:35:51.038 | DEBUG    | pySDL2gui:handle_events:1531 - RELEASED B
+2025-04-22 02:36:14.564 | DEBUG    | __main__:pop_scene:1333 - POP SCENE LAYER message_box
+2025-04-22 02:36:14.569 | DEBUG    | __main__:pop_scene:1336 - SCENE LIST: ['root']
+2025-04-22 02:36:14.629 | DEBUG    | __main__:main:2061 - <harbourmaster.harbour.HarbourMaster object at 0x7f9bb44850>: None
