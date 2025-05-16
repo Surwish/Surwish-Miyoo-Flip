@@ -1,0 +1,748 @@
+#device_joystick auto
+device_keyboard sdl
+device_video sdl
+display_orientation mirror_x mirror_y
+display_resizeeffect none
+display_size 640x480
+display_restoreatgame no
+event_alpha no
+event_assign up up 
+event_assign down down 
+event_assign left left 
+event_assign right right 
+event_assign enter space
+event_assign esc esc or lcontrol
+event_assign space lalt
+event_assign home home
+event_assign end end
+event_assign pgup e
+event_assign pgdn  t
+event_assign del backspace
+event_assign ins tab
+event_assign exit esc
+event_assign shutdown none
+event_assign mode rcontrol
+event_assign calib plus_pad
+event_assign help f1
+event_assign group f2
+event_assign type f3
+event_assign exclude f4
+event_assign sort lshift
+event_assign setgroup f9
+event_assign settype none
+event_assign runclone f12
+event_assign command f8
+event_assign menu enter
+event_assign emulator f6
+event_assign rotate none
+event_assign lock none
+event_assign preview none
+event_assign mute period_pad
+event_assign volume none
+event_assign difficulty none
+misc_quiet yes
+mode tile_tiny
+Arcade/mode_skip full_mixed list_mixed title_enormous title_giant title_icon title_marquee
+sound_background_loop none
+sound_background_loop_dir none
+sound_foreground_begin none
+sound_foreground_end none
+sound_foreground_key none
+sound_foreground_start none
+sound_foreground_stop none
+sound_volume -26
+preview_default "preview.png"
+ui_bar_font "/mnt/SDCARD/miyoo/app/Exo-2-Bold-Italic_Universal.ttf"
+#ui_clip none
+ui_color help ffffff 000000
+ui_color help_tag 00ff00 000000
+ui_color submenu_bar ffffff 323232
+ui_color submenu_item ffffff 323232
+ui_color submenu_item_select ffffff 7247c2
+ui_color submenu_hidden a8a8a8 000000
+ui_color submenu_hidden_select ffffff 7247c2
+ui_color menu_item ffffff 000000
+ui_color menu_hidden ffffff 000000
+ui_color menu_tag ffffff 000000
+ui_color menu_item_select ffffff 7247c2
+ui_color menu_hidden_select ffffff 7247c2
+ui_color menu_tag_select ffffff 7247c2
+ui_color bar ffffff 000000
+ui_color bar_tag 7247c2 000000
+ui_color bar_hidden 3c3f50 000000
+ui_color grid 000000 000000
+ui_color overscan ffffff 000000
+ui_color backdrop 7247c2 000000
+ui_color icon ffffff ffffff
+ui_color cursor ffffff ffffff
+ui_outline no
+ui_menukey no
+ui_game snap
+ui_gamemsg "LOADING"
+ui_background bg.png
+ui_menu_font "/mnt/SDCARD/miyoo/app/Exo-2-Bold-Italic_Universal.ttf"
+ui_menu_size 20
+ui_text_font "/mnt/SDCARD/miyoo/app/wqy-microhei.ttc"
+ui_text_size 24
+
+#emulator "advmess" advmess "/mnt/SDCARD/App/advmenu/advmess.sh" "%p"
+
+#emulator "AdvanceMAME" advmame "/mnt/SDCARD/App/advmenu/advmame.sh" "%p"
+	
+#emulator "AdvanceMAME" advmame "advmame" "%o[,-ror,-flipx,-rol] %o[,,-flipy,]"
+#emulator_roms "AdvanceMAME" "/mnt/SDCARD/Roms/ARCADE"
+
+#emulator "advmess" advmess "/mnt/SDCARD/App/advmenu/advmess.sh" "%p"
+#emulator "advmess" advmess "advmess" "-quiet"
+
+emulator "advancemame" generic "/mnt/SDCARD/RApp/advancemame/advcommand.sh" "%p"
+emulator_roms "advancemame" "/mnt/SDCARD/Roms/ADVMAME"
+emulator_roms_filter "advancemame" "*.zip"
+emulator_altss "advancemame" "/mnt/SDCARD/Roms/ADVMAME/Snaps"
+emulator_flyers "advancemame" "/mnt/SDCARD/Roms/ADVMAME/Imgs"
+type_import catver "advancemame" "category.ini" "Category"
+
+emulator "AMIGA" generic "/mnt/SDCARD/Emu/AMIGA/advcommand.sh" "%p"
+emulator_roms "AMIGA" "/mnt/SDCARD/Emu/AMIGA/../../Roms/AMIGA"
+emulator_roms_filter "AMIGA" "*.adf:*.adz:*.dms:*.fdi:*.ipf:*.hdf:*.hdz:*.lha:*.slave:*.info:*.cue:*.ccd:*.nrg:*.mds:*.iso:*.chd:*.uae:*.m3u:*.zip:*.7z:*.rp9"
+emulator_altss "AMIGA" "/mnt/SDCARD/Emu/AMIGA/../../Roms/AMIGA/Snaps"
+emulator_flyers "AMIGA" "/mnt/SDCARD/Emu/AMIGA/../../Roms/AMIGA/Imgs"
+
+emulator "ARCADE" generic "/mnt/SDCARD/Emu/ARCADE/advcommand.sh" "%p"
+emulator_roms "ARCADE" "/mnt/SDCARD/Emu/ARCADE/../../Roms/ARCADE"
+emulator_roms_filter "ARCADE" "*.zip"
+emulator_altss "ARCADE" "/mnt/SDCARD/Emu/ARCADE/../../Roms/ARCADE/Snaps"
+emulator_flyers "ARCADE" "/mnt/SDCARD/Emu/ARCADE/../../Roms/ARCADE/Imgs"
+
+emulator "ATARI" generic "/mnt/SDCARD/Emu/ATARI/advcommand.sh" "%p"
+emulator_roms "ATARI" "/mnt/SDCARD/Emu/ATARI/../../Roms/ATARI"
+emulator_roms_filter "ATARI" "*.a26:*.bin:*.zip:*.7z"
+emulator_altss "ATARI" "/mnt/SDCARD/Emu/ATARI/../../Roms/ATARI/Snaps"
+emulator_flyers "ATARI" "/mnt/SDCARD/Emu/ATARI/../../Roms/ATARI/Imgs"
+
+emulator "COLECO" generic "/mnt/SDCARD/Emu/COLECO/advcommand.sh" "%p"
+emulator_roms "COLECO" "/mnt/SDCARD/Emu/COLECO/../../Roms/COLECO"
+emulator_roms_filter "COLECO" "*.rom:*.ri:*.mx1:*.mx2:*.col:*.dsk:*.cas:*.sg:*.sc:*.m3u:*.zip:*.7z"
+emulator_altss "COLECO" "/mnt/SDCARD/Emu/COLECO/../../Roms/COLECO/Snaps"
+emulator_flyers "COLECO" "/mnt/SDCARD/Emu/COLECO/../../Roms/COLECO/Imgs"
+
+emulator "COMMODORE" generic "/mnt/SDCARD/Emu/COMMODORE/advcommand.sh" "%p"
+emulator_roms "COMMODORE" "/mnt/SDCARD/Emu/COMMODORE/../../Roms/COMMODORE"
+emulator_roms_filter "COMMODORE" "*.d64:*.zip:*.7z:*.t64:*.crt:*.prg:*.nib:*.tap"
+emulator_altss "COMMODORE" "/mnt/SDCARD/Emu/COMMODORE/../../Roms/COMMODORE/Snaps"
+emulator_flyers "COMMODORE" "/mnt/SDCARD/Emu/COMMODORE/../../Roms/COMMODORE/Imgs"
+
+emulator "CPC" generic "/mnt/SDCARD/Emu/CPC/advcommand.sh" "%p"
+emulator_roms "CPC" "/mnt/SDCARD/Emu/CPC/../../Roms/CPC"
+emulator_roms_filter "CPC" "*.sna:*.dsk:*.kcr:*.bin:*.zip:*.7z"
+emulator_altss "CPC" "/mnt/SDCARD/Emu/CPC/../../Roms/CPC/Snaps"
+emulator_flyers "CPC" "/mnt/SDCARD/Emu/CPC/../../Roms/CPC/Imgs"
+
+emulator "CPS1" generic "/mnt/SDCARD/Emu/CPS1/advcommand.sh" "%p"
+emulator_roms "CPS1" "/mnt/SDCARD/Emu/CPS1/../../Roms/CPS1"
+emulator_roms_filter "CPS1" "*.zip:*.7z:*.cue"
+emulator_altss "CPS1" "/mnt/SDCARD/Emu/CPS1/../../Roms/CPS1/Snaps"
+emulator_flyers "CPS1" "/mnt/SDCARD/Emu/CPS1/../../Roms/CPS1/Imgs"
+
+emulator "CPS2" generic "/mnt/SDCARD/Emu/CPS2/advcommand.sh" "%p"
+emulator_roms "CPS2" "/mnt/SDCARD/Emu/CPS2/../../Roms/CPS2"
+emulator_roms_filter "CPS2" "*.zip:*.7z:*.cue"
+emulator_altss "CPS2" "/mnt/SDCARD/Emu/CPS2/../../Roms/CPS2/Snaps"
+emulator_flyers "CPS2" "/mnt/SDCARD/Emu/CPS2/../../Roms/CPS2/Imgs"
+
+emulator "CPS3" generic "/mnt/SDCARD/Emu/CPS3/advcommand.sh" "%p"
+emulator_roms "CPS3" "/mnt/SDCARD/Emu/CPS3/../../Roms/CPS3"
+emulator_roms_filter "CPS3" "*.zip:*.7z:*.cue"
+emulator_altss "CPS3" "/mnt/SDCARD/Emu/CPS3/../../Roms/CPS3/Snaps"
+emulator_flyers "CPS3" "/mnt/SDCARD/Emu/CPS3/../../Roms/CPS3/Imgs"
+
+emulator "DOS" generic "/mnt/SDCARD/Emu/DOS/advcommand.sh" "%p"
+emulator_roms "DOS" "/mnt/SDCARD/Emu/DOS/../../Roms/DOS"
+emulator_roms_filter "DOS" "*.zip:*.dosz:*.exe:*.com:*.bat:*.iso:*.ins:*.img:*.ima:*.vhd:*.jrc:*.tc:*.m3u:*.m3u8:*.conf"
+emulator_altss "DOS" "/mnt/SDCARD/Emu/DOS/../../Roms/DOS/Snaps"
+emulator_flyers "DOS" "/mnt/SDCARD/Emu/DOS/../../Roms/DOS/Imgs"
+
+emulator "FAIRCHILD" generic "/mnt/SDCARD/Emu/FAIRCHILD/advcommand.sh" "%p"
+emulator_roms "FAIRCHILD" "/mnt/SDCARD/Emu/FAIRCHILD/../../Roms/FAIRCHILD"
+emulator_roms_filter "FAIRCHILD" "*.bin:*.rom:*.chf:*.zip"
+emulator_altss "FAIRCHILD" "/mnt/SDCARD/Emu/FAIRCHILD/../../Roms/FAIRCHILD/Snaps"
+emulator_flyers "FAIRCHILD" "/mnt/SDCARD/Emu/FAIRCHILD/../../Roms/FAIRCHILD/Imgs"
+
+emulator "FC" generic "/mnt/SDCARD/Emu/FC/advcommand.sh" "%p"
+emulator_roms "FC" "/mnt/SDCARD/Emu/FC/../../Roms/FC"
+emulator_roms_filter "FC" "*.fds:*.nes:*.unif:*.unf:*.zip:*.7z"
+emulator_altss "FC" "/mnt/SDCARD/Emu/FC/../../Roms/FC/Snaps"
+emulator_flyers "FC" "/mnt/SDCARD/Emu/FC/../../Roms/FC/Imgs"
+
+emulator "FDS" generic "/mnt/SDCARD/Emu/FDS/advcommand.sh" "%p"
+emulator_roms "FDS" "/mnt/SDCARD/Emu/FDS/../../Roms/FDS"
+emulator_roms_filter "FDS" "*.fds:*.nes:*.unif:*.unf:*.zip:*.7z"
+emulator_altss "FDS" "/mnt/SDCARD/Emu/FDS/../../Roms/FDS/Snaps"
+emulator_flyers "FDS" "/mnt/SDCARD/Emu/FDS/../../Roms/FDS/Imgs"
+
+emulator "FIFTYTWOHUNDRED" generic "/mnt/SDCARD/Emu/FIFTYTWOHUNDRED/advcommand.sh" "%p"
+emulator_roms "FIFTYTWOHUNDRED" "/mnt/SDCARD/Emu/FIFTYTWOHUNDRED/../../Roms/FIFTYTWOHUNDRED"
+emulator_roms_filter "FIFTYTWOHUNDRED" "*.a52:*.zip:*.7z:*.bin"
+emulator_altss "FIFTYTWOHUNDRED" "/mnt/SDCARD/Emu/FIFTYTWOHUNDRED/../../Roms/FIFTYTWOHUNDRED/Snaps"
+emulator_flyers "FIFTYTWOHUNDRED" "/mnt/SDCARD/Emu/FIFTYTWOHUNDRED/../../Roms/FIFTYTWOHUNDRED/Imgs"
+
+emulator "GB" generic "/mnt/SDCARD/Emu/GB/advcommand.sh" "%p"
+emulator_roms "GB" "/mnt/SDCARD/Emu/GB/../../Roms/GB"
+emulator_roms_filter "GB" "*.bin:*.dmg:*.gb:*.gbc:*.zip:*.7z"
+emulator_altss "GB" "/mnt/SDCARD/Emu/GB/../../Roms/GB/Snaps"
+emulator_flyers "GB" "/mnt/SDCARD/Emu/GB/../../Roms/GB/Imgs"
+
+emulator "GBA" generic "/mnt/SDCARD/Emu/GBA/advcommand.sh" "%p"
+emulator_roms "GBA" "/mnt/SDCARD/Emu/GBA/../../Roms/GBA"
+emulator_roms_filter "GBA" "*.bin:*.gba:*.zip:*.7z"
+emulator_altss "GBA" "/mnt/SDCARD/Emu/GBA/../../Roms/GBA/Snaps"
+emulator_flyers "GBA" "/mnt/SDCARD/Emu/GBA/../../Roms/GBA/Imgs"
+
+emulator "GBC" generic "/mnt/SDCARD/Emu/GBC/advcommand.sh" "%p"
+emulator_roms "GBC" "/mnt/SDCARD/Emu/GBC/../../Roms/GBC"
+emulator_roms_filter "GBC" "*.bin:*.dmg:*.gb:*.gbc:*.zip:*.7z"
+emulator_altss "GBC" "/mnt/SDCARD/Emu/GBC/../../Roms/GBC/Snaps"
+emulator_flyers "GBC" "/mnt/SDCARD/Emu/GBC/../../Roms/GBC/Imgs"
+
+emulator "GG" generic "/mnt/SDCARD/Emu/GG/advcommand.sh" "%p"
+emulator_roms "GG" "/mnt/SDCARD/Emu/GG/../../Roms/GG"
+emulator_roms_filter "GG" "*.bin:*.gg:*.zip:*.7z"
+emulator_altss "GG" "/mnt/SDCARD/Emu/GG/../../Roms/GG/Snaps"
+emulator_flyers "GG" "/mnt/SDCARD/Emu/GG/../../Roms/GG/Imgs"
+
+emulator "GW" generic "/mnt/SDCARD/Emu/GW/advcommand.sh" "%p"
+emulator_roms "GW" "/mnt/SDCARD/Emu/GW/../../Roms/GW"
+emulator_roms_filter "GW" "*.mgw:*.zip:*.7z"
+emulator_altss "GW" "/mnt/SDCARD/Emu/GW/../../Roms/GW/Snaps"
+emulator_flyers "GW" "/mnt/SDCARD/Emu/GW/../../Roms/GW/Imgs"
+
+emulator "INTELLIVISION" generic "/mnt/SDCARD/Emu/INTELLIVISION/advcommand.sh" "%p"
+emulator_roms "INTELLIVISION" "/mnt/SDCARD/Emu/INTELLIVISION/../../Roms/INTELLIVISION"
+emulator_roms_filter "INTELLIVISION" "*.bin:*.int:*.zip:*.7z"
+emulator_altss "INTELLIVISION" "/mnt/SDCARD/Emu/INTELLIVISION/../../Roms/INTELLIVISION/Snaps"
+emulator_flyers "INTELLIVISION" "/mnt/SDCARD/Emu/INTELLIVISION/../../Roms/INTELLIVISION/Imgs"
+
+emulator "LYNX" generic "/mnt/SDCARD/Emu/LYNX/advcommand.sh" "%p"
+emulator_roms "LYNX" "/mnt/SDCARD/Emu/LYNX/../../Roms/LYNX"
+emulator_roms_filter "LYNX" "*.lnx:*.zip"
+emulator_altss "LYNX" "/mnt/SDCARD/Emu/LYNX/../../Roms/LYNX/Snaps"
+emulator_flyers "LYNX" "/mnt/SDCARD/Emu/LYNX/../../Roms/LYNX/Imgs"
+
+emulator "MD" generic "/mnt/SDCARD/Emu/MD/advcommand.sh" "%p"
+emulator_roms "MD" "/mnt/SDCARD/Emu/MD/../../Roms/MD"
+emulator_roms_filter "MD" "*.gen:*.smd:*.md:*.32x:*.bin:*.iso:*.sms:*.68k:*.chd:*.zip:*.7z"
+emulator_altss "MD" "/mnt/SDCARD/Emu/MD/../../Roms/MD/Snaps"
+emulator_flyers "MD" "/mnt/SDCARD/Emu/MD/../../Roms/MD/Imgs"
+
+emulator "MEGADUCK" generic "/mnt/SDCARD/Emu/MEGADUCK/advcommand.sh" "%p"
+emulator_roms "MEGADUCK" "/mnt/SDCARD/Emu/MEGADUCK/../../Roms/MEGADUCK"
+emulator_roms_filter "MEGADUCK" "*.bin:*.zip:*.7z"
+emulator_altss "MEGADUCK" "/mnt/SDCARD/Emu/MEGADUCK/../../Roms/MEGADUCK/Snaps"
+emulator_flyers "MEGADUCK" "/mnt/SDCARD/Emu/MEGADUCK/../../Roms/MEGADUCK/Imgs"
+
+emulator "MS" generic "/mnt/SDCARD/Emu/MS/advcommand.sh" "%p"
+emulator_roms "MS" "/mnt/SDCARD/Emu/MS/../../Roms/MS"
+emulator_roms_filter "MS" "*.gen:*.smd:*.md:*.32x:*.bin:*.iso:*.sms:*.68k:*.chd:*.zip:*.7z"
+emulator_altss "MS" "/mnt/SDCARD/Emu/MS/../../Roms/MS/Snaps"
+emulator_flyers "MS" "/mnt/SDCARD/Emu/MS/../../Roms/MS/Imgs"
+
+emulator "MSX" generic "/mnt/SDCARD/Emu/MSX/advcommand.sh" "%p"
+emulator_roms "MSX" "/mnt/SDCARD/Emu/MSX/../../Roms/MSX"
+emulator_roms_filter "MSX" "*.rom:*.mx1:*.mx2:*.dsk:*.cas:*.zip:*.7z:*.m3u"
+emulator_altss "MSX" "/mnt/SDCARD/Emu/MSX/../../Roms/MSX/Snaps"
+emulator_flyers "MSX" "/mnt/SDCARD/Emu/MSX/../../Roms/MSX/Imgs"
+
+emulator "NEOCD" generic "/mnt/SDCARD/Emu/NEOCD/advcommand.sh" "%p"
+emulator_roms "NEOCD" "/mnt/SDCARD/Emu/NEOCD/../../Roms/NEOCD"
+emulator_roms_filter "NEOCD" "*.cue:*.chd:*.m3u"
+emulator_altss "NEOCD" "/mnt/SDCARD/Emu/NEOCD/../../Roms/NEOCD/Snaps"
+emulator_flyers "NEOCD" "/mnt/SDCARD/Emu/NEOCD/../../Roms/NEOCD/Imgs"
+
+emulator "NEOGEO" generic "/mnt/SDCARD/Emu/NEOGEO/advcommand.sh" "%p"
+emulator_roms "NEOGEO" "/mnt/SDCARD/Emu/NEOGEO/../../Roms/NEOGEO"
+emulator_roms_filter "NEOGEO" "*.zip:*.7z"
+emulator_altss "NEOGEO" "/mnt/SDCARD/Emu/NEOGEO/../../Roms/NEOGEO/Snaps"
+emulator_flyers "NEOGEO" "/mnt/SDCARD/Emu/NEOGEO/../../Roms/NEOGEO/Imgs"
+
+emulator "NGP" generic "/mnt/SDCARD/Emu/NGP/advcommand.sh" "%p"
+emulator_roms "NGP" "/mnt/SDCARD/Emu/NGP/../../Roms/NGP"
+emulator_roms_filter "NGP" "*.ngp:*.ngc:*.zip:*.7z"
+emulator_altss "NGP" "/mnt/SDCARD/Emu/NGP/../../Roms/NGP/Snaps"
+emulator_flyers "NGP" "/mnt/SDCARD/Emu/NGP/../../Roms/NGP/Imgs"
+
+emulator "ODYSSEY" generic "/mnt/SDCARD/Emu/ODYSSEY/advcommand.sh" "%p"
+emulator_roms "ODYSSEY" "/mnt/SDCARD/Emu/ODYSSEY/../../Roms/ODYSSEY"
+emulator_roms_filter "ODYSSEY" "*.bin:*.zip:*.7z"
+emulator_altss "ODYSSEY" "/mnt/SDCARD/Emu/ODYSSEY/../../Roms/ODYSSEY/Snaps"
+emulator_flyers "ODYSSEY" "/mnt/SDCARD/Emu/ODYSSEY/../../Roms/ODYSSEY/Imgs"
+
+emulator "PCE" generic "/mnt/SDCARD/Emu/PCE/advcommand.sh" "%p"
+emulator_roms "PCE" "/mnt/SDCARD/Emu/PCE/../../Roms/PCE"
+emulator_roms_filter "PCE" "*.pce:*.ccd:*.iso:*.img:*.chd:*.cue:*.zip:*.7z"
+emulator_altss "PCE" "/mnt/SDCARD/Emu/PCE/../../Roms/PCE/Snaps"
+emulator_flyers "PCE" "/mnt/SDCARD/Emu/PCE/../../Roms/PCE/Imgs"
+
+emulator "PCECD" generic "/mnt/SDCARD/Emu/PCECD/advcommand.sh" "%p"
+emulator_roms "PCECD" "/mnt/SDCARD/Emu/PCECD/../../Roms/PCECD"
+emulator_roms_filter "PCECD" "*.pce:*.ccd:*.iso:*.img:*.chd:*.cue:*.zip:*.7z"
+emulator_altss "PCECD" "/mnt/SDCARD/Emu/PCECD/../../Roms/PCECD/Snaps"
+emulator_flyers "PCECD" "/mnt/SDCARD/Emu/PCECD/../../Roms/PCECD/Imgs"
+
+emulator "PICO" generic "/mnt/SDCARD/Emu/PICO/advcommand.sh" "%p"
+emulator_roms "PICO" "/mnt/SDCARD/Emu/PICO/../../Roms/PICO"
+emulator_roms_filter "PICO" "*.p8:*.png"
+emulator_altss "PICO" "/mnt/SDCARD/Emu/PICO/../../Roms/Snaps"
+emulator_flyers "PICO" "/mnt/SDCARD/Emu/PICO/../../Roms/PICO"
+
+emulator "POKE" generic "/mnt/SDCARD/Emu/POKE/advcommand.sh" "%p"
+emulator_roms "POKE" "/mnt/SDCARD/Emu/POKE/../../Roms/POKE"
+emulator_roms_filter "POKE" "*.min:*.zip"
+emulator_altss "POKE" "/mnt/SDCARD/Emu/POKE/../../Roms/POKE/Snaps"
+emulator_flyers "POKE" "/mnt/SDCARD/Emu/POKE/../../Roms/POKE/Imgs"
+
+emulator "PORTS" generic "/mnt/SDCARD/Emu/PORTS/advcommand.sh" "%p"
+emulator_roms "PORTS" "/mnt/SDCARD/Emu/PORTS/../../Roms/PORTS/Shortcuts"
+emulator_roms_filter "PORTS" "*.port"
+emulator_altss "PORTS" "/mnt/SDCARD/Emu/PORTS/../../Roms/PORTS/Snaps"
+emulator_flyers "PORTS" "/mnt/SDCARD/Emu/PORTS/../../Roms/PORTS/Imgs"
+
+emulator "PSX" generic "/mnt/SDCARD/Emu/PSX/advcommand.sh" "%p"
+emulator_roms "PSX" "/mnt/SDCARD/Emu/PSX/../../Roms/PS"
+emulator_roms_filter "PSX" "*.iso:*.cue:*.img:*.mdf:*.pbp:*.toc:*.cbn:*.m3u:*.ccd:*.chd"
+emulator_altss "PSX" "/mnt/SDCARD/Emu/PSX/../../Roms/PS/Snaps"
+emulator_flyers "PSX" "/mnt/SDCARD/Emu/PSX/../../Roms/PS/Imgs"
+
+emulator "SATELLAVIEW" generic "/mnt/SDCARD/Emu/SATELLAVIEW/advcommand.sh" "%p"
+emulator_roms "SATELLAVIEW" "/mnt/SDCARD/Emu/SATELLAVIEW/../../Roms/SATELLAVIEW"
+emulator_roms_filter "SATELLAVIEW" "*.bs:*.sfc:*.smc:*.swc:*.fig:*.st:*.zip:*.7z"
+emulator_altss "SATELLAVIEW" "/mnt/SDCARD/Emu/SATELLAVIEW/../../Roms/SATELLAVIEW/Snaps"
+emulator_flyers "SATELLAVIEW" "/mnt/SDCARD/Emu/SATELLAVIEW/../../Roms/SATELLAVIEW/Imgs"
+
+emulator "SCUMMVM" generic "/mnt/SDCARD/Emu/SCUMMVM/advcommand.sh" "%p"
+emulator_roms "SCUMMVM" "/mnt/SDCARD/Emu/SCUMMVM/../../Roms/SCUMMVM/Shortcuts"
+emulator_roms_filter "SCUMMVM" "*.scummvm:*.target"
+emulator_altss "SCUMMVM" "/mnt/SDCARD/Emu/SCUMMVM/../../Roms/SCUMMVM/Snaps"
+emulator_flyers "SCUMMVM" "/mnt/SDCARD/Emu/SCUMMVM/../../Roms/SCUMMVM/Imgs"
+
+emulator "SEGACD" generic "/mnt/SDCARD/Emu/SEGACD/advcommand.sh" "%p"
+emulator_roms "SEGACD" "/mnt/SDCARD/Emu/SEGACD/../../Roms/SEGACD"
+emulator_roms_filter "SEGACD" "*.gen:*.smd:*.md:*.32x:*.cue:*.iso:*.sms:*.68k:*.chd:*.zip:*.7z"
+emulator_altss "SEGACD" "/mnt/SDCARD/Emu/SEGACD/../../Roms/SEGACD/Snaps"
+emulator_flyers "SEGACD" "/mnt/SDCARD/Emu/SEGACD/../../Roms/SEGACD/Imgs"
+
+emulator "SEGASGONE" generic "/mnt/SDCARD/Emu/SEGASGONE/advcommand.sh" "%p"
+emulator_roms "SEGASGONE" "/mnt/SDCARD/Emu/SEGASGONE/../../Roms/SEGASGONE"
+emulator_roms_filter "SEGASGONE" "*.sms:*.gg:*.sg:*.mv:*.bin:*.rom:*.zip:*.7z"
+emulator_altss "SEGASGONE" "/mnt/SDCARD/Emu/SEGASGONE/../../Roms/SEGASGONE/Snaps"
+emulator_flyers "SEGASGONE" "/mnt/SDCARD/Emu/SEGASGONE/../../Roms/SEGASGONE/Imgs"
+
+emulator "SEVENTYEIGHTHUNDRED" generic "/mnt/SDCARD/Emu/SEVENTYEIGHTHUNDRED/advcommand.sh" "%p"
+emulator_roms "SEVENTYEIGHTHUNDRED" "/mnt/SDCARD/Emu/SEVENTYEIGHTHUNDRED/../../Roms/SEVENTYEIGHTHUNDRED"
+emulator_roms_filter "SEVENTYEIGHTHUNDRED" "*.a78:*.zip"
+emulator_altss "SEVENTYEIGHTHUNDRED" "/mnt/SDCARD/Emu/SEVENTYEIGHTHUNDRED/../../Roms/SEVENTYEIGHTHUNDRED/Snaps"
+emulator_flyers "SEVENTYEIGHTHUNDRED" "/mnt/SDCARD/Emu/SEVENTYEIGHTHUNDRED/../../Roms/SEVENTYEIGHTHUNDRED/Imgs"
+
+emulator "SFC" generic "/mnt/SDCARD/Emu/SFC/advcommand.sh" "%p"
+emulator_roms "SFC" "/mnt/SDCARD/Emu/SFC/../../Roms/SFC"
+emulator_roms_filter "SFC" "*.sfc:*.smc:*.fig:*.bs:*.st:*.zip:*.7z"
+emulator_altss "SFC" "/mnt/SDCARD/Emu/SFC/../../Roms/SFC/Snaps"
+emulator_flyers "SFC" "/mnt/SDCARD/Emu/SFC/../../Roms/SFC/Imgs"
+
+emulator "SGB" generic "/mnt/SDCARD/Emu/SGB/advcommand.sh" "%p"
+emulator_roms "SGB" "/mnt/SDCARD/Emu/SGB/../../Roms/SGB"
+emulator_roms_filter "SGB" "*.bin:*.gb:*.gbc:*.gba:*.zip:*.7z"
+emulator_altss "SGB" "/mnt/SDCARD/Emu/SGB/../../Roms/SGB/Snaps"
+emulator_flyers "SGB" "/mnt/SDCARD/Emu/SGB/../../Roms/SGB/Imgs"
+
+emulator "SGFX" generic "/mnt/SDCARD/Emu/SGFX/advcommand.sh" "%p"
+emulator_roms "SGFX" "/mnt/SDCARD/Emu/SGFX/../../Roms/SGFX"
+emulator_roms_filter "SGFX" "*.pce:*.sgx:*.cue:*.ccd:*.chd:*.zip:*.7z"
+emulator_altss "SGFX" "/mnt/SDCARD/Emu/SGFX/../../Roms/SGFX/Snaps"
+emulator_flyers "SGFX" "/mnt/SDCARD/Emu/SGFX/../../Roms/SGFX/Imgs"
+
+emulator "SUFAMI" generic "/mnt/SDCARD/Emu/SUFAMI/advcommand.sh" "%p"
+emulator_roms "SUFAMI" "/mnt/SDCARD/Emu/SUFAMI/../../Roms/SUFAMI"
+emulator_roms_filter "SUFAMI" "*.smc:*.zip:*.7z"
+emulator_altss "SUFAMI" "/mnt/SDCARD/Emu/SUFAMI/../../Roms/SUFAMI/Snaps"
+emulator_flyers "SUFAMI" "/mnt/SDCARD/Emu/SUFAMI/../../Roms/SUFAMI/Imgs"
+
+emulator "SUPERVISION" generic "/mnt/SDCARD/Emu/SUPERVISION/advcommand.sh" "%p"
+emulator_roms "SUPERVISION" "/mnt/SDCARD/Emu/SUPERVISION/../../Roms/SUPERVISION"
+emulator_roms_filter "SUPERVISION" "*.sv:*.bin:*.zip:*.7z"
+emulator_altss "SUPERVISION" "/mnt/SDCARD/Emu/SUPERVISION/../../Roms/SUPERVISION/Snaps"
+emulator_flyers "SUPERVISION" "/mnt/SDCARD/Emu/SUPERVISION/../../Roms/SUPERVISION/Imgs"
+
+emulator "THIRTYTWOX" generic "/mnt/SDCARD/Emu/THIRTYTWOX/advcommand.sh" "%p"
+emulator_roms "THIRTYTWOX" "/mnt/SDCARD/Emu/THIRTYTWOX/../../Roms/THIRTYTWOX"
+emulator_roms_filter "THIRTYTWOX" "*.gen:*.smd:*.md:*.32x:*.bin:*.iso:*.sms:*.68k:*.chd:*.zip:*.7z"
+emulator_altss "THIRTYTWOX" "/mnt/SDCARD/Emu/THIRTYTWOX/../../Roms/THIRTYTWOX/Snaps"
+emulator_flyers "THIRTYTWOX" "/mnt/SDCARD/Emu/THIRTYTWOX/../../Roms/THIRTYTWOX/Imgs"
+
+emulator "TIC" generic "/mnt/SDCARD/Emu/TIC/advcommand.sh" "%p"
+emulator_roms "TIC" "/mnt/SDCARD/Emu/TIC/../../Roms/TIC"
+emulator_roms_filter "TIC" "*.tic:*.fd:*.sap:*.k7:*.m7:*.rom:*.zip:*.7z"
+emulator_altss "TIC" "/mnt/SDCARD/Emu/TIC/../../Roms/TIC/Snaps"
+emulator_flyers "TIC" "/mnt/SDCARD/Emu/TIC/../../Roms/TIC/Imgs"
+
+emulator "VB" generic "/mnt/SDCARD/Emu/VB/advcommand.sh" "%p"
+emulator_roms "VB" "/mnt/SDCARD/Emu/VB/../../Roms/VB"
+emulator_roms_filter "VB" "*.vb:*.vboy:*.zip:*.7z"
+emulator_altss "VB" "/mnt/SDCARD/Emu/VB/../../Roms/VB/Snaps"
+emulator_flyers "VB" "/mnt/SDCARD/Emu/VB/../../Roms/VB/Imgs"
+
+emulator "VECTREX" generic "/mnt/SDCARD/Emu/VECTREX/advcommand.sh" "%p"
+emulator_roms "VECTREX" "/mnt/SDCARD/Emu/VECTREX/../../Roms/VECTREX"
+emulator_roms_filter "VECTREX" "*.vec:*.zip:*.7z"
+emulator_altss "VECTREX" "/mnt/SDCARD/Emu/VECTREX/../../Roms/VECTREX/Snaps"
+emulator_flyers "VECTREX" "/mnt/SDCARD/Emu/VECTREX/../../Roms/VECTREX/Imgs"
+
+emulator "VIC20" generic "/mnt/SDCARD/Emu/VIC20/advcommand.sh" "%p"
+emulator_roms "VIC20" "/mnt/SDCARD/Emu/VIC20/../../Roms/VIC20"
+emulator_roms_filter "VIC20" "*.d64:*.d6z:*.d71:*.d7z:*.d80:*.d81:*.d82:*.d8z:*.g64:*.g6z:*.g41:*.g4z:*.x64:*.x6z:*.nib:*.nbz:*.d2m:*.d4m:*.t64:*.tap:*.tcrt:*.prg:*.p00:*.crt:*.bin:*.cmd:*.m3u:*.vfl:*.vsf:*.zip:*.7z:*.gz:*.20:*.40:*.60:*.a0:*.b0:*.rom"
+emulator_altss "VIC20" "/mnt/SDCARD/Emu/VIC20/../../Roms/VIC20/Snaps"
+emulator_flyers "VIC20" "/mnt/SDCARD/Emu/VIC20/../../Roms/VIC20/Imgs"
+
+emulator "VIDEOPAC" generic "/mnt/SDCARD/Emu/VIDEOPAC/advcommand.sh" "%p"
+emulator_roms "VIDEOPAC" "/mnt/SDCARD/Emu/VIDEOPAC/../../Roms/VIDEOPAC"
+emulator_roms_filter "VIDEOPAC" "*.bin:*.zip:*.7z"
+emulator_altss "VIDEOPAC" "/mnt/SDCARD/Emu/VIDEOPAC/../../Roms/VIDEOPAC/Snaps"
+emulator_flyers "VIDEOPAC" "/mnt/SDCARD/Emu/VIDEOPAC/../../Roms/VIDEOPAC/Imgs"
+
+emulator "WS" generic "/mnt/SDCARD/Emu/WS/advcommand.sh" "%p"
+emulator_roms "WS" "/mnt/SDCARD/Emu/WS/../../Roms/WS"
+emulator_roms_filter "WS" "*.ws:*.pc2:*.zip:*.7z"
+emulator_altss "WS" "/mnt/SDCARD/Emu/WS/../../Roms/WS/Snaps"
+emulator_flyers "WS" "/mnt/SDCARD/Emu/WS/../../Roms/WS/Imgs"
+
+emulator "ZXS" generic "/mnt/SDCARD/Emu/ZXS/advcommand.sh" "%p"
+emulator_roms "ZXS" "/mnt/SDCARD/Emu/ZXS/../../Roms/ZXS"
+emulator_roms_filter "ZXS" "*.tzx:*.tap:*.z80:*.rzx:*.scl:*.trd:*.zip:*.7z"
+emulator_altss "ZXS" "/mnt/SDCARD/Emu/ZXS/../../Roms/ZXS/Snaps"
+emulator_flyers "ZXS" "/mnt/SDCARD/Emu/ZXS/../../Roms/ZXS/Imgs"
+
+emulator "ATARIST" generic "/mnt/SDCARD/RApp/ATARIST/advcommand.sh" "%p"
+emulator_roms "ATARIST" "/mnt/SDCARD/RApp/ATARIST/../../Roms/ATARIST"
+emulator_altss "ATARIST" "/mnt/SDCARD/RApp/ATARIST/../../Roms/ATARIST/Snaps"
+emulator_flyers "ATARIST" "/mnt/SDCARD/RApp/ATARIST/../../Roms/ATARIST/Imgs"
+
+emulator "DAPHNE" generic "/mnt/SDCARD/RApp/DAPHNE/advcommand.sh" "%p"
+emulator_roms "DAPHNE" "/mnt/SDCARD/RApp/DAPHNE/../../Roms/DAPHNE"
+emulator_altss "DAPHNE" "/mnt/SDCARD/RApp/DAPHNE/../../Roms/DAPHNE/Snaps"
+emulator_flyers "DAPHNE" "/mnt/SDCARD/RApp/DAPHNE/../../Roms/DAPHNE/Imgs"
+
+emulator "FBA2012" generic "/mnt/SDCARD/RApp/FBA2012/advcommand.sh" "%p"
+emulator_roms "FBA2012" "/mnt/SDCARD/RApp/FBA2012/../../Roms/FBA2012"
+emulator_altss "FBA2012" "/mnt/SDCARD/RApp/FBA2012/../../Roms/FBA2012/Snaps"
+emulator_flyers "FBA2012" "/mnt/SDCARD/RApp/FBA2012/../../Roms/FBA2012/Imgs"
+
+emulator "JAGUAR" generic "/mnt/SDCARD/RApp/JAGUAR/advcommand.sh" "%p"
+emulator_roms "JAGUAR" "/mnt/SDCARD/RApp/JAGUAR/../../Roms/JAGUAR"
+emulator_altss "JAGUAR" "/mnt/SDCARD/RApp/JAGUAR/../../Roms/JAGUAR/Snaps"
+emulator_flyers "JAGUAR" "/mnt/SDCARD/RApp/JAGUAR/../../Roms/JAGUAR/Imgs"
+
+emulator "NESTOPIA" generic "/mnt/SDCARD/RApp/NESTOPIA/advcommand.sh" "%p"
+emulator_roms "NESTOPIA" "/mnt/SDCARD/RApp/NESTOPIA/../../Roms/FC"
+emulator_altss "NESTOPIA" "/mnt/SDCARD/RApp/NESTOPIA/../../Roms/FC/Snaps"
+emulator_flyers "NESTOPIA" "/mnt/SDCARD/RApp/NESTOPIA/../../Roms/FC/Imgs"
+
+emulator "OpenBOR" generic "/mnt/SDCARD/RApp/OpenBOR/advcommand.sh" "%p"
+emulator_roms "OpenBOR" "/mnt/SDCARD/RApp/OpenBOR/../../Roms/OPENBOR"
+emulator_altss "OpenBOR" "/mnt/SDCARD/RApp/OpenBOR/../../Roms/OPENBOR/Snaps"
+emulator_flyers "OpenBOR" "/mnt/SDCARD/RApp/OpenBOR/../../Roms/OPENBOR/Imgs"
+
+emulator "PCSX-ReARMed" generic "/mnt/SDCARD/RApp/PCSX-ReARMed/advcommand.sh" "%p"
+emulator_roms "PCSX-ReARMed" "/mnt/SDCARD/RApp/PCSX-ReARMed/../../Roms/PS"
+emulator_roms_filter "PCSX-ReARMed" "*.cue:*.img:*.mdf:*.pbp:*.toc:*.cbn:*.m3u:*.ccd:*.chd"
+emulator_altss "PCSX-ReARMed" "/mnt/SDCARD/RApp/PCSX-ReARMed/../../Roms/PS/Snaps"
+emulator_flyers "PCSX-ReARMed" "/mnt/SDCARD/RApp/PCSX-ReARMed/../../Roms/PS/Imgs"
+
+emulator "SNES9X2005P" generic "/mnt/SDCARD/RApp/SNES9X2005P/advcommand.sh" "%p"
+emulator_roms "SNES9X2005P" "/mnt/SDCARD/RApp/SNES9X2005P/../../Roms/SFC"
+emulator_roms_filter "SNES9X2005P" "*.sfc:*.smc:*.zip:*.7z"
+emulator_altss "SNES9X2005P" "/mnt/SDCARD/RApp/SNES9X2005P/../../Roms/SFC/Snaps"
+emulator_flyers "SNES9X2005P" "/mnt/SDCARD/RApp/SNES9X2005P/../../Roms/SFC/Imgs"
+
+emulator "TGB_Dual" generic "/mnt/SDCARD/RApp/TGB_Dual/advcommand.sh" "%p"
+emulator_roms "TGB_Dual" "/mnt/SDCARD/RApp/TGB_Dual/../../Roms/GB"
+emulator_roms_filter "TGB_Dual" "*.bin:*.dmg:*.gb:*.gbc:*.zip:*.7z:*.cgb"
+emulator_altss "TGB_Dual" "/mnt/SDCARD/RApp/TGB_Dual/../../Roms/GB/Snaps"
+emulator_flyers "TGB_Dual" "/mnt/SDCARD/RApp/TGB_Dual/../../Roms/GB/Imgs"
+
+emulator "TGB_Dual_gbc" generic "/mnt/SDCARD/RApp/TGB_Dual_gbc/advcommand.sh" "%p"
+emulator_roms "TGB_Dual_gbc" "/mnt/SDCARD/RApp/TGB_Dual_gbc/../../Roms/GBC"
+emulator_roms_filter "TGB_Dual_gbc" "*.bin:*.dmg:*.gb:*.gbc:*.zip:*.7z:*.cgb"
+emulator_altss "TGB_Dual_gbc" "/mnt/SDCARD/RApp/TGB_Dual_gbc/../../Roms/GBC/Snaps"
+emulator_flyers "TGB_Dual_gbc" "/mnt/SDCARD/RApp/TGB_Dual_gbc/../../Roms/GBC/Imgs"
+
+emulator "TI-83" generic "/mnt/SDCARD/RApp/TI-83/advcommand.sh" "%p"
+emulator_roms "TI-83" "/mnt/SDCARD/RApp/TI-83/../../Roms/TI83"
+emulator_roms_filter "TI-83" "*.8xp:*.8xk:*.8xg"
+emulator_altss "TI-83" "/mnt/SDCARD/RApp/TI-83/../../Roms/TI83/Snaps"
+emulator_flyers "TI-83" "/mnt/SDCARD/RApp/TI-83/../../Roms/TI83/Imgs"
+
+emulator "UW8" generic "/mnt/SDCARD/RApp/UW8/advcommand.sh" "%p"
+emulator_roms "UW8" "/mnt/SDCARD/RApp/UW8/../../Roms/MICROW8"
+emulator_roms_filter "UW8" "*.uw8:*.wasm"
+emulator_altss "UW8" "/mnt/SDCARD/RApp/UW8/../../Roms/MICROW8/Snaps"
+emulator_flyers "UW8" "/mnt/SDCARD/RApp/UW8/../../Roms/MICROW8/Imgs"
+
+emulator "X68000" generic "/mnt/SDCARD/RApp/X68000/advcommand.sh" "%p"
+emulator_roms "X68000" "/mnt/SDCARD/RApp/X68000/../../Roms/X68000"
+emulator_altss "X68000" "/mnt/SDCARD/RApp/X68000/../../Roms/X68000/Snaps"
+emulator_flyers "X68000" "/mnt/SDCARD/RApp/X68000/../../Roms/X68000/Imgs"
+
+emulator "arduous" generic "/mnt/SDCARD/RApp/arduous/advcommand.sh" "%p"
+emulator_roms "arduous" "/mnt/SDCARD/RApp/arduous//mnt/SDCARD/Roms/ARDUBOY"
+emulator_altss "arduous" "/mnt/SDCARD/RApp/arduous//mnt/SDCARD/Roms/Arduous/Snaps"
+emulator_flyers "arduous" "/mnt/SDCARD/RApp/arduous//mnt/SDCARD/Roms/Arduous/Imgs"
+
+emulator "atari5200" generic "/mnt/SDCARD/RApp/atari5200/advcommand.sh" "%p"
+emulator_roms "atari5200" "/mnt/SDCARD/RApp/atari5200/../../Roms/FIFTYTWOHUNDRED"
+emulator_altss "atari5200" "/mnt/SDCARD/RApp/atari5200/../../Roms/FIFTYTWOHUNDRED/Snaps"
+emulator_flyers "atari5200" "/mnt/SDCARD/RApp/atari5200/../../Roms/FIFTYTWOHUNDRED/Imgs"
+
+emulator "atari800" generic "/mnt/SDCARD/RApp/atari800/advcommand.sh" "%p"
+emulator_roms "atari800" "/mnt/SDCARD/RApp/atari800/../../Roms/EIGHTHUNDRED"
+emulator_altss "atari800" "/mnt/SDCARD/RApp/atari800/../../Roms/EIGHTHUNDRED/Snaps"
+emulator_flyers "atari800" "/mnt/SDCARD/RApp/atari800/../../Roms/EIGHTHUNDRED/Imgs"
+
+emulator "bk" generic "/mnt/SDCARD/RApp/bk/advcommand.sh" "%p"
+emulator_roms "bk" "/mnt/SDCARD/RApp/bk/../../Roms/EBK"
+emulator_altss "bk" "/mnt/SDCARD/RApp/bk/../../Roms/EBK/Snaps"
+emulator_flyers "bk" "/mnt/SDCARD/RApp/bk/../../Roms/EBK/Imgs"
+
+emulator "blueMSX" generic "/mnt/SDCARD/RApp/blueMSX/advcommand.sh" "%p"
+emulator_roms "blueMSX" "/mnt/SDCARD/RApp/blueMSX/../../Roms/MSX"
+emulator_altss "blueMSX" "/mnt/SDCARD/RApp/blueMSX/../../Roms/MSX/Snaps"
+emulator_flyers "blueMSX" "/mnt/SDCARD/RApp/blueMSX/../../Roms/MSX/Imgs"
+
+emulator "chai" generic "/mnt/SDCARD/RApp/chai/advcommand.sh" "%p"
+emulator_roms "chai" "/mnt/SDCARD/RApp/chai/../../Roms/CHAI"
+emulator_altss "chai" "/mnt/SDCARD/RApp/chai/../../Roms/CHAI/Snaps"
+emulator_flyers "chai" "/mnt/SDCARD/RApp/chai/../../Roms/CHAI/Imgs"
+
+emulator "chimerasnes" generic "/mnt/SDCARD/RApp/chimerasnes/advcommand.sh" "%p"
+emulator_roms "chimerasnes" "/mnt/SDCARD/RApp/chimerasnes/../../Roms/SFC"
+emulator_roms_filter "chimerasnes" "*.sfc:*.smc:*.fig:*.bs:*.st:*.zip:*.7z"
+emulator_altss "chimerasnes" "/mnt/SDCARD/RApp/chimerasnes/../../Roms/SFC/Snaps"
+emulator_flyers "chimerasnes" "/mnt/SDCARD/RApp/chimerasnes/../../Roms/SFC/Imgs"
+
+emulator "easyrpg" generic "/mnt/SDCARD/RApp/easyrpg/advcommand.sh" "%p"
+emulator_roms "easyrpg" "/mnt/SDCARD/RApp/easyrpg/../../Roms/EASYRPG"
+emulator_altss "easyrpg" "/mnt/SDCARD/RApp/easyrpg/../../Roms/EASYRPG/Snaps"
+emulator_flyers "easyrpg" "/mnt/SDCARD/RApp/easyrpg/../../Roms/EASYRPG/Imgs"
+
+emulator "fMSX" generic "/mnt/SDCARD/RApp/fMSX/advcommand.sh" "%p"
+emulator_roms "fMSX" "/mnt/SDCARD/RApp/fMSX/../../Roms/MSX"
+emulator_altss "fMSX" "/mnt/SDCARD/RApp/fMSX/../../Roms/MSX/Snaps"
+emulator_flyers "fMSX" "/mnt/SDCARD/RApp/fMSX/../../Roms/MSX/Imgs"
+
+emulator "fbneo" generic "/mnt/SDCARD/RApp/fbneo/advcommand.sh" "%p"
+emulator_roms "fbneo" "/mnt/SDCARD/RApp/fbneo/../../Roms/FBNEO"
+emulator_roms_filter "fbneo" "*.zip"
+emulator_altss "fbneo" "/mnt/SDCARD/RApp/fbneo/../../Roms/FBNEO/Snaps"
+emulator_flyers "fbneo" "/mnt/SDCARD/RApp/fbneo/../../Roms/FBNEO/Imgs"
+
+emulator "gearboy" generic "/mnt/SDCARD/RApp/gearboy/advcommand.sh" "%p"
+emulator_roms "gearboy" "/mnt/SDCARD/RApp/gearboy/../../Roms/GB"
+emulator_altss "gearboy" "/mnt/SDCARD/RApp/gearboy/../../Roms/GB/Snaps"
+emulator_flyers "gearboy" "/mnt/SDCARD/RApp/gearboy/../../Roms/GB/Imgs"
+
+emulator "gearboy_gbc" generic "/mnt/SDCARD/RApp/gearboy_gbc/advcommand.sh" "%p"
+emulator_roms "gearboy_gbc" "/mnt/SDCARD/RApp/gearboy_gbc/../../Roms/GBC"
+emulator_altss "gearboy_gbc" "/mnt/SDCARD/RApp/gearboy_gbc/../../Roms/GBC/Snaps"
+emulator_flyers "gearboy_gbc" "/mnt/SDCARD/RApp/gearboy_gbc/../../Roms/GBC/Imgs"
+
+emulator "gearsystem_gg" generic "/mnt/SDCARD/RApp/gearsystem_gg/advcommand.sh" "%p"
+emulator_roms "gearsystem_gg" "/mnt/SDCARD/RApp/gearsystem_gg/../../Roms/GG"
+emulator_altss "gearsystem_gg" "/mnt/SDCARD/RApp/gearsystem_gg/../../Roms/GG/Snaps"
+emulator_flyers "gearsystem_gg" "/mnt/SDCARD/RApp/gearsystem_gg/../../Roms/GG/Imgs"
+
+emulator "gearsystem_ms" generic "/mnt/SDCARD/RApp/gearsystem_ms/advcommand.sh" "%p"
+emulator_roms "gearsystem_ms" "/mnt/SDCARD/RApp/gearsystem_ms/../../Roms/MS"
+emulator_altss "gearsystem_ms" "/mnt/SDCARD/RApp/gearsystem_ms/../../Roms/MS/Snaps"
+emulator_flyers "gearsystem_ms" "/mnt/SDCARD/RApp/gearsystem_ms/../../Roms/MS/Imgs"
+
+emulator "genesis_plus_gx_gg" generic "/mnt/SDCARD/RApp/genesis_plus_gx_gg/advcommand.sh" "%p"
+emulator_roms "genesis_plus_gx_gg" "/mnt/SDCARD/RApp/genesis_plus_gx_gg/../../Roms/GG"
+emulator_altss "genesis_plus_gx_gg" "/mnt/SDCARD/RApp/genesis_plus_gx_gg/../../Roms/GG/Snaps"
+emulator_flyers "genesis_plus_gx_gg" "/mnt/SDCARD/RApp/genesis_plus_gx_gg/../../Roms/GG/Imgs"
+
+emulator "genesis_plus_gx_hacks" generic "/mnt/SDCARD/RApp/genesis_plus_gx_hacks/advcommand.sh" "%p"
+emulator_roms "genesis_plus_gx_hacks" "/mnt/SDCARD/RApp/genesis_plus_gx_hacks/../../Roms/MDHACKS"
+emulator_altss "genesis_plus_gx_hacks" "/mnt/SDCARD/RApp/genesis_plus_gx_hacks/../../Roms/MDHACKS/Snaps"
+emulator_flyers "genesis_plus_gx_hacks" "/mnt/SDCARD/RApp/genesis_plus_gx_hacks/../../Roms/MDHACKS/Imgs"
+
+emulator "genesis_plus_gx_md" generic "/mnt/SDCARD/RApp/genesis_plus_gx_md/advcommand.sh" "%p"
+emulator_roms "genesis_plus_gx_md" "/mnt/SDCARD/RApp/genesis_plus_gx_md/../../Roms/MD"
+emulator_altss "genesis_plus_gx_md" "/mnt/SDCARD/RApp/genesis_plus_gx_md/../../Roms/MD/Snaps"
+emulator_flyers "genesis_plus_gx_md" "/mnt/SDCARD/RApp/genesis_plus_gx_md/../../Roms/MD/Imgs"
+
+emulator "genesis_plus_gx_ms" generic "/mnt/SDCARD/RApp/genesis_plus_gx_ms/advcommand.sh" "%p"
+emulator_roms "genesis_plus_gx_ms" "/mnt/SDCARD/RApp/genesis_plus_gx_ms/../../Roms/MS"
+emulator_altss "genesis_plus_gx_ms" "/mnt/SDCARD/RApp/genesis_plus_gx_ms/../../Roms/MS/Snaps"
+emulator_flyers "genesis_plus_gx_ms" "/mnt/SDCARD/RApp/genesis_plus_gx_ms/../../Roms/MS/Imgs"
+
+emulator "genesis_plus_gx_segacd" generic "/mnt/SDCARD/RApp/genesis_plus_gx_segacd/advcommand.sh" "%p"
+emulator_roms "genesis_plus_gx_segacd" "/mnt/SDCARD/RApp/genesis_plus_gx_segacd/../../Roms/SEGACD"
+emulator_altss "genesis_plus_gx_segacd" "/mnt/SDCARD/RApp/genesis_plus_gx_segacd/../../Roms/SEGACD/Snaps"
+emulator_flyers "genesis_plus_gx_segacd" "/mnt/SDCARD/RApp/genesis_plus_gx_segacd/../../Roms/SEGACD/Imgs"
+
+emulator "gme" generic "/mnt/SDCARD/RApp/gme/advcommand.sh" "%p"
+emulator_roms "gme" "/mnt/SDCARD/RApp/gme/../../Roms/GME"
+emulator_altss "gme" "/mnt/SDCARD/RApp/gme/../../Roms/GME/Snaps"
+emulator_flyers "gme" "/mnt/SDCARD/RApp/gme/../../Roms/GME/Imgs"
+
+emulator "gpsp" generic "/mnt/SDCARD/RApp/gpsp/advcommand.sh" "%p"
+emulator_roms "gpsp" "/mnt/SDCARD/RApp/gpsp/../../Roms/GBA"
+emulator_roms_filter "gpsp" "*.bin:*.gb:*.gbc:*.gba:*.zip:*.7z"
+emulator_altss "gpsp" "/mnt/SDCARD/RApp/gpsp/../../Roms/GBA/Snaps"
+emulator_flyers "gpsp" "/mnt/SDCARD/RApp/gpsp/../../Roms/GBA/Imgs"
+
+emulator "lutro" generic "/mnt/SDCARD/RApp/lutro/advcommand.sh" "%p"
+emulator_roms "lutro" "/mnt/SDCARD/RApp/lutro/../../Roms/LUTRO"
+emulator_altss "lutro" "/mnt/SDCARD/RApp/lutro/../../Roms/LUTRO/Snaps"
+emulator_flyers "lutro" "/mnt/SDCARD/RApp/lutro/../../Roms/LUTRO/Imgs"
+
+emulator "mame2000" generic "/mnt/SDCARD/RApp/mame2000/advcommand.sh" "%p"
+emulator_roms "mame2000" "/mnt/SDCARD/RApp/mame2000/../../Roms/MAME2000"
+emulator_altss "mame2000" "/mnt/SDCARD/RApp/mame2000/../../Roms/ARCADE/Snaps"
+emulator_flyers "mame2000" "/mnt/SDCARD/RApp/mame2000/../../Roms/ARCADE/Imgs"
+
+emulator "mame2003" generic "/mnt/SDCARD/RApp/mame2003/advcommand.sh" "%p"
+emulator_roms "mame2003" "/mnt/SDCARD/RApp/mame2003/../../Roms/MAME2003"
+emulator_roms_filter "mame2003" "*.zip"
+emulator_altss "mame2003" "/mnt/SDCARD/RApp/mame2003/../../Roms/ARCADE/Snaps"
+emulator_flyers "mame2003" "/mnt/SDCARD/RApp/mame2003/../../Roms/ARCADE/Imgs"
+
+emulator "mame2003-xtreme" generic "/mnt/SDCARD/RApp/mame2003-xtreme/advcommand.sh" "%p"
+emulator_roms "mame2003-xtreme" "/mnt/SDCARD/RApp/mame2003-xtreme/../../Roms/ARCADE"
+emulator_roms_filter "mame2003-xtreme" "*.zip:*.7z:*.cue"
+emulator_altss "mame2003-xtreme" "/mnt/SDCARD/RApp/mame2003-xtreme/../../Roms/ARCADE/Snaps"
+emulator_flyers "mame2003-xtreme" "/mnt/SDCARD/RApp/mame2003-xtreme/../../Roms/ARCADE/Imgs"
+
+emulator "mba-mini" generic "/mnt/SDCARD/RApp/mba-mini/advcommand.sh" "%p"
+emulator_roms "mba-mini" "/mnt/SDCARD/RApp/mba-mini/../../Roms/MBA"
+emulator_altss "mba-mini" "/mnt/SDCARD/RApp/mba-mini/../../Roms/MBA/Snaps"
+emulator_flyers "mba-mini" "/mnt/SDCARD/RApp/mba-mini/../../Roms/MBA/Imgs"
+
+emulator "mednafen_gba" generic "/mnt/SDCARD/RApp/mednafen_gba/advcommand.sh" "%p"
+emulator_roms "mednafen_gba" "/mnt/SDCARD/RApp/mednafen_gba/../../Roms/GBA"
+emulator_altss "mednafen_gba" "/mnt/SDCARD/RApp/mednafen_gba/../../Roms/GBA/Snaps"
+emulator_flyers "mednafen_gba" "/mnt/SDCARD/RApp/mednafen_gba/../../Roms/GBA/Imgs"
+
+emulator "mednafen_lynx" generic "/mnt/SDCARD/RApp/mednafen_lynx/advcommand.sh" "%p"
+emulator_roms "mednafen_lynx" "/mnt/SDCARD/RApp/mednafen_lynx/../../Roms/LYNX"
+emulator_altss "mednafen_lynx" "/mnt/SDCARD/RApp/mednafen_lynx/../../Roms/LYNX/Snaps"
+emulator_flyers "mednafen_lynx" "/mnt/SDCARD/RApp/mednafen_lynx/../../Roms/LYNX/Imgs"
+
+emulator "mednafen_pcfx" generic "/mnt/SDCARD/RApp/mednafen_pcfx/advcommand.sh" "%p"
+emulator_roms "mednafen_pcfx" "/mnt/SDCARD/RApp/mednafen_pcfx/../../Roms/PCFX"
+emulator_altss "mednafen_pcfx" "/mnt/SDCARD/RApp/mednafen_pcfx/../../Roms/PCFX/Snaps"
+emulator_flyers "mednafen_pcfx" "/mnt/SDCARD/RApp/mednafen_pcfx/../../Roms/PCFX/Imgs"
+
+emulator "meteor" generic "/mnt/SDCARD/RApp/meteor/advcommand.sh" "%p"
+emulator_roms "meteor" "/mnt/SDCARD/RApp/meteor/../../Roms/GBA"
+emulator_altss "meteor" "/mnt/SDCARD/RApp/meteor/../../Roms/GBA/Snaps"
+emulator_flyers "meteor" "/mnt/SDCARD/RApp/meteor/../../Roms/GBA/Imgs"
+
+emulator "mu" generic "/mnt/SDCARD/RApp/mu/advcommand.sh" "%p"
+emulator_roms "mu" "/mnt/SDCARD/RApp/mu/../../Roms/PALM"
+emulator_altss "mu" "/mnt/SDCARD/RApp/mu/../../Roms/PALM/Snaps"
+emulator_flyers "mu" "/mnt/SDCARD/RApp/mu/../../Roms/PALM/Imgs"
+
+emulator "nekop2" generic "/mnt/SDCARD/RApp/nekop2/advcommand.sh" "%p"
+emulator_roms "nekop2" "/mnt/SDCARD/RApp/nekop2/../../Roms/PCNINETYEIGHT"
+emulator_altss "nekop2" "/mnt/SDCARD/RApp/nekop2/../../Roms/PCNINETYEIGHT/Snaps"
+emulator_flyers "nekop2" "/mnt/SDCARD/RApp/nekop2/../../Roms/PCNINETYEIGHT/Imgs"
+
+emulator "nekop2kai" generic "/mnt/SDCARD/RApp/nekop2kai/advcommand.sh" "%p"
+emulator_roms "nekop2kai" "/mnt/SDCARD/RApp/nekop2kai/../../Roms/PCNINETYEIGHT"
+emulator_altss "nekop2kai" "/mnt/SDCARD/RApp/nekop2kai/../../Roms/PCNINETYEIGHT/Snaps"
+emulator_flyers "nekop2kai" "/mnt/SDCARD/RApp/nekop2kai/../../Roms/PCNINETYEIGHT/Imgs"
+
+emulator "opera" generic "/mnt/SDCARD/RApp/opera/advcommand.sh" "%p"
+emulator_roms "opera" "/mnt/SDCARD/RApp/opera/../../Roms/PANASONIC"
+emulator_altss "opera" "/mnt/SDCARD/RApp/opera/../../Roms/PANASONIC/Snaps"
+emulator_flyers "opera" "/mnt/SDCARD/RApp/opera/../../Roms/PANASONIC/Imgs"
+
+emulator "quasi88" generic "/mnt/SDCARD/RApp/quasi88/advcommand.sh" "%p"
+emulator_roms "quasi88" "/mnt/SDCARD/RApp/quasi88/../../Roms/PCEIGHTYEIGHT"
+emulator_altss "quasi88" "/mnt/SDCARD/RApp/quasi88/../../Roms/PCEIGHTYEIGHT/Snaps"
+emulator_flyers "quasi88" "/mnt/SDCARD/RApp/quasi88/../../Roms/PCEIGHTYEIGHT/Imgs"
+
+emulator "scummvm" generic "/mnt/SDCARD/RApp/scummvm/advcommand.sh" "%p"
+emulator_roms "scummvm" "/mnt/SDCARD/RApp/scummvm/../../Roms/SCUMMVM/Shortcuts_Standalone"
+emulator_roms_filter "scummvm" "*.scummvm"
+emulator_altss "scummvm" "/mnt/SDCARD/RApp/scummvm/../../Roms/SCUMMVM/Snaps"
+emulator_flyers "scummvm" "/mnt/SDCARD/RApp/scummvm/../../Roms/SCUMMVM/Imgs"
+
+emulator "snes9x" generic "/mnt/SDCARD/RApp/snes9x/advcommand.sh" "%p"
+emulator_roms "snes9x" "/mnt/SDCARD/RApp/snes9x/../../Roms/SFC"
+emulator_altss "snes9x" "/mnt/SDCARD/RApp/snes9x/../../Roms/SFC/Snaps"
+emulator_flyers "snes9x" "/mnt/SDCARD/RApp/snes9x/../../Roms/SFC/Imgs"
+
+emulator "snes9x2002" generic "/mnt/SDCARD/RApp/snes9x2002/advcommand.sh" "%p"
+emulator_roms "snes9x2002" "/mnt/SDCARD/RApp/snes9x2002/../../Roms/SFC"
+emulator_altss "snes9x2002" "/mnt/SDCARD/RApp/snes9x2002/../../Roms/SFC/Snaps"
+emulator_flyers "snes9x2002" "/mnt/SDCARD/RApp/snes9x2002/../../Roms/SFC/Imgs"
+
+emulator "snes9x2005" generic "/mnt/SDCARD/RApp/snes9x2005/advcommand.sh" "%p"
+emulator_roms "snes9x2005" "/mnt/SDCARD/RApp/snes9x2005/../../Roms/SFC"
+emulator_altss "snes9x2005" "/mnt/SDCARD/RApp/snes9x2005/../../Roms/SFC/Snaps"
+emulator_flyers "snes9x2005" "/mnt/SDCARD/RApp/snes9x2005/../../Roms/SFC/Imgs"
+
+emulator "snes9x2010" generic "/mnt/SDCARD/RApp/snes9x2010/advcommand.sh" "%p"
+emulator_roms "snes9x2010" "/mnt/SDCARD/RApp/snes9x2010/../../Roms/SFC"
+emulator_altss "snes9x2010" "/mnt/SDCARD/RApp/snes9x2010/../../Roms/SFC/Snaps"
+emulator_flyers "snes9x2010" "/mnt/SDCARD/RApp/snes9x2010/../../Roms/SFC/Imgs"
+
+emulator "sqirreljme" generic "/mnt/SDCARD/RApp/sqirreljme/advcommand.sh" "%p"
+emulator_roms "sqirreljme" "/mnt/SDCARD/RApp/sqirreljme/../../Roms/JAVA"
+emulator_altss "sqirreljme" "/mnt/SDCARD/RApp/sqirreljme/../../Roms/JAVA/Snaps"
+emulator_flyers "sqirreljme" "/mnt/SDCARD/RApp/sqirreljme/../../Roms/JAVA/Imgs"
+
+emulator "theodore" generic "/mnt/SDCARD/RApp/theodore/advcommand.sh" "%p"
+emulator_roms "theodore" "/mnt/SDCARD/RApp/theodore/../../Roms/THOMSON"
+emulator_altss "theodore" "/mnt/SDCARD/RApp/theodore/../../Roms/THOMSON/Snaps"
+emulator_flyers "theodore" "/mnt/SDCARD/RApp/theodore/../../Roms/THOMSON/Imgs"
+
+emulator "uae4arm" generic "/mnt/SDCARD/RApp/uae4arm/advcommand.sh" "%p"
+emulator_roms "uae4arm" "/mnt/SDCARD/RApp/uae4arm/../../Roms/AMIGA"
+emulator_altss "uae4arm" "/mnt/SDCARD/RApp/uae4arm/../../Roms/AMIGA/Snaps"
+emulator_flyers "uae4arm" "/mnt/SDCARD/RApp/uae4arm/../../Roms/AMIGA/Imgs"
+
+emulator "uae4arm_cd32" generic "/mnt/SDCARD/RApp/uae4arm_cd32/advcommand.sh" "%p"
+emulator_roms "uae4arm_cd32" "/mnt/SDCARD/RApp/uae4arm_cd32/../../Roms/AMIGACD"
+emulator_altss "uae4arm_cd32" "/mnt/SDCARD/RApp/uae4arm_cd32/../../Roms/AMIGACD/Snaps"
+emulator_flyers "uae4arm_cd32" "/mnt/SDCARD/RApp/uae4arm_cd32/../../Roms/AMIGACD/Imgs"
+
+emulator "uzem" generic "/mnt/SDCARD/RApp/uzem/advcommand.sh" "%p"
+emulator_roms "uzem" "/mnt/SDCARD/RApp/uzem/../../Roms/UZEBOX"
+emulator_altss "uzem" "/mnt/SDCARD/RApp/uzem/../../Roms/UZEBOX/Snaps"
+emulator_flyers "uzem" "/mnt/SDCARD/RApp/uzem/../../Roms/UZEBOX/Imgs"
+
+emulator "vba_m" generic "/mnt/SDCARD/RApp/vba_m/advcommand.sh" "%p"
+emulator_roms "vba_m" "/mnt/SDCARD/RApp/vba_m/../../Roms/GBA"
+emulator_altss "vba_m" "/mnt/SDCARD/RApp/vba_m/../../Roms/GBA/Snaps"
+emulator_flyers "vba_m" "/mnt/SDCARD/RApp/vba_m/../../Roms/GBA/Imgs"
+
+emulator "vba_next" generic "/mnt/SDCARD/RApp/vba_next/advcommand.sh" "%p"
+emulator_roms "vba_next" "/mnt/SDCARD/RApp/vba_next/../../Roms/GBA"
+emulator_altss "vba_next" "/mnt/SDCARD/RApp/vba_next/../../Roms/GBA/Snaps"
+emulator_flyers "vba_next" "/mnt/SDCARD/RApp/vba_next/../../Roms/GBA/Imgs"
+
+emulator "vemulator" generic "/mnt/SDCARD/RApp/vemulator/advcommand.sh" "%p"
+emulator_roms "vemulator" "/mnt/SDCARD/RApp/vemulator/../../Roms/VMU"
+emulator_altss "vemulator" "/mnt/SDCARD/RApp/vemulator/../../Roms/VMU/Snaps"
+emulator_flyers "vemulator" "/mnt/SDCARD/RApp/vemulator/../../Roms/VMU/Imgs"
+
+emulator "x1" generic "/mnt/SDCARD/RApp/x1/advcommand.sh" "%p"
+emulator_roms "x1" "/mnt/SDCARD/RApp/x1/../../Roms/XONE"
+emulator_altss "x1" "/mnt/SDCARD/RApp/x1/../../Roms/XONE/Snaps"
+emulator_flyers "x1" "/mnt/SDCARD/RApp/x1/../../Roms/XONE/Imgs"
+
+emulator "zx81" generic "/mnt/SDCARD/RApp/zx81/advcommand.sh" "%p"
+emulator_roms "zx81" "/mnt/SDCARD/RApp/zx81/../../Roms/ZXEIGHTYONE"
+emulator_altss "zx81" "/mnt/SDCARD/RApp/zx81/../../Roms/ZXEIGHTYONE/Snaps"
+emulator_flyers "zx81" "/mnt/SDCARD/RApp/zx81/../../Roms/ZXEIGHTYONE/Imgs"
