@@ -1,9 +1,14 @@
 echo "===================="
 echo "$0 $*"
 
+# we don't use Miyoo's default launcher feature
+rm -f /mnt/SDCARD/Roms/deflaunch.json
+
 #Find the Emulator directory (first Emu/ subdirectory)
 EMU_DIR="$(echo "$0" | sed -E 's|(.*Emu/[^/]+)/.*|\1|')"
+ROM_DIR="$(echo "$1" | sed -E 's|(.*Roms/[^/]+)/.*|\1|')"
 PM_DIR="/mnt/SDCARD/App/PortMaster/PortMaster"
+
 
 export PATH="/mnt/SDCARD/System/usr/miyoo/scripts/:/mnt/SDCARD/System/bin:$PM_DIR:${PATH:+:$PATH}"
 export LD_LIBRARY_PATH="/usr/miyoo/lib:/mnt/SDCARD/System/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
@@ -16,8 +21,10 @@ if grep -q ra64.miyoo "$0"; then
 
     source $dir/FolderOverrideFinder.sh
 
-    # ra_audio_switcher.sh
+    ra_audio_switcher.sh
 fi
 
 cd "$EMU_DIR"
+
 source $dir/save_launcher.sh
+sync

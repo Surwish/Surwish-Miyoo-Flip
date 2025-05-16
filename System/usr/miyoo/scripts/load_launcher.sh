@@ -1,45 +1,38 @@
-export PATH="/mnt/SDCARD/System/usr/miyoo/scripts/:/mnt/SDCARD/System/bin:${PATH:+:$PATH}"
-export LD_LIBRARY_PATH="/usr/miyoo/lib:${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
-echo test > /tmp/test.txt
+export PATH="/mnt/SDCARD/System/usr/trimui/scripts/:/mnt/SDCARD/System/bin:${PATH:+:$PATH}"
+export LD_LIBRARY_PATH="/usr/trimui/lib:${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
 
+EMU_DIR="$(echo "$0" | sed -E 's|(.*Emu/[^/]+)/.*|\1|')"
+export ROM_DIR="$(echo "$1" | sed -E 's|(.*Roms/[^/]+)/.*|\1|')"
+export GAME=$(basename "$1")
 
-
-EMU_DIR="$(dirname "$0")"
-GAME=$(basename "$@")
+Game_cfg="$ROM_DIR/.games_config/${GAME%.*}.cfg"
+Emu_cfg="$EMU_DIR/launchers.cfg"
 
 # Look for a saved preset
-if [ -e "$EMU_DIR/presets.txt" ]; then
-  # Is there a preset for the game ?
-	Launcher_name=$(grep -i "$GAME" "$EMU_DIR/presets.txt" | cut -d'=' -f2)
+if [ -f "$Game_cfg" ]; then
+    Launcher_filename=$(cat "$Game_cfg")
+	echo "Game launcher override found: $Launcher_filename"
+elif [ -f "$Emu_cfg" ]; then
+    Launcher_filename=$(cat "$Emu_cfg")
+	echo "Console launcher override found: $Launcher_filename"
+fi
+Launcher_filename=${Launcher_filename#*=}
 
-	if [ -z "$Launcher_name" ]; then
-    # else is there a default preset ?
-		Launcher_name=$(grep -i default "$EMU_DIR/presets.txt" | cut -d'=' -f2)
-	fi
+if [ ! -n "$Launcher_filename" ] || [ ! -f "$EMU_DIR/$Launcher_filename" ] ; then
 
-	if [ -n "$Launcher_name" ]; then
-		Launcher_command=$(jq -r --arg name "$Launcher_name" \
-			'.launchlist[] | select(.name == $name) | .launch' "$EMU_DIR/config.json")
-	fi
+    # Look for the first valid launcher in launchlist
+    if jq -e ".launchlist" "$EMU_DIR/config.json" >/dev/null 2>&1; then
+        while read launcher; do
+            Launcher_filename=$(echo "$launcher" | jq -r '.launch')
+            if [ -n "$Launcher_filename" ]; then break; fi
+        done < <(jq -c '.launchlist[]' "$EMU_DIR/config.json")
+		echo "No launcher override found, we take the first one: $Launcher_filename"
+    else
+        # Else use launch.sh as fallback
+        Launcher_filename="launch.sh"
+		echo "No launcher found, fallback to: $Launcher_filename"
+    fi
 fi
 
-# If no preset found
-if [ -z "$Launcher_name" ]; then
-  # Look for the first valid launcher in launchlist
-	if jq -e ".launchlist" "$EMU_DIR/config.json" >/dev/null 2>&1; then
-		while read launcher; do
-			Launcher_name=$(echo "$launcher" | jq -r '.name')
-			Launcher_command=$(echo "$launcher" | jq -r '.launch')
-			if [ -n "$Launcher_command" ]; then break; fi
-		done < <(jq -c '.launchlist[]' "$EMU_DIR/config.json")
-	else
-    # Else use launch.sh as fallback
-		Launcher_name=Unique
-		Launcher_command="launch.sh"
-	fi
-fi
-echo "load_launcher.sh : $Launcher_name dowork 0x"  
-"$EMU_DIR/$Launcher_command" "$@" >> /tmp/test.txt
-
-
-echo "$EMU_DIR/$Launcher_command $@" >> /tmp/test.txt
+echo "load_launcher.sh : $Launcher_filename dowork 0x" #>>/tmp/log/messages
+"$EMU_DIR/$Launcher_filename" "$@"

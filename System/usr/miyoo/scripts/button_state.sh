@@ -26,7 +26,7 @@ fi
 BUTTON="$1"
 
 # Input device location
-DEVICE_PATH="/dev/input/event3"
+DEVICE_PATH="/dev/input/event5"
 
 # Button mapping table
 case $BUTTON in
