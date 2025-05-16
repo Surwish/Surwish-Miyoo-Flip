@@ -1,0 +1,13 @@
+developer: Broke Studio
+publisher: Omake Games
+year: 2019
+style: action platformer
+player: 1
+
+-------------------------------------------------------
+
+Simon and Ludo, two longtime nerd friends, find themselves sucked into "Basse Def", a mysterious video game. They'll have to be clever to fight against the alien invasion and the lurking demons ...
+
+-------------------------------------------------------
+
+Simon et Ludo, deux nerds amis de longue date, se retrouvent un jour aspirés dans "Basse Def", un mystérieux jeu vidéo. Ils vont devoir faire preuve d'astuce pour contrer les plans d'invasion alien et les démons qui rôdent... 

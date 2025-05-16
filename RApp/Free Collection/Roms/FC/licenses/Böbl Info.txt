@@ -1,0 +1,55 @@
+Böbl 
+
+a new game for the NES. (ROM fle available on Itch.io)
+
+Platorms: NES ROM on Itch.io htps://morphcatgames.itch.io/bobl
+
+Developer & Publisher: Morphcat Games
+Website: htp://morphcat.de
+Contact: morphcatgames@gmail.com
+Type: Platformer/exploration
+Player: 1
+
+DESCRIPTION
+You’re a bubble, water is your friend and solid blocks kill you.
+
+Böbl is a platormer based on water physics and exploraton. You can actvate bells as checkpoints and collect ducks hidden all over the map. Your trip starts in a lost temple. You will move in diferent rooms, fall in the underground, use pipes, dive deep in thewater and go up into the clouds to reach the ending.
+
+Böbl is a short game for NES available as a ROM file. It was made in 1 month for the NESdev compo 2019. Böbl won the 1st place. We invite you to check all the other games of the NESdevcompo 2019.
+
+CONTROLS
+Hold A to dive, then release and let buoyancy handle the rest. Let’s fnd all the lost duckies!
+
+MORPHCAT GAMES
+We are a two-man team bouncing around Berlin, dedicated to bringingnew video games to oldconsoles.
+Code and audio: Julius Riecke
+Graphics and level design: Nicolas Bétoux
+
+//// FRENCH ////
+
+Böbl 
+
+un nouveau jeu pour la NES. (ROM sera disponible sur Itch.io)
+
+Platorms: NES ROM sur Itch.io htps://morphcatgames.itch.io/bobl
+
+Developer & Publisher: Morphcat Games
+Website: htp://morphcat.de
+Contact: morphcatgames@gmail.com
+Type: Platformer/exploration
+Player: 1
+
+DESCRIPTION
+Vous êtes une bulle, l'eau est votre ami et les blocs vous explose.
+
+Böbl est un platormer basée sur une physique de l'eau ainsi que l'exploraton. Vous pouvez activé les cloches comme checkpoints et vous pouvez trouvez touts les canards cachés dans ce monde. Votre voyage commence dans un vieux temple innondé. Vous allez vous mouvoir dans différentes pièces, tomber dans les sous-terrain, vous introduire dans des canalisations, plongez dans les abysses et vous ejecter dans les nuages pour atteindre la fin.
+
+Böbl est un petit jeu  pour la NES. Il a été créé en 1 mois pour la competition annuelle NESdev 2019. Böbl a remporté la 1ere place. Nous vous invitions a jouer a l'ensemble des jeux de la NESdevcompo 2019.
+
+CONTROLS
+Appuyé et maintenir A pour plonger, relaché le bouton et laisser les remous faire le reste. Partons chercher les canards perdus!
+
+MORPHCAT GAMES
+Nous sommes deux personnes qui se consacre à la création de nouveaux jeux pour les anciennes console.
+Code et audio: Julius Riecke
+Graphisme et level design: Nicolas Bétoux

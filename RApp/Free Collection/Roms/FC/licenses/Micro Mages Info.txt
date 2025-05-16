@@ -1,0 +1,52 @@
+Micro Mages
+
+a new game for the NES.
+
+Platorms: NES ROM on Itch.io https://morphcatgames.itch.io/micromages
+Steam https://store.steampowered.com/app/1065020/Micro_Mages/
+
+Developer & Publisher: Morphcat Games
+Website: htp://morphcat.de
+Contact: morphcatgames@gmail.com
+
+Type: Platformer/Adventure
+Player: 1-4
+Date: 2019
+
+
+DESCRIPTION
+Micro Mages is a new platform game for the NES, for 1 to 4 players simultaneously. Slip into your wizard robes and enter the Demon Fortress, home of great treasure and ghastly creatures alike. 
+
+
+MORPHCAT GAMES
+We are a two-man team bouncing around Berlin, dedicated to bringingnew video games to oldconsoles.
+Code and audio: Julius Riecke
+Graphics and level design: Nicolas Bétoux
+
+//// FRENCH ////
+
+Micro Mages
+
+un nouveau jeu pour la NES.
+
+Platorms: NES ROM on 
+Itch.io https://morphcatgames.itch.io/micromages
+Steam https://store.steampowered.com/app/1065020/Micro_Mages/
+
+Developer & Publisher: Morphcat Games
+Website: htp://morphcat.de
+Contact: morphcatgames@gmail.com
+
+Type: Platformer/Adventure
+Player: 1-4
+Date: 2019
+
+
+DESCRIPTION
+Glissez-vous dans vos habits de sorcier et entrez dans la forteresse démoniaque, berceau de grands trésors et de créatures horribles. Tirez et sautez contre les murs pour gravir les tours de la forteresse et affrontez les différents chefs qui se cachent au sommet.
+
+
+MORPHCAT GAMES
+Nous sommes deux personnes qui se consacre à la création de nouveaux jeux pour les anciennes console.
+Code et audio: Julius Riecke
+Graphisme et level design: Nicolas Bétoux

@@ -1,0 +1,40 @@
+Super Bat Puncher demo
+
+a new game for the NES
+
+Developer & Publisher: Morphcat Games
+Creator: Julius Riecke
+Music: Dave Harris
+Website: htp://morphcat.de
+Contact: morphcatgames@gmail.com
+Type: Platform/Adventure
+Date: 2011
+Player:  1-2
+
+DESCRIPTION
+Super Bat Puncher is an original homebrew game for the NES console. Explore the dark caverns of a mysterious planet and find out about the plague that threatens Earth.
+
+CONTROLS
+Punch (B) and Jump (A)
+
+
+//// FRENCH ////
+
+Super Bat Puncher demo
+
+un nouveau jeu pour la NES.
+
+Developer & Publisher: Morphcat Games
+Creator: Julius Riecke
+Music: Dave Harris
+Website: htp://morphcat.de
+Contact: morphcatgames@gmail.com
+Type: Platform/Aventure
+Date: 2011
+Nombre de joueurs:  1-2
+
+DESCRIPTION
+Super Bat Puncher est une jeu hombrew pour la console NES. Explorez les sombres cavernes d'une mystérieuse planète et découvrez la peste qui menace cette endroit.
+
+CONTROLS
+bourre-pif (B) et saut (A)

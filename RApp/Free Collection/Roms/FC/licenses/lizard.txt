@@ -1,0 +1,21 @@
+developer: Brad Smith
+publisher: Broke Studio
+year: 2018
+style: platformer / exploration
+player: 1
+
+-------------------------------------------------------
+
+Put on a lizard and go for an adventure!
+
+Choose your lizard carefully. You can find six different ones scattered across the land, each with its own special ability.
+
+You’ll need these abilities as you make your difficult journey through many dangerous places. Carefully hop your way to the top of an active volcano. Surf down a surging river. Swim an underwater lake. Ascend a snowy mountaintop. What kind of strange creatures will you meet? Can you unravel the mysteries of Lizard?
+
+-------------------------------------------------------
+
+Mettez un lézard et partez à l’aventure!
+
+Choisissez votre lézard avec soin. Vous pouvez en trouver six différents dispersés à travers le pays, chacun avec sa propre habileté particulière.
+
+Vous aurez besoin de ces habiletés au cours de vos voyages pénibles dans de nombreux endroits dangereux. Sauter prudemment jusqu’au sommet d’un volcan en activité. Surfer le long d’une rivière déferlante. Nager dans un lac sous-marin. Escalader un sommet enneigé. Quel genre de créatures étranges allez-vous rencontrer? Pouvez-vous percer les mystères du Lizard?

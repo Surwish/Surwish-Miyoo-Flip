@@ -1,0 +1,17 @@
+developer: Broke Studio
+publisher: Broke Studio
+year: 2018
+style: action platformer
+player: 1
+
+-------------------------------------------------------
+
+On a far away island, Dinky and Minky, the Twin Dragons, live on top of a mountain with their parents, waiting for their new sibling to hatch out. One day, while their parents went hunting, the sorcerer of the neighboring remote tribe’s village decided to steal the egg in order to increase his power.
+
+Help Dinky and Minky on their fantastic journey to rescue the Precious !
+
+-------------------------------------------------------
+
+Sur une île lointaine, Dinky et Minky, les Twin Dragons, vivent au sommet d’une montagne avec leurs parents. Un jour, alors que ces derniers sont partis chasser, le sorcier du village voisin, non loin de la montagne, décide de voler l’œuf pour devenir plus puissant.
+
+Aidez Dinky et Minky dans leur fantastique voyage pour sauver le Précieux !

@@ -1,0 +1,17 @@
+developer: Dullahan Software
+publisher: Broke Studio
+year: 2018
+style: action platformer
+player: 1
+
+-------------------------------------------------------
+
+What’s harder than escaping a planet full of dangerous flora and fauna? Doing it all with a crystal-hungry octopus fused to your head!
+
+Run, jump, and dash your way through 12 levels as you search for the missing parts of Debs’s ship to escape the hostile alien planet Vespasian 7MV!
+
+-------------------------------------------------------
+
+Quoi de plus difficile que de fuir une planète pleine de flore et de faune dangereuses ? Le faire avec une pieuvre gourmande de cristaux collée sur la tête!
+
+Courez, sautez et dashez à travers 12 niveaux à la recherche des morceaux manquants du vaisseau de Debs afin d’échapper à Vespasian 7MV, une planète alien hostile !
