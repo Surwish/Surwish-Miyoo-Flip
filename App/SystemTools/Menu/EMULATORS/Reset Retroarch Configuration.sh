@@ -11,6 +11,6 @@ fi
 
 /mnt/SDCARD/System/usr/miyoo/scripts/infoscreen.sh -m "Restoring Retroarch configuration..."
 
-unzip -o /mnt/SDCARD/RetroArch/default_config.zip -d /mnt/SDCARD
+/mnt/SDCARD/System/bin/7zz x "/mnt/SDCARD/RetroArch/default_config.7z" -o"/mnt/SDCARD" -y
 
 sleep 0.1
