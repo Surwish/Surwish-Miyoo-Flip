@@ -88,7 +88,7 @@ if [ -f "$SOURCE_FILE" ]; then
 	fi
 
 	################# Flashing logo #################
-	button=$(/mnt/SDCARD/System/usr/miyoo/scripts/infoscreen.sh -i "$SOURCE_FILE" -m "Press A to flash, B to cancel." -fs 19 -k "A B")
+	button=$(/mnt/SDCARD/System/usr/miyoo/scripts/infoscreen.sh -i "$SOURCE_FILE" -m "Press A to flash bootlogo, B to cancel." -fs 19 -k "A B")
 
 	# button=$(/mnt/SDCARD/System/usr/miyoo/scripts/infoscreen.sh -i "/mnt/SDCARD/System/firmwares/FW_Update_Instructions.png" -k "A B")
 
