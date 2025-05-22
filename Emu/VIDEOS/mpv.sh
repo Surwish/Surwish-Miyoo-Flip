@@ -7,12 +7,22 @@ progdir=$(dirname "$0")
 homedir=$(dirname "$1")
 extension="${@##*.}"
 
+cd "$progdir"
+
+
 if [ "$extension" = "launch" ]; then
 	sh "$1"
 	exit
 fi
 
-cd "$progdir"
+if [ "$extension" = "m3u8" ]; then
+  if [ -f "./streaming_manual.png" ]; then
+    /mnt/SDCARD/System/usr/miyoo/scripts/infoscreen.sh -i "./streaming_manual.png" -k "A B Y X L R SELECT START MENU"
+    mv ./streaming_manual.png ./streaming_manual_done.png
+  fi
+fi
+
+
 
 export LD_LIBRARY_PATH=/lib:/lib64:/usr/lib:/mnt/SDCARD/System/lib/
 

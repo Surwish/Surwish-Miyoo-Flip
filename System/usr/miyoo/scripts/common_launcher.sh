@@ -21,7 +21,7 @@ if grep -q ra64.miyoo "$0"; then
 
     source $dir/FolderOverrideFinder.sh
 
-    ra_audio_switcher.sh
+    # ra_audio_switcher.sh
 fi
 
 cd "$EMU_DIR"
