@@ -11,7 +11,7 @@ if [ "$subdir_count" -gt 1 ]; then
         core_folder=$(grep -m 1 "$core_filename" /mnt/SDCARD/System/usr/miyoo/scripts/core_folders.csv | cut -d';' -f2) # we use a core database which indicates for a core filename the corresponding config path
         echo "The core folder for $core_filename is: $core_folder"
 
-        if [ -f "/mnt/SDCARD/RetroArch/.retrorch/config/$core_folder/$first_subdir.cfg" ]; then
+        if [ -f "/mnt/SDCARD/RetroArch/.retroarch/config/$core_folder/$first_subdir.cfg" ]; then
             FolderOverride="/mnt/SDCARD/RetroArch/.retroarch/config/$core_folder/$first_subdir.cfg"
         else
             # we try to find the folder override without the core database
