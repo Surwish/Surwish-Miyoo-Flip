@@ -20,7 +20,7 @@ if [ -f "$ScraperConfigFile" ]; then
 	
 	if [ "$MediaType" != "box-2D" ]; then
 		echo "MediaType is not box-2D, it is $MediaType"
-		/mnt/SDCARD/System/bin/text_viewer  -y -f 30 -m "You have selected $MediaType for screenscraper.\nThis scraper only supports 2D box!\n\nAre you sure that you want to scrap 2D box with the old scraper ?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                         Press START to validate your choice."
+		/mnt/SDCARD/System/bin/text_viewer --font_file "/mnt/SDCARD/miyoo355/app/wqy-microhei.ttc"  -y -f 30 -m "You have selected $MediaType for screenscraper.\nThis scraper only supports 2D box!\n\nAre you sure that you want to scrap 2D box with the old scraper ?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                         Press START to validate your choice."
 		if [ $? -eq 21 ]; then
 			echo "yes, box-2D scraping launch."
 		else

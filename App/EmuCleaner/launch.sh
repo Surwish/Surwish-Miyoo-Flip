@@ -24,7 +24,7 @@ NumAdded=0
 
 if [ "$silent" = false ]; then
   # /mnt/SDCARD/System/usr/miyoo/scripts/infoscreen.sh -i "$EmuCleanerPath/background.png"
-	/mnt/SDCARD/System/bin/sdl2imgshow -i "$EmuCleanerPath/background.png" -f /mnt/SDCARD/System/resources/DejaVuSans.ttf -s 35 -c 220,220,220 -s 22 -t " " &
+	/mnt/SDCARD/System/bin/sdl2imgshow -i "$EmuCleanerPath/background.png" -f /mnt/SDCARD/miyoo355/app/wqy-microhei.ttc -s 35 -c 220,220,220 -s 22 -t " " &
 fi
 
 # Initialize an empty string to store JSON entries

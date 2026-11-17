@@ -65,17 +65,28 @@ image="bg-info.png"
 wait_keys=""
 timer=""
 message=" "
-font_file="/mnt/SDCARD/System/resources/DejaVuSans.ttf"
+font_file="/mnt/SDCARD/miyoo355/app/wqy-microhei.ttc"
 font_size=22
 color="220,220,220"
 
 Current_Theme=$(/usr/miyoo/bin/jsonval Theme)
 Surwish_Style=$(/mnt/SDCARD/System/bin/jq -r '.["SURWISH STYLE"]' "/mnt/SDCARD/System/etc/surwish.json")
 
-# Determine font path : by default we take the one from the current theme
-Current_font=$(/mnt/SDCARD/System/bin/jq -r '.title.font' "$Current_Theme/config.json")
-if [ -f "/mnt/SDCARD/Themes/$Current_Theme/$Current_font" ]; then
-    font_file="/mnt/SDCARD/Themes/$Current_Theme/$Current_font"
+# Resolve an absolute theme directory or a theme name.
+case "$Current_Theme" in
+    /*) Theme_dir="${Current_Theme%/}" ;;
+    *) Theme_dir="/mnt/SDCARD/Themes/${Current_Theme%/}" ;;
+esac
+if [ -r "$Theme_dir/config.json" ]; then
+    Current_font=$(/mnt/SDCARD/System/bin/jq -r '.title.font // empty' "$Theme_dir/config.json" 2>/dev/null)
+    case "$Current_font" in
+        ''|null) Theme_font="" ;;
+        /*) Theme_font="$Current_font" ;;
+        *) Theme_font="$Theme_dir/$Current_font" ;;
+    esac
+    if [ -n "$Theme_font" ] && [ -r "$Theme_font" ]; then
+        font_file="$Theme_font"
+    fi
 fi
 
 # Display usage if no parameters or -h is specified

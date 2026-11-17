@@ -237,7 +237,7 @@ if [ -n "$UPDATE_FILE" ]; then
             infoscreen.sh -m "Updating Surwish to v$update_version" -t 1
             pkill -9 preload.sh
             pkill -9 runmiyoo.sh
-            /tmp/text_viewer -s "/tmp/Surwish_update.sh" -f 25 -t "                            Surwish-OS Update v$update_version                                      "
+            /tmp/text_viewer --font_file "/mnt/SDCARD/miyoo355/app/wqy-microhei.ttc" -s "/tmp/Surwish_update.sh" -f 25 -t "                            Surwish-OS Update v$update_version                                      "
         fi
     else
         echo "The Surwish update version ($update_version) is not greater than the current version ($initial_version)."
