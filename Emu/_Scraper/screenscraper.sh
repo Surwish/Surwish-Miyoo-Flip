@@ -44,7 +44,7 @@ fi
 
 "/mnt/SDCARD/System/usr/miyoo/scripts/getkey.sh" B &
 
-/mnt/SDCARD/System/bin/text_viewer -s "/mnt/SDCARD/System/usr/miyoo/scripts/scraper/scrap_screenscraper.sh $1" -f 25 -t "                            ScreenScraper by Schmurtz.                     (Press B to stop)"
+/mnt/SDCARD/System/bin/text_viewer --font_file "/mnt/SDCARD/miyoo355/app/wqy-microhei.ttc" -s "/mnt/SDCARD/System/usr/miyoo/scripts/scraper/scrap_screenscraper.sh $1" -f 25 -t "                            ScreenScraper by Schmurtz.                     (Press B to stop)"
 
 # Check if the scraping process is running
 scraping_running() {

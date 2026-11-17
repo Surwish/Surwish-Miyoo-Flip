@@ -8,7 +8,7 @@
     },
     "batteryPercentage": {
         "visible": false,
-        "font": "Roboto-Regular.ttf",
+        "font": "wqy-microhei.ttc",
         "size": 11,
         "color": "#ffffff",
         "textAlign": "center",
@@ -17,12 +17,12 @@
         "offsetY": 0
     },
     "title": {
-        "font": "Roboto-Regular.ttf",
+        "font": "wqy-microhei.ttc",
         "size": 32,
         "color": "#ffffff"
     },
     "hint": {
-        "font": "Roboto-Regular.ttf",
+        "font": "wqy-microhei.ttc",
         "size": 24,
         "color": "#BCBEC0"
     },
@@ -33,14 +33,14 @@
         "color": "#ffffff"
     },
     "grid": {
-        "font": "Roboto-Regular.ttf",
+        "font": "wqy-microhei.ttc",
         "grid1x4": 24,
         "grid3x4": 18,
         "color": "#a5a7aa",
         "selectedcolor": "#ffffff"
     },
     "list": {
-        "font": "Roboto-Regular.ttf",
+        "font": "wqy-microhei.ttc",
         "size": 23,
         "color": "#ffffff"
     }

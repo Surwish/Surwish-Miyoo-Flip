@@ -4,7 +4,7 @@
     "description": "Miyoo Mini Milk Black Theme",
     "batteryPercentage": {
         "visible": true,
-        "font": "HYZY-45W.ttc",
+        "font": "wqy-microhei.ttc",
         "size": 22,
         "color": "#BBBBBB",
         "offsetX": 8,
@@ -12,12 +12,12 @@
         "onleft": true
     },
     "title": {
-        "font": "HYZY-45W.ttc",
+        "font": "wqy-microhei.ttc",
         "size": 28,
         "color": "#BBBBBB"
     },
     "hint": {
-        "font": "HYZY-45W.ttc",
+        "font": "wqy-microhei.ttc",
         "size": 26,
         "color": "#E8E8DE"
     },
@@ -29,14 +29,14 @@
         "color": "#4B4B4B"
     },
     "grid": {
-        "font": "HYZY-45W.ttc",
+        "font": "wqy-microhei.ttc",
         "grid1x4": 26,
         "grid3x4": 24,
         "color": "#4B4B4B",
         "selectedcolor": "#FFFFFF"
     },
     "list": {
-        "font": "HYZY-45W.ttc",
+        "font": "wqy-microhei.ttc",
         "size": 24,
         "color": "#BBBBBB"
     }
